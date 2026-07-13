@@ -11,8 +11,8 @@
       "side": "buy",
       "order_type": "market",
       "quantity": 0.01,
-      "price": 49850.0,
-      "notional": 498.5,
+      "price": 50075.0,
+      "notional": 500.75,
       "status": "filled",
       "source": "manual",
       "real_order_execution_enabled": false
@@ -24,8 +24,8 @@
       "exchange": "binance",
       "side": "long",
       "quantity": 0.01,
-      "avg_entry": 49850.0,
-      "mark_price": 49850.0,
+      "avg_entry": 50075.0,
+      "mark_price": 50075.0,
       "unrealized_pnl": 0.0
     }
   ]

@@ -1,0 +1,1 @@
+"""Indicator Lifecycle State Manager."""

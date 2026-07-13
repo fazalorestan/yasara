@@ -1,1 +1,1 @@
-Approved dashboard remains unchanged. App.tsx and EnterpriseTradingOS.tsx are not replaced.
+No runtime UI change. Real-data-only and safety policies remain unchanged.

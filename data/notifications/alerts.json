@@ -2255,9 +2255,105 @@
       ],
       "status": "created",
       "created_at": "2026-07-13T03:44:41.313690+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-13T06:25:39.754957+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-13T06:53:18.969451+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-13T11:48:04.666744+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-13T12:25:35.995234+00:00"
     }
   ],
   "rules": [
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
     {
       "id": "test-rule-v47",
       "name": "Test Rule",

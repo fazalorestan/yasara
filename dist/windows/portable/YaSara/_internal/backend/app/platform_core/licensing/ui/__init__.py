@@ -1,0 +1,1 @@
+"""License UI Settings Contracts."""

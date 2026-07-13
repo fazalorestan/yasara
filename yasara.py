@@ -1,3 +1,20 @@
+# YASARA_RELEASE_COMMAND_BEGIN
+def _yasara_release_command_dispatch():
+    import runpy
+    import sys
+    from pathlib import Path
+
+    if len(sys.argv) > 1 and sys.argv[1] == "release":
+        target = Path(__file__).resolve().parent / "scripts" / "yasara_release.py"
+        if not target.exists():
+            raise SystemExit(f"Release script not found: {target}")
+        sys.argv = [str(target), *sys.argv[2:]]
+        runpy.run_path(str(target), run_name="__main__")
+        raise SystemExit(0)
+
+_yasara_release_command_dispatch()
+# YASARA_RELEASE_COMMAND_END
+
 from __future__ import annotations
 
 import argparse

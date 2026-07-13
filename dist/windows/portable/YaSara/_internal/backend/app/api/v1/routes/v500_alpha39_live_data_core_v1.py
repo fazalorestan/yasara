@@ -1,0 +1,27 @@
+from fastapi import APIRouter
+from app.v500_alpha39_live_data_core.service import live_data_core_facade_v500_alpha39 as _service
+
+router = APIRouter(prefix="/v5-0-alpha-39/live-data-core", tags=["v5.0-alpha.39-live-data-core"])
+
+@router.get("/summary")
+async def summary(): return _service.summary()
+@router.get("/sources")
+async def sources(): return _service.sources()
+@router.get("/ingestion-contract")
+async def ingestion_contract(): return _service.ingestion_contract()
+@router.get("/adapter-contract")
+async def adapter_contract(): return _service.adapter_contract()
+@router.get("/simulated-snapshot")
+async def simulated_snapshot(): return _service.simulated_snapshot()
+@router.get("/normalize-snapshot")
+async def normalize_snapshot(): return _service.normalize_snapshot()
+@router.get("/safety")
+async def safety(): return _service.safety()
+@router.get("/validate-snapshot")
+async def validate_snapshot(): return _service.validate_snapshot()
+@router.get("/report")
+async def report(): return _service.report()
+@router.get("/readiness")
+async def readiness(): return _service.readiness()
+@router.get("/contract")
+async def contract(): return _service.contract()

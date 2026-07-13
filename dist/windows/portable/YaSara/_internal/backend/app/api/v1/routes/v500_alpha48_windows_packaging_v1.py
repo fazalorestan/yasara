@@ -1,0 +1,27 @@
+from fastapi import APIRouter
+from app.v500_alpha48_windows_packaging.service import windows_packaging_facade_v500_alpha48 as _service
+
+router = APIRouter(prefix="/v5-0-alpha-48/windows-packaging", tags=["v5.0-alpha.48-windows-packaging"])
+
+@router.get("/summary")
+async def summary(): return _service.summary()
+@router.get("/profile")
+async def profile(): return _service.profile()
+@router.get("/portable")
+async def portable(): return _service.portable()
+@router.get("/installer")
+async def installer(): return _service.installer()
+@router.get("/metadata")
+async def metadata(): return _service.metadata()
+@router.get("/layout")
+async def layout(): return _service.layout()
+@router.get("/validation")
+async def validation(): return _service.validation()
+@router.get("/dashboard")
+async def dashboard(): return _service.dashboard()
+@router.get("/report")
+async def report(): return _service.report()
+@router.get("/readiness")
+async def readiness(): return _service.readiness()
+@router.get("/contract")
+async def contract(): return _service.contract()

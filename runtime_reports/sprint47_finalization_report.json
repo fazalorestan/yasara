@@ -1,0 +1,10 @@
+{
+  "ready": false,
+  "build_id": "2026.47.ENTERPRISE.001",
+  "steps": {
+    "approved_dashboard": false,
+    "packaged_backend": true,
+    "executable_validation": true
+  },
+  "dashboard_launched": false
+}

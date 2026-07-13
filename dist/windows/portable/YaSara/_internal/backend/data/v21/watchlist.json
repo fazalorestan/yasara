@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "symbol": "BTCUSDT",
+      "exchange": "binance",
+      "favorite": true
+    },
+    {
+      "symbol": "ETHUSDT",
+      "exchange": "binance",
+      "favorite": true
+    },
+    {
+      "symbol": "SOLUSDT",
+      "exchange": "toobit",
+      "favorite": false
+    },
+    {
+      "symbol": "XRPUSDT",
+      "exchange": "binance",
+      "favorite": false
+    }
+  ]
+}

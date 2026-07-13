@@ -1,0 +1,8 @@
+{
+  "theme": "professional",
+  "workspace": "terminal",
+  "default_exchange": "binance",
+  "default_symbol": "BTCUSDT",
+  "language": "fa",
+  "live_trading_enabled": false
+}

@@ -1,0 +1,14 @@
+{
+  "ready": true,
+  "build_id": "2026.47.HOTFIX.001",
+  "timestamp": 1783943071.8333569,
+  "checks": {
+    "contract_inserted": true,
+    "all_tokens_present": true,
+    "approved_dashboard_preserved": true,
+    "single_block": true
+  },
+  "approved_dashboard_unchanged": true,
+  "real_backend_data_only": true,
+  "mock_data": false
+}

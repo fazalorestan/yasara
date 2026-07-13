@@ -1,0 +1,25 @@
+from fastapi import APIRouter
+from app.v500_alpha46_core_stabilization.service import core_stabilization_facade_v500_alpha46 as _service
+
+router = APIRouter(prefix="/v5-0-alpha-46/core-stabilization", tags=["v5.0-alpha.46-core-stabilization"])
+
+@router.get("/summary")
+async def summary(): return _service.summary()
+@router.get("/patch-consolidation")
+async def patch_consolidation(): return _service.patch_consolidation()
+@router.get("/duplicate-detector")
+async def duplicate_detector(): return _service.duplicate_detector()
+@router.get("/refactor-guard")
+async def refactor_guard(): return _service.refactor_guard()
+@router.get("/plugin-boundary")
+async def plugin_boundary(): return _service.plugin_boundary()
+@router.get("/config-security")
+async def config_security(): return _service.config_security()
+@router.get("/backup-migration")
+async def backup_migration(): return _service.backup_migration()
+@router.get("/report")
+async def report(): return _service.report()
+@router.get("/readiness")
+async def readiness(): return _service.readiness()
+@router.get("/contract")
+async def contract(): return _service.contract()

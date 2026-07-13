@@ -1,0 +1,1 @@
+"""Local EXE Artifact Registration."""

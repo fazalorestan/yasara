@@ -1,0 +1,25 @@
+from fastapi import APIRouter
+from app.v500_alpha45_runtime_core.service import runtime_core_facade_v500_alpha45 as _service
+
+router = APIRouter(prefix="/v5-0-alpha-45/runtime-core", tags=["v5.0-alpha.45-runtime-core"])
+
+@router.get("/summary")
+async def summary(): return _service.summary()
+@router.get("/core-status")
+async def core_status(): return _service.core_status()
+@router.get("/boot-contract")
+async def boot_contract(): return _service.boot_contract()
+@router.get("/dry-boot")
+async def dry_boot(): return _service.dry_boot()
+@router.get("/personal-mode")
+async def personal_mode(): return _service.personal_mode()
+@router.get("/commercial-mode")
+async def commercial_mode(): return _service.commercial_mode()
+@router.get("/safety")
+async def safety(): return _service.safety()
+@router.get("/startup-report")
+async def startup_report(): return _service.startup_report()
+@router.get("/readiness")
+async def readiness(): return _service.readiness()
+@router.get("/contract")
+async def contract(): return _service.contract()

@@ -1,0 +1,25 @@
+from fastapi import APIRouter
+from app.v500_alpha45_runtime_lifecycle.service import runtime_lifecycle_facade_v500_alpha45 as _service
+
+router = APIRouter(prefix="/v5-0-alpha-45/runtime-lifecycle", tags=["v5.0-alpha.45-runtime-lifecycle"])
+
+@router.get("/summary")
+async def summary(): return _service.summary()
+@router.get("/lifecycle")
+async def lifecycle(): return _service.lifecycle()
+@router.get("/startup")
+async def startup(): return _service.startup()
+@router.get("/shutdown")
+async def shutdown(): return _service.shutdown()
+@router.get("/restart")
+async def restart(): return _service.restart()
+@router.get("/session")
+async def session(): return _service.session()
+@router.get("/event-bus")
+async def event_bus(): return _service.event_bus()
+@router.get("/report")
+async def report(): return _service.report()
+@router.get("/readiness")
+async def readiness(): return _service.readiness()
+@router.get("/contract")
+async def contract(): return _service.contract()

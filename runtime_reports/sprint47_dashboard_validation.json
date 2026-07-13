@@ -1,0 +1,10 @@
+{
+  "ready": false,
+  "build_id": "2026.47.ENTERPRISE.001",
+  "checks": {
+    "app_exists": true,
+    "approved_markers": false,
+    "generic_shell_not_root": false,
+    "provider_hub_api_exists": true
+  }
+}

@@ -1,0 +1,18 @@
+from fastapi import APIRouter
+from app.v500_alpha1_indicator_expansion.service import IndicatorExpansionFacadeV500Alpha1
+router = APIRouter(prefix="/v5-0-alpha-1/indicator-expansion", tags=["v5.0-alpha.1-indicator-expansion"])
+_service = IndicatorExpansionFacadeV500Alpha1()
+@router.get("/summary")
+async def summary(): return _service.summary()
+@router.get("/generic-contract")
+async def generic_contract(): return _service.generic_contract()
+@router.get("/registry")
+async def registry(): return _service.registry()
+@router.get("/capability-matrix")
+async def capability_matrix(): return _service.capability_matrix()
+@router.get("/isolation-policy")
+async def isolation_policy(): return _service.isolation_policy()
+@router.get("/template")
+async def template(): return _service.template()
+@router.get("/readiness")
+async def readiness(): return _service.readiness()

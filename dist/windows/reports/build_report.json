@@ -851,7 +851,7 @@
   "return_code": 0,
   "exe_exists": true,
   "exe_path": "D:\\yasara_clean\\dist\\windows\\portable\\YaSara\\YaSara.exe",
-  "sha256": "3141d3bae322eb4867dda22e4a4a4ddee8b5e7824c3782c180795d53e02ebce7",
+  "sha256": "5c38f4f3ccdec834f4f3de99440bca3ac51e7df8c60abd9cf31ac70f376c097b",
   "packaged_backend_validation": {
     "ready": true,
     "checks": {
@@ -871,13 +871,13 @@
     "ready": true,
     "exe_return_code": 1,
     "health_ok": true,
-    "health_url": "http://127.0.0.1:8000/health",
+    "health_url": "http://127.0.0.1:8000/openapi.json",
     "health_status": 200,
     "probe_results": {
       "http://127.0.0.1:8000/api/v1/health": "<urlopen error timed out>",
-      "http://127.0.0.1:8000/health": 200,
+      "http://127.0.0.1:8000/health": "<urlopen error timed out>",
       "http://127.0.0.1:8000/docs": "<urlopen error timed out>",
-      "http://127.0.0.1:8000/openapi.json": "<urlopen error timed out>"
+      "http://127.0.0.1:8000/openapi.json": 200
     },
     "runtime_report": null,
     "backend_stderr_tail": ""

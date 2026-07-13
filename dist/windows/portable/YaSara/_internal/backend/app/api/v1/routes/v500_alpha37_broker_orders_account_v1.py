@@ -1,0 +1,27 @@
+from fastapi import APIRouter
+from app.v500_alpha37_broker_orders_account.service import broker_orders_account_facade_v500_alpha37 as _service
+
+router = APIRouter(prefix="/v5-0-alpha-37/broker-orders-account", tags=["v5.0-alpha.37-broker-orders-account"])
+
+@router.get("/summary")
+async def summary(): return _service.summary()
+@router.get("/sample-order")
+async def sample_order(): return _service.sample_order()
+@router.get("/normalize-order")
+async def normalize_order(): return _service.normalize_order()
+@router.get("/validate-order")
+async def validate_order(): return _service.validate_order()
+@router.get("/balances")
+async def balances(): return _service.balances()
+@router.get("/positions")
+async def positions(): return _service.positions()
+@router.get("/snapshot")
+async def snapshot(): return _service.snapshot()
+@router.get("/order-preview")
+async def order_preview(): return _service.order_preview()
+@router.get("/report")
+async def report(): return _service.report()
+@router.get("/readiness")
+async def readiness(): return _service.readiness()
+@router.get("/contract")
+async def contract(): return _service.contract()

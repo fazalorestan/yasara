@@ -1,0 +1,1 @@
+"""Approved dashboard provider hub."""

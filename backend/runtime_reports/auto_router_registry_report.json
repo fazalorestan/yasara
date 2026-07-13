@@ -1,1345 +1,1350 @@
 {
   "ready": true,
-  "registered_count": 267,
+  "registered_count": 268,
   "failed_count": 0,
   "registered": [
     {
       "module": "app.api.v1.routes.account_sync_v1",
       "status": "ok",
-      "duration_ms": 566.66
+      "duration_ms": 254.99
     },
     {
       "module": "app.api.v1.routes.archive_handoff_v1",
       "status": "ok",
-      "duration_ms": 4.01
+      "duration_ms": 3.29
     },
     {
       "module": "app.api.v1.routes.backtest_v1",
       "status": "ok",
-      "duration_ms": 3321.92
+      "duration_ms": 2652.95
     },
     {
       "module": "app.api.v1.routes.cloud_v1",
       "status": "ok",
-      "duration_ms": 329.09
+      "duration_ms": 28.01
     },
     {
       "module": "app.api.v1.routes.consolidation_phase_b_v1",
       "status": "ok",
-      "duration_ms": 267.98
+      "duration_ms": 5.0
     },
     {
       "module": "app.api.v1.routes.consolidation_v1",
       "status": "ok",
-      "duration_ms": 3.15
+      "duration_ms": 3.01
     },
     {
       "module": "app.api.v1.routes.dashboard_v1",
       "status": "ok",
-      "duration_ms": 1393.31
+      "duration_ms": 135.52
     },
     {
       "module": "app.api.v1.routes.decision_v1",
       "status": "ok",
-      "duration_ms": 1114.84
+      "duration_ms": 81.94
     },
     {
       "module": "app.api.v1.routes.desktop_ui_v1",
       "status": "ok",
-      "duration_ms": 483.31
+      "duration_ms": 70.89
     },
     {
       "module": "app.api.v1.routes.enterprise_v1",
       "status": "ok",
-      "duration_ms": 127.11
+      "duration_ms": 2.01
     },
     {
       "module": "app.api.v1.routes.exchange_private_v1",
       "status": "ok",
-      "duration_ms": 211.69
+      "duration_ms": 11.89
     },
     {
       "module": "app.api.v1.routes.execution_v1",
       "status": "ok",
-      "duration_ms": 702.44
+      "duration_ms": 44.25
     },
     {
       "module": "app.api.v1.routes.final_closeout_v1",
       "status": "ok",
-      "duration_ms": 177.21
+      "duration_ms": 5.29
     },
     {
       "module": "app.api.v1.routes.final_delivery_pack_v1",
       "status": "ok",
-      "duration_ms": 173.18
+      "duration_ms": 3.27
     },
     {
       "module": "app.api.v1.routes.final_docs_qa_v1",
       "status": "ok",
-      "duration_ms": 181.09
+      "duration_ms": 2.0
     },
     {
       "module": "app.api.v1.routes.final_export_scripts_v1",
       "status": "ok",
-      "duration_ms": 298.25
+      "duration_ms": 11.19
     },
     {
       "module": "app.api.v1.routes.final_export_v1",
       "status": "ok",
-      "duration_ms": 14.83
+      "duration_ms": 3.01
     },
     {
       "module": "app.api.v1.routes.final_integration_v1",
       "status": "ok",
-      "duration_ms": 232.76
+      "duration_ms": 2.51
     },
     {
       "module": "app.api.v1.routes.final_operations_v1",
       "status": "ok",
-      "duration_ms": 169.25
+      "duration_ms": 5.01
     },
     {
       "module": "app.api.v1.routes.final_package_v1",
       "status": "ok",
-      "duration_ms": 73.78
+      "duration_ms": 3.0
     },
     {
       "module": "app.api.v1.routes.final_release_engineering_v1",
       "status": "ok",
-      "duration_ms": 360.82
+      "duration_ms": 4.0
     },
     {
       "module": "app.api.v1.routes.final_release_v1",
       "status": "ok",
-      "duration_ms": 224.73
+      "duration_ms": 3.0
     },
     {
       "module": "app.api.v1.routes.intelligence_v1",
       "status": "ok",
-      "duration_ms": 32.58
+      "duration_ms": 24.07
     },
     {
       "module": "app.api.v1.routes.market_data",
       "status": "ok",
-      "duration_ms": 857.04
+      "duration_ms": 327.68
     },
     {
       "module": "app.api.v1.routes.mobile_v1",
       "status": "ok",
-      "duration_ms": 857.3
+      "duration_ms": 86.74
     },
     {
       "module": "app.api.v1.routes.multi_exchange_extras_v1",
       "status": "ok",
-      "duration_ms": 1386.38
+      "duration_ms": 150.38
     },
     {
       "module": "app.api.v1.routes.multi_exchange_v1",
       "status": "ok",
-      "duration_ms": 9.56
+      "duration_ms": 13.02
     },
     {
       "module": "app.api.v1.routes.notifications_v1",
       "status": "ok",
-      "duration_ms": 151.26
+      "duration_ms": 18.12
     },
     {
       "module": "app.api.v1.routes.paper_trading_v1",
       "status": "ok",
-      "duration_ms": 846.91
+      "duration_ms": 83.51
     },
     {
       "module": "app.api.v1.routes.portfolio_v1",
       "status": "ok",
-      "duration_ms": 878.89
+      "duration_ms": 226.62
     },
     {
       "module": "app.api.v1.routes.production_ai_v1",
       "status": "ok",
-      "duration_ms": 305.6
+      "duration_ms": 91.68
     },
     {
       "module": "app.api.v1.routes.production_freeze_v1",
       "status": "ok",
-      "duration_ms": 748.84
+      "duration_ms": 26.22
     },
     {
       "module": "app.api.v1.routes.production_packaging_v1",
       "status": "ok",
-      "duration_ms": 888.95
+      "duration_ms": 57.3
     },
     {
       "module": "app.api.v1.routes.project_end_v1",
       "status": "ok",
-      "duration_ms": 52.27
+      "duration_ms": 10.95
     },
     {
       "module": "app.api.v1.routes.rc1_hardening_v1",
       "status": "ok",
-      "duration_ms": 680.56
+      "duration_ms": 95.43
     },
     {
       "module": "app.api.v1.routes.rc1_v1",
       "status": "ok",
-      "duration_ms": 322.53
+      "duration_ms": 23.51
     },
     {
       "module": "app.api.v1.routes.release_pro_v1",
       "status": "ok",
-      "duration_ms": 195.18
+      "duration_ms": 60.21
     },
     {
       "module": "app.api.v1.routes.release_v1",
       "status": "ok",
-      "duration_ms": 418.06
+      "duration_ms": 53.94
     },
     {
       "module": "app.api.v1.routes.risk_v1",
       "status": "ok",
-      "duration_ms": 243.91
+      "duration_ms": 62.04
     },
     {
       "module": "app.api.v1.routes.secrets_v1",
       "status": "ok",
-      "duration_ms": 118.02
+      "duration_ms": 19.17
     },
     {
       "module": "app.api.v1.routes.stable_release_v1",
       "status": "ok",
-      "duration_ms": 470.5
+      "duration_ms": 24.79
     },
     {
       "module": "app.api.v1.routes.strategy_builder_v1",
       "status": "ok",
-      "duration_ms": 114.94
+      "duration_ms": 18.91
     },
     {
       "module": "app.api.v1.routes.v11_ai_market_intelligence_v1",
       "status": "ok",
-      "duration_ms": 3120.76
+      "duration_ms": 155.74
     },
     {
       "module": "app.api.v1.routes.v11_alerts_v1",
       "status": "ok",
-      "duration_ms": 375.06
+      "duration_ms": 62.22
     },
     {
       "module": "app.api.v1.routes.v11_backtest_replay_v1",
       "status": "ok",
-      "duration_ms": 771.77
+      "duration_ms": 81.03
     },
     {
       "module": "app.api.v1.routes.v11_dashboard_runtime_v1",
       "status": "ok",
-      "duration_ms": 688.8
+      "duration_ms": 94.75
     },
     {
       "module": "app.api.v1.routes.v11_distribution_v1",
       "status": "ok",
-      "duration_ms": 430.13
+      "duration_ms": 57.91
     },
     {
       "module": "app.api.v1.routes.v11_exchange_connectivity_v1",
       "status": "ok",
-      "duration_ms": 516.03
+      "duration_ms": 93.5
     },
     {
       "module": "app.api.v1.routes.v11_final_release_v1",
       "status": "ok",
-      "duration_ms": 1280.9
+      "duration_ms": 194.74
     },
     {
       "module": "app.api.v1.routes.v11_market_data_v1",
       "status": "ok",
-      "duration_ms": 124.81
+      "duration_ms": 13.38
     },
     {
       "module": "app.api.v1.routes.v11_operations_v1",
       "status": "ok",
-      "duration_ms": 158.03
+      "duration_ms": 6.9
     },
     {
       "module": "app.api.v1.routes.v11_paper_trading_v1",
       "status": "ok",
-      "duration_ms": 73.88
+      "duration_ms": 9.29
     },
     {
       "module": "app.api.v1.routes.v11_release_candidate_v1",
       "status": "ok",
-      "duration_ms": 274.41
+      "duration_ms": 9.42
     },
     {
       "module": "app.api.v1.routes.v11_risk_control_v1",
       "status": "ok",
-      "duration_ms": 158.71
+      "duration_ms": 7.0
     },
     {
       "module": "app.api.v1.routes.v11_strategy_runtime_v1",
       "status": "ok",
-      "duration_ms": 235.7
+      "duration_ms": 10.58
     },
     {
       "module": "app.api.v1.routes.v12_dashboard_shell_v1",
       "status": "ok",
-      "duration_ms": 313.4
+      "duration_ms": 10.36
     },
     {
       "module": "app.api.v1.routes.v12_market_workspace_v1",
       "status": "ok",
-      "duration_ms": 428.41
+      "duration_ms": 5.0
     },
     {
       "module": "app.api.v1.routes.v12_portfolio_orders_v1",
       "status": "ok",
-      "duration_ms": 115.85
+      "duration_ms": 31.83
     },
     {
       "module": "app.api.v1.routes.v12_realtime_intelligence_v1",
       "status": "ok",
-      "duration_ms": 184.77
+      "duration_ms": 45.54
     },
     {
       "module": "app.api.v1.routes.v12_trading_terminal_v1",
       "status": "ok",
-      "duration_ms": 24.52
+      "duration_ms": 5.58
     },
     {
       "module": "app.api.v1.routes.v12_workspace_polish_v1",
       "status": "ok",
-      "duration_ms": 25.93
+      "duration_ms": 4.51
     },
     {
       "module": "app.api.v1.routes.v20_final_release_v1",
       "status": "ok",
-      "duration_ms": 10.51
+      "duration_ms": 5.02
     },
     {
       "module": "app.api.v1.routes.v21_real_data_v1",
       "status": "ok",
-      "duration_ms": 136.97
+      "duration_ms": 21.77
     },
     {
       "module": "app.api.v1.routes.v22_market_engine_v1",
       "status": "ok",
-      "duration_ms": 191.2
+      "duration_ms": 45.41
     },
     {
       "module": "app.api.v1.routes.v23_exchange_connector_v1",
       "status": "ok",
-      "duration_ms": 362.07
+      "duration_ms": 67.92
     },
     {
       "module": "app.api.v1.routes.v24_indicator_signal_v1",
       "status": "ok",
-      "duration_ms": 822.77
+      "duration_ms": 16.82
     },
     {
       "module": "app.api.v1.routes.v25_risk_backtest_paper_v1",
       "status": "ok",
-      "duration_ms": 186.96
+      "duration_ms": 18.48
     },
     {
       "module": "app.api.v1.routes.v26_final_operational_v1",
       "status": "ok",
-      "duration_ms": 31.39
+      "duration_ms": 23.55
     },
     {
       "module": "app.api.v1.routes.v27_distribution_v1",
       "status": "ok",
-      "duration_ms": 280.7
+      "duration_ms": 25.65
     },
     {
       "module": "app.api.v1.routes.v31_live_exchange_v1",
       "status": "ok",
-      "duration_ms": 345.66
+      "duration_ms": 28.28
     },
     {
       "module": "app.api.v1.routes.v32_advanced_ai_indicators_v1",
       "status": "ok",
-      "duration_ms": 353.1
+      "duration_ms": 20.08
     },
     {
       "module": "app.api.v1.routes.v33_strategy_builder_v1",
       "status": "ok",
-      "duration_ms": 727.18
+      "duration_ms": 42.93
     },
     {
       "module": "app.api.v1.routes.v34_market_analysis_v1",
       "status": "ok",
-      "duration_ms": 659.02
+      "duration_ms": 15.07
     },
     {
       "module": "app.api.v1.routes.v351_constitution_audit_v1",
       "status": "ok",
-      "duration_ms": 274.32
+      "duration_ms": 6.31
     },
     {
       "module": "app.api.v1.routes.v35_smart_money_v1",
       "status": "ok",
-      "duration_ms": 377.61
+      "duration_ms": 19.1
     },
     {
       "module": "app.api.v1.routes.v361_phase_a_guardrails_v1",
       "status": "ok",
-      "duration_ms": 160.26
+      "duration_ms": 43.82
     },
     {
       "module": "app.api.v1.routes.v362_project_cli_v1",
       "status": "ok",
-      "duration_ms": 502.47
+      "duration_ms": 24.96
     },
     {
       "module": "app.api.v1.routes.v36_phase_a_meta_ykb_v1",
       "status": "ok",
-      "duration_ms": 1075.31
+      "duration_ms": 25.18
     },
     {
       "module": "app.api.v1.routes.v40_market_context_v1",
       "status": "ok",
-      "duration_ms": 647.67
+      "duration_ms": 45.36
     },
     {
       "module": "app.api.v1.routes.v410_market_structure_sprint2_v1",
       "status": "ok",
-      "duration_ms": 427.08
+      "duration_ms": 64.19
     },
     {
       "module": "app.api.v1.routes.v411_smart_money_pro_v1",
       "status": "ok",
-      "duration_ms": 303.47
+      "duration_ms": 19.29
     },
     {
       "module": "app.api.v1.routes.v412_smart_money_pro_sprint2_v1",
       "status": "ok",
-      "duration_ms": 40.78
+      "duration_ms": 40.93
     },
     {
       "module": "app.api.v1.routes.v413_ict_engine_v1",
       "status": "ok",
-      "duration_ms": 24.5
+      "duration_ms": 31.73
     },
     {
       "module": "app.api.v1.routes.v414_ai_fusion_v1",
       "status": "ok",
-      "duration_ms": 10.87
+      "duration_ms": 160.51
     },
     {
       "module": "app.api.v1.routes.v415_neowave_v1",
       "status": "ok",
-      "duration_ms": 393.41
+      "duration_ms": 27.83
     },
     {
       "module": "app.api.v1.routes.v416_neowave_sprint2_v1",
       "status": "ok",
-      "duration_ms": 538.79
+      "duration_ms": 56.59
     },
     {
       "module": "app.api.v1.routes.v417_elliott_v1",
       "status": "ok",
-      "duration_ms": 717.82
+      "duration_ms": 73.32
     },
     {
       "module": "app.api.v1.routes.v418_launcher_v1",
       "status": "ok",
-      "duration_ms": 149.66
+      "duration_ms": 5.52
     },
     {
       "module": "app.api.v1.routes.v4191_premium_dashboard_v1",
       "status": "ok",
-      "duration_ms": 324.39
+      "duration_ms": 6.0
     },
     {
       "module": "app.api.v1.routes.v419_ui_workspace_v1",
       "status": "ok",
-      "duration_ms": 247.77
+      "duration_ms": 5.69
     },
     {
       "module": "app.api.v1.routes.v41_indicator_engine_v1",
       "status": "ok",
-      "duration_ms": 363.84
+      "duration_ms": 21.89
     },
     {
       "module": "app.api.v1.routes.v420_trading_workspace_v1",
       "status": "ok",
-      "duration_ms": 16.27
+      "duration_ms": 6.0
     },
     {
       "module": "app.api.v1.routes.v4211_frontend_compatibility_v1",
       "status": "ok",
-      "duration_ms": 12.19
+      "duration_ms": 7.0
     },
     {
       "module": "app.api.v1.routes.v421_market_structure_pro_v1",
       "status": "ok",
-      "duration_ms": 319.66
+      "duration_ms": 67.97
     },
     {
       "module": "app.api.v1.routes.v422_platform_core_v1",
       "status": "ok",
-      "duration_ms": 1419.99
+      "duration_ms": 158.8
     },
     {
       "module": "app.api.v1.routes.v4231_path_resolver_v1",
       "status": "ok",
-      "duration_ms": 199.21
+      "duration_ms": 3.52
     },
     {
       "module": "app.api.v1.routes.v423_plugin_catalog_v1",
       "status": "ok",
-      "duration_ms": 431.89
+      "duration_ms": 33.66
     },
     {
       "module": "app.api.v1.routes.v424_plugin_registry_sync_v1",
       "status": "ok",
-      "duration_ms": 1861.4
+      "duration_ms": 19.11
     },
     {
       "module": "app.api.v1.routes.v425_policy_gate_v1",
       "status": "ok",
-      "duration_ms": 293.01
+      "duration_ms": 37.9
     },
     {
       "module": "app.api.v1.routes.v426_platform_contracts_sdk_v1",
       "status": "ok",
-      "duration_ms": 1456.85
+      "duration_ms": 78.71
     },
     {
       "module": "app.api.v1.routes.v427_extension_host_v1",
       "status": "ok",
-      "duration_ms": 1370.77
+      "duration_ms": 99.48
     },
     {
       "module": "app.api.v1.routes.v428_plugin_state_snapshot_v1",
       "status": "ok",
-      "duration_ms": 1330.49
+      "duration_ms": 30.69
     },
     {
       "module": "app.api.v1.routes.v429_timezone_runtime_v1",
       "status": "ok",
-      "duration_ms": 22.98
+      "duration_ms": 8.0
     },
     {
       "module": "app.api.v1.routes.v42_signal_engine_v1",
       "status": "ok",
-      "duration_ms": 539.46
+      "duration_ms": 17.87
     },
     {
       "module": "app.api.v1.routes.v430_platform_diagnostics_v1",
       "status": "ok",
-      "duration_ms": 1064.04
+      "duration_ms": 75.23
     },
     {
       "module": "app.api.v1.routes.v431_release_readiness_v1",
       "status": "ok",
-      "duration_ms": 1206.55
+      "duration_ms": 81.76
     },
     {
       "module": "app.api.v1.routes.v432_platform_versioning_v1",
       "status": "ok",
-      "duration_ms": 974.36
+      "duration_ms": 96.64
     },
     {
       "module": "app.api.v1.routes.v433_operations_runbook_v1",
       "status": "ok",
-      "duration_ms": 856.3
+      "duration_ms": 73.19
     },
     {
       "module": "app.api.v1.routes.v434_observability_v1",
       "status": "ok",
-      "duration_ms": 221.48
+      "duration_ms": 8.72
     },
     {
       "module": "app.api.v1.routes.v435_configuration_center_v1",
       "status": "ok",
-      "duration_ms": 767.09
+      "duration_ms": 93.83
     },
     {
       "module": "app.api.v1.routes.v436_enterprise_scheduler_v1",
       "status": "ok",
-      "duration_ms": 1664.05
+      "duration_ms": 92.02
     },
     {
       "module": "app.api.v1.routes.v437_enterprise_queue_v1",
       "status": "ok",
-      "duration_ms": 421.93
+      "duration_ms": 77.7
     },
     {
       "module": "app.api.v1.routes.v438_enterprise_cache_v1",
       "status": "ok",
-      "duration_ms": 1127.93
+      "duration_ms": 35.5
     },
     {
       "module": "app.api.v1.routes.v439_enterprise_storage_v1",
       "status": "ok",
-      "duration_ms": 1035.36
+      "duration_ms": 42.93
     },
     {
       "module": "app.api.v1.routes.v43_risk_engine_v1",
       "status": "ok",
-      "duration_ms": 13.97
+      "duration_ms": 32.44
     },
     {
       "module": "app.api.v1.routes.v441_yasara_indicator_v1",
       "status": "ok",
-      "duration_ms": 940.95
+      "duration_ms": 28.86
     },
     {
       "module": "app.api.v1.routes.v442_indicator_chart_integration_v1",
       "status": "ok",
-      "duration_ms": 629.5
+      "duration_ms": 9.2
     },
     {
       "module": "app.api.v1.routes.v443_indicator_runtime_adapter_v1",
       "status": "ok",
-      "duration_ms": 1009.36
+      "duration_ms": 43.9
     },
     {
       "module": "app.api.v1.routes.v444_indicator_pine_source_v1",
       "status": "ok",
-      "duration_ms": 961.84
+      "duration_ms": 54.77
     },
     {
       "module": "app.api.v1.routes.v445_indicator_engine_bridge_v1",
       "status": "ok",
-      "duration_ms": 759.55
+      "duration_ms": 40.22
     },
     {
       "module": "app.api.v1.routes.v446_indicator_scanner_watchlist_v1",
       "status": "ok",
-      "duration_ms": 889.08
+      "duration_ms": 27.34
     },
     {
       "module": "app.api.v1.routes.v447_indicator_alert_notification_v1",
       "status": "ok",
-      "duration_ms": 1244.79
+      "duration_ms": 24.39
     },
     {
       "module": "app.api.v1.routes.v448_indicator_settings_presets_v1",
       "status": "ok",
-      "duration_ms": 395.03
+      "duration_ms": 49.39
     },
     {
       "module": "app.api.v1.routes.v449_indicator_final_readiness_v1",
       "status": "ok",
-      "duration_ms": 645.51
+      "duration_ms": 49.57
     },
     {
       "module": "app.api.v1.routes.v44_backtest_benchmark_v1",
       "status": "ok",
-      "duration_ms": 24.34
+      "duration_ms": 30.38
     },
     {
       "module": "app.api.v1.routes.v450_indicator_platform_handoff_v1",
       "status": "ok",
-      "duration_ms": 778.93
+      "duration_ms": 37.88
     },
     {
       "module": "app.api.v1.routes.v45_paper_trading_v1",
       "status": "ok",
-      "duration_ms": 10.27
+      "duration_ms": 27.87
     },
     {
       "module": "app.api.v1.routes.v46_trading_journal_v1",
       "status": "ok",
-      "duration_ms": 1378.1
+      "duration_ms": 40.23
     },
     {
       "module": "app.api.v1.routes.v47_notification_alerts_v1",
       "status": "ok",
-      "duration_ms": 40.74
+      "duration_ms": 12.05
     },
     {
       "module": "app.api.v1.routes.v48_production_readiness_v1",
       "status": "ok",
-      "duration_ms": 473.92
+      "duration_ms": 13.15
     },
     {
       "module": "app.api.v1.routes.v49_market_structure_v1",
       "status": "ok",
-      "duration_ms": 137.93
+      "duration_ms": 7.38
     },
     {
       "module": "app.api.v1.routes.v500_alpha10_license_enforcement_v1",
       "status": "ok",
-      "duration_ms": 1990.1
+      "duration_ms": 88.31
     },
     {
       "module": "app.api.v1.routes.v500_alpha11_license_activation_v1",
       "status": "ok",
-      "duration_ms": 673.46
+      "duration_ms": 41.73
     },
     {
       "module": "app.api.v1.routes.v500_alpha12_license_manager_v1",
       "status": "ok",
-      "duration_ms": 1812.67
+      "duration_ms": 46.41
     },
     {
       "module": "app.api.v1.routes.v500_alpha13_license_ui_v1",
       "status": "ok",
-      "duration_ms": 855.62
+      "duration_ms": 27.4
     },
     {
       "module": "app.api.v1.routes.v500_alpha14_license_readiness_v1",
       "status": "ok",
-      "duration_ms": 711.45
+      "duration_ms": 20.61
     },
     {
       "module": "app.api.v1.routes.v500_alpha15_market_data_v1",
       "status": "ok",
-      "duration_ms": 1121.63
+      "duration_ms": 79.2
     },
     {
       "module": "app.api.v1.routes.v500_alpha16_exchange_connector_v1",
       "status": "ok",
-      "duration_ms": 1150.18
+      "duration_ms": 58.68
     },
     {
       "module": "app.api.v1.routes.v500_alpha17_api_health_v1",
       "status": "ok",
-      "duration_ms": 1640.65
+      "duration_ms": 54.82
     },
     {
       "module": "app.api.v1.routes.v500_alpha18_exchange_sdk_v1",
       "status": "ok",
-      "duration_ms": 1782.89
+      "duration_ms": 37.73
     },
     {
       "module": "app.api.v1.routes.v500_alpha19_auto_router_v1",
       "status": "ok",
-      "duration_ms": 1522.0
+      "duration_ms": 58.68
     },
     {
       "module": "app.api.v1.routes.v500_alpha1_indicator_expansion_v1",
       "status": "ok",
-      "duration_ms": 1086.27
+      "duration_ms": 44.4
     },
     {
       "module": "app.api.v1.routes.v500_alpha20_launcher_api_search_v1",
       "status": "ok",
-      "duration_ms": 883.49
+      "duration_ms": 28.27
     },
     {
       "module": "app.api.v1.routes.v500_alpha21_patch_pipeline_v1",
       "status": "ok",
-      "duration_ms": 1794.66
+      "duration_ms": 49.36
     },
     {
       "module": "app.api.v1.routes.v500_alpha22_broker_layer_v1",
       "status": "ok",
-      "duration_ms": 903.29
+      "duration_ms": 134.89
     },
     {
       "module": "app.api.v1.routes.v500_alpha23_risk_engine_v1",
       "status": "ok",
-      "duration_ms": 726.31
+      "duration_ms": 78.87
     },
     {
       "module": "app.api.v1.routes.v500_alpha24_runtime_api_smoke_v1",
       "status": "ok",
-      "duration_ms": 1222.51
+      "duration_ms": 42.22
     },
     {
       "module": "app.api.v1.routes.v500_alpha25_self_healing_patch_pipeline_v1",
       "status": "ok",
-      "duration_ms": 1897.44
+      "duration_ms": 25.08
     },
     {
       "module": "app.api.v1.routes.v500_alpha26_portfolio_manager_v1",
       "status": "ok",
-      "duration_ms": 2110.33
+      "duration_ms": 83.25
     },
     {
       "module": "app.api.v1.routes.v500_alpha27_scanner_v1",
       "status": "ok",
-      "duration_ms": 1173.45
+      "duration_ms": 20.02
     },
     {
       "module": "app.api.v1.routes.v500_alpha28_alert_engine_v1",
       "status": "ok",
-      "duration_ms": 1174.98
+      "duration_ms": 47.34
     },
     {
       "module": "app.api.v1.routes.v500_alpha29_backtest_engine_v1",
       "status": "ok",
-      "duration_ms": 372.8
+      "duration_ms": 26.08
     },
     {
       "module": "app.api.v1.routes.v500_alpha2_indicator_marketplace_v1",
       "status": "ok",
-      "duration_ms": 1083.93
+      "duration_ms": 52.53
     },
     {
       "module": "app.api.v1.routes.v500_alpha30_1_router_auto_registration_v1",
       "status": "ok",
-      "duration_ms": 659.89
+      "duration_ms": 67.79
     },
     {
       "module": "app.api.v1.routes.v500_alpha30_replay_engine_v1",
       "status": "ok",
-      "duration_ms": 1507.6
+      "duration_ms": 46.55
     },
     {
       "module": "app.api.v1.routes.v500_alpha31_1_patch_orchestrator_v1",
       "status": "ok",
-      "duration_ms": 678.69
+      "duration_ms": 28.73
     },
     {
       "module": "app.api.v1.routes.v500_alpha31_optimizer_v1",
       "status": "ok",
-      "duration_ms": 775.27
+      "duration_ms": 25.07
     },
     {
       "module": "app.api.v1.routes.v500_alpha32_1_definitive_patch_runner_v1",
       "status": "ok",
-      "duration_ms": 307.54
+      "duration_ms": 11.0
     },
     {
       "module": "app.api.v1.routes.v500_alpha32_strategy_optimizer_pro_v1",
       "status": "ok",
-      "duration_ms": 1660.69
+      "duration_ms": 81.61
     },
     {
       "module": "app.api.v1.routes.v500_alpha33_1_simple_patch_runner_v1",
       "status": "ok",
-      "duration_ms": 350.49
+      "duration_ms": 47.24
     },
     {
       "module": "app.api.v1.routes.v500_alpha33_ai_decision_core_v1",
       "status": "ok",
-      "duration_ms": 1891.8
+      "duration_ms": 65.21
     },
     {
       "module": "app.api.v1.routes.v500_alpha33_ai_decision_enterprise_v1",
       "status": "ok",
-      "duration_ms": 2906.29
+      "duration_ms": 120.62
     },
     {
       "module": "app.api.v1.routes.v500_alpha33_ai_decision_integration_v1",
       "status": "ok",
-      "duration_ms": 194.49
+      "duration_ms": 21.73
     },
     {
       "module": "app.api.v1.routes.v500_alpha33_ai_decision_services_v1",
       "status": "ok",
-      "duration_ms": 334.21
+      "duration_ms": 10.96
     },
     {
       "module": "app.api.v1.routes.v500_alpha34_0_auto_router_registry_v1",
       "status": "ok",
-      "duration_ms": 603.46
+      "duration_ms": 21.37
     },
     {
       "module": "app.api.v1.routes.v500_alpha34_1_router_proof_v1",
       "status": "ok",
-      "duration_ms": 11.32
+      "duration_ms": 22.06
     },
     {
       "module": "app.api.v1.routes.v500_alpha35_portfolio_ai_optimization_v1",
       "status": "ok",
-      "duration_ms": 3536.53
+      "duration_ms": 114.23
     },
     {
       "module": "app.api.v1.routes.v500_alpha35_portfolio_analytics_risk_v1",
       "status": "ok",
-      "duration_ms": 393.21
+      "duration_ms": 36.97
     },
     {
       "module": "app.api.v1.routes.v500_alpha35_portfolio_enterprise_v1",
       "status": "ok",
-      "duration_ms": 667.44
+      "duration_ms": 22.59
     },
     {
       "module": "app.api.v1.routes.v500_alpha35_portfolio_intelligence_core_v1",
       "status": "ok",
-      "duration_ms": 1041.92
+      "duration_ms": 34.02
     },
     {
       "module": "app.api.v1.routes.v500_alpha36_plugin_enterprise_v1",
       "status": "ok",
-      "duration_ms": 5795.97
+      "duration_ms": 127.24
     },
     {
       "module": "app.api.v1.routes.v500_alpha36_plugin_runtime_sandbox_v1",
       "status": "ok",
-      "duration_ms": 178.49
+      "duration_ms": 14.44
     },
     {
       "module": "app.api.v1.routes.v500_alpha36_plugin_sdk_core_v1",
       "status": "ok",
-      "duration_ms": 624.25
+      "duration_ms": 12.0
     },
     {
       "module": "app.api.v1.routes.v500_alpha36_plugin_versioning_v1",
       "status": "ok",
-      "duration_ms": 747.55
+      "duration_ms": 25.47
     },
     {
       "module": "app.api.v1.routes.v500_alpha37_broker_connectivity_v1",
       "status": "ok",
-      "duration_ms": 2828.44
+      "duration_ms": 77.59
     },
     {
       "module": "app.api.v1.routes.v500_alpha37_broker_core_v1",
       "status": "ok",
-      "duration_ms": 1449.47
+      "duration_ms": 172.2
     },
     {
       "module": "app.api.v1.routes.v500_alpha37_broker_enterprise_v1",
       "status": "ok",
-      "duration_ms": 1829.97
+      "duration_ms": 54.14
     },
     {
       "module": "app.api.v1.routes.v500_alpha37_broker_orders_account_v1",
       "status": "ok",
-      "duration_ms": 197.55
+      "duration_ms": 19.58
     },
     {
       "module": "app.api.v1.routes.v500_alpha38_exchange_connectivity_v1",
       "status": "ok",
-      "duration_ms": 697.27
+      "duration_ms": 78.78
     },
     {
       "module": "app.api.v1.routes.v500_alpha38_exchange_core_v1",
       "status": "ok",
-      "duration_ms": 238.79
+      "duration_ms": 23.8
     },
     {
       "module": "app.api.v1.routes.v500_alpha38_exchange_market_data_v1",
       "status": "ok",
-      "duration_ms": 722.33
+      "duration_ms": 18.64
     },
     {
       "module": "app.api.v1.routes.v500_alpha39_live_data_cache_v1",
       "status": "ok",
-      "duration_ms": 664.96
+      "duration_ms": 45.51
     },
     {
       "module": "app.api.v1.routes.v500_alpha39_live_data_core_v1",
       "status": "ok",
-      "duration_ms": 313.33
+      "duration_ms": 38.47
     },
     {
       "module": "app.api.v1.routes.v500_alpha39_live_data_enterprise_v1",
       "status": "ok",
-      "duration_ms": 1619.24
+      "duration_ms": 101.73
     },
     {
       "module": "app.api.v1.routes.v500_alpha39_live_stream_manager_v1",
       "status": "ok",
-      "duration_ms": 43.88
+      "duration_ms": 13.82
     },
     {
       "module": "app.api.v1.routes.v500_alpha3_indicator_sandbox_v1",
       "status": "ok",
-      "duration_ms": 851.73
+      "duration_ms": 41.4
     },
     {
       "module": "app.api.v1.routes.v500_alpha40_ai_agent_runtime_v1",
       "status": "ok",
-      "duration_ms": 1724.9
+      "duration_ms": 72.85
     },
     {
       "module": "app.api.v1.routes.v500_alpha40_ai_core_v1",
       "status": "ok",
-      "duration_ms": 78.2
+      "duration_ms": 62.51
     },
     {
       "module": "app.api.v1.routes.v500_alpha40_ai_enterprise_v1",
       "status": "ok",
-      "duration_ms": 1385.66
+      "duration_ms": 130.55
     },
     {
       "module": "app.api.v1.routes.v500_alpha40_ai_memory_context_v1",
       "status": "ok",
-      "duration_ms": 548.57
+      "duration_ms": 12.55
     },
     {
       "module": "app.api.v1.routes.v500_alpha40_ai_orchestration_v1",
       "status": "ok",
-      "duration_ms": 24.66
+      "duration_ms": 11.87
     },
     {
       "module": "app.api.v1.routes.v500_alpha41_strategy_allocation_v1",
       "status": "ok",
-      "duration_ms": 2041.31
+      "duration_ms": 60.11
     },
     {
       "module": "app.api.v1.routes.v500_alpha41_strategy_core_v1",
       "status": "ok",
-      "duration_ms": 60.59
+      "duration_ms": 43.69
     },
     {
       "module": "app.api.v1.routes.v500_alpha41_strategy_enterprise_v1",
       "status": "ok",
-      "duration_ms": 318.39
+      "duration_ms": 114.32
     },
     {
       "module": "app.api.v1.routes.v500_alpha41_strategy_scoring_v1",
       "status": "ok",
-      "duration_ms": 20.32
+      "duration_ms": 16.95
     },
     {
       "module": "app.api.v1.routes.v500_alpha41_strategy_simulation_v1",
       "status": "ok",
-      "duration_ms": 293.22
+      "duration_ms": 16.02
     },
     {
       "module": "app.api.v1.routes.v500_alpha42_execution_analytics_v1",
       "status": "ok",
-      "duration_ms": 538.93
+      "duration_ms": 77.47
     },
     {
       "module": "app.api.v1.routes.v500_alpha42_execution_core_v1",
       "status": "ok",
-      "duration_ms": 742.3
+      "duration_ms": 152.59
     },
     {
       "module": "app.api.v1.routes.v500_alpha42_execution_enterprise_v1",
       "status": "ok",
-      "duration_ms": 2511.79
+      "duration_ms": 98.06
     },
     {
       "module": "app.api.v1.routes.v500_alpha42_execution_lifecycle_v1",
       "status": "ok",
-      "duration_ms": 156.09
+      "duration_ms": 14.03
     },
     {
       "module": "app.api.v1.routes.v500_alpha42_order_routing_v1",
       "status": "ok",
-      "duration_ms": 173.73
+      "duration_ms": 37.41
     },
     {
       "module": "app.api.v1.routes.v500_alpha43_broker_account_v1",
       "status": "ok",
-      "duration_ms": 350.2
+      "duration_ms": 14.7
     },
     {
       "module": "app.api.v1.routes.v500_alpha43_broker_core_v1",
       "status": "ok",
-      "duration_ms": 571.24
+      "duration_ms": 37.32
     },
     {
       "module": "app.api.v1.routes.v500_alpha43_broker_monitoring_v1",
       "status": "ok",
-      "duration_ms": 645.46
+      "duration_ms": 28.9
     },
     {
       "module": "app.api.v1.routes.v500_alpha43_broker_order_v1",
       "status": "ok",
-      "duration_ms": 218.85
+      "duration_ms": 20.59
     },
     {
       "module": "app.api.v1.routes.v500_alpha44_build_intelligence_v1",
       "status": "ok",
-      "duration_ms": 1607.12
+      "duration_ms": 90.78
     },
     {
       "module": "app.api.v1.routes.v500_alpha44_desktop_dashboard_v1",
       "status": "ok",
-      "duration_ms": 2799.92
+      "duration_ms": 91.18
     },
     {
       "module": "app.api.v1.routes.v500_alpha44_live_dashboard_v1",
       "status": "ok",
-      "duration_ms": 521.46
+      "duration_ms": 33.76
     },
     {
       "module": "app.api.v1.routes.v500_alpha44_pic_core_v1",
       "status": "ok",
-      "duration_ms": 95.78
+      "duration_ms": 13.14
     },
     {
       "module": "app.api.v1.routes.v500_alpha44_pic_enterprise_v1",
       "status": "ok",
-      "duration_ms": 1032.24
+      "duration_ms": 31.74
     },
     {
       "module": "app.api.v1.routes.v500_alpha45_runtime_core_v1",
       "status": "ok",
-      "duration_ms": 395.06
+      "duration_ms": 58.88
     },
     {
       "module": "app.api.v1.routes.v500_alpha45_runtime_diagnostics_v1",
       "status": "ok",
-      "duration_ms": 711.35
+      "duration_ms": 23.28
     },
     {
       "module": "app.api.v1.routes.v500_alpha45_runtime_enterprise_v1",
       "status": "ok",
-      "duration_ms": 1429.28
+      "duration_ms": 59.55
     },
     {
       "module": "app.api.v1.routes.v500_alpha45_runtime_lifecycle_v1",
       "status": "ok",
-      "duration_ms": 343.16
+      "duration_ms": 14.79
     },
     {
       "module": "app.api.v1.routes.v500_alpha45_runtime_services_v1",
       "status": "ok",
-      "duration_ms": 1257.97
+      "duration_ms": 12.66
     },
     {
       "module": "app.api.v1.routes.v500_alpha46_core_stabilization_v1",
       "status": "ok",
-      "duration_ms": 2809.62
+      "duration_ms": 27.85
     },
     {
       "module": "app.api.v1.routes.v500_alpha46_desktop_dashboard_intelligence_v1",
       "status": "ok",
-      "duration_ms": 2033.77
+      "duration_ms": 82.59
     },
     {
       "module": "app.api.v1.routes.v500_alpha46_desktop_foundation_v1",
       "status": "ok",
-      "duration_ms": 1255.06
+      "duration_ms": 110.93
     },
     {
       "module": "app.api.v1.routes.v500_alpha46_desktop_host_v1",
       "status": "ok",
-      "duration_ms": 232.51
+      "duration_ms": 15.05
     },
     {
       "module": "app.api.v1.routes.v500_alpha46_desktop_ui_v1",
       "status": "ok",
-      "duration_ms": 183.68
+      "duration_ms": 33.56
     },
     {
       "module": "app.api.v1.routes.v500_alpha46_workspace_navigation_v1",
       "status": "ok",
-      "duration_ms": 325.84
+      "duration_ms": 15.91
     },
     {
       "module": "app.api.v1.routes.v500_alpha47_artifact_release_v1",
       "status": "ok",
-      "duration_ms": 1345.24
+      "duration_ms": 53.9
     },
     {
       "module": "app.api.v1.routes.v500_alpha47_build_dashboard_v1",
       "status": "ok",
-      "duration_ms": 1359.0
+      "duration_ms": 91.95
     },
     {
       "module": "app.api.v1.routes.v500_alpha47_build_pipeline_v1",
       "status": "ok",
-      "duration_ms": 212.91
+      "duration_ms": 28.06
     },
     {
       "module": "app.api.v1.routes.v500_alpha47_ci_pipeline_v1",
       "status": "ok",
-      "duration_ms": 808.9
+      "duration_ms": 26.04
     },
     {
       "module": "app.api.v1.routes.v500_alpha47_critical_review_v1",
       "status": "ok",
-      "duration_ms": 385.08
+      "duration_ms": 34.33
     },
     {
       "module": "app.api.v1.routes.v500_alpha47_production_readiness_v1",
       "status": "ok",
-      "duration_ms": 1013.16
+      "duration_ms": 64.03
     },
     {
       "module": "app.api.v1.routes.v500_alpha48_windows_app_v1",
       "status": "ok",
-      "duration_ms": 631.22
+      "duration_ms": 43.5
     },
     {
       "module": "app.api.v1.routes.v500_alpha48_windows_builder_v1",
       "status": "ok",
-      "duration_ms": 1768.86
+      "duration_ms": 44.04
     },
     {
       "module": "app.api.v1.routes.v500_alpha48_windows_packaging_v1",
       "status": "ok",
-      "duration_ms": 1016.51
+      "duration_ms": 32.37
     },
     {
       "module": "app.api.v1.routes.v500_alpha49_desktop_finalization_v1",
       "status": "ok",
-      "duration_ms": 229.05
+      "duration_ms": 53.11
     },
     {
       "module": "app.api.v1.routes.v500_alpha49_desktop_gui_v1",
       "status": "ok",
-      "duration_ms": 720.24
+      "duration_ms": 71.8
     },
     {
       "module": "app.api.v1.routes.v500_alpha49_desktop_launcher_v1",
       "status": "ok",
-      "duration_ms": 1245.14
+      "duration_ms": 45.47
     },
     {
       "module": "app.api.v1.routes.v500_alpha49_native_desktop_v1",
       "status": "ok",
-      "duration_ms": 540.26
+      "duration_ms": 18.01
     },
     {
       "module": "app.api.v1.routes.v500_alpha49_windows_portable_build_v1",
       "status": "ok",
-      "duration_ms": 566.65
+      "duration_ms": 19.71
     },
     {
       "module": "app.api.v1.routes.v500_alpha4_indicator_lifecycle_v1",
       "status": "ok",
-      "duration_ms": 833.12
+      "duration_ms": 83.8
     },
     {
       "module": "app.api.v1.routes.v500_alpha50_artifact_registration_v1",
       "status": "ok",
-      "duration_ms": 169.9
+      "duration_ms": 28.3
     },
     {
       "module": "app.api.v1.routes.v500_alpha50_packaging_enablement_v1",
       "status": "ok",
-      "duration_ms": 793.0
+      "duration_ms": 21.68
     },
     {
       "module": "app.api.v1.routes.v500_alpha50_release_candidate_v1",
       "status": "ok",
-      "duration_ms": 1218.13
+      "duration_ms": 41.36
     },
     {
       "module": "app.api.v1.routes.v500_alpha50_windows_exe_build_v1",
       "status": "ok",
-      "duration_ms": 486.88
+      "duration_ms": 22.29
     },
     {
       "module": "app.api.v1.routes.v500_alpha50_windows_real_exe_v1",
       "status": "ok",
-      "duration_ms": 773.64
+      "duration_ms": 40.15
     },
     {
       "module": "app.api.v1.routes.v500_alpha51_exe_smoke_build_v1",
       "status": "ok",
-      "duration_ms": 576.0
+      "duration_ms": 25.31
     },
     {
       "module": "app.api.v1.routes.v500_alpha5_indicator_release_gate_v1",
       "status": "ok",
-      "duration_ms": 667.33
+      "duration_ms": 29.98
     },
     {
       "module": "app.api.v1.routes.v500_alpha6_indicator_math_v1",
       "status": "ok",
-      "duration_ms": 1258.85
+      "duration_ms": 33.84
     },
     {
       "module": "app.api.v1.routes.v500_alpha7_runtime_signal_logic_v1",
       "status": "ok",
-      "duration_ms": 793.76
+      "duration_ms": 44.99
     },
     {
       "module": "app.api.v1.routes.v500_alpha8_signal_logic_expansion_v1",
       "status": "ok",
-      "duration_ms": 732.18
+      "duration_ms": 41.39
     },
     {
       "module": "app.api.v1.routes.v500_alpha9_license_core_v1",
       "status": "ok",
-      "duration_ms": 385.22
+      "duration_ms": 22.38
     },
     {
       "module": "app.api.v1.routes.v52_ai_decision_engine_v1",
       "status": "ok",
-      "duration_ms": 497.65
+      "duration_ms": 138.5
     },
     {
       "module": "app.api.v1.routes.v52_ai_first_dashboard_v1",
       "status": "ok",
-      "duration_ms": 198.55
+      "duration_ms": 26.67
     },
     {
       "module": "app.api.v1.routes.v52_alpha_apscheduler_dependency_gate_v1",
       "status": "ok",
-      "duration_ms": 703.88
+      "duration_ms": 36.35
     },
     {
       "module": "app.api.v1.routes.v52_alpha_auto_dependency_build_gate_v1",
       "status": "ok",
-      "duration_ms": 641.17
+      "duration_ms": 29.31
     },
     {
       "module": "app.api.v1.routes.v52_alpha_auto_router_lazy_service_registry_v1",
       "status": "ok",
-      "duration_ms": 139.24
+      "duration_ms": 22.8
     },
     {
       "module": "app.api.v1.routes.v52_alpha_baseline_syntax_recovery_v1",
       "status": "ok",
-      "duration_ms": 329.93
+      "duration_ms": 23.33
     },
     {
       "module": "app.api.v1.routes.v52_alpha_cryptography_runtime_fix_v1",
       "status": "ok",
-      "duration_ms": 595.32
+      "duration_ms": 44.37
     },
     {
       "module": "app.api.v1.routes.v52_alpha_embedded_backend_bootstrap_v1",
       "status": "ok",
-      "duration_ms": 1204.26
+      "duration_ms": 49.92
     },
     {
       "module": "app.api.v1.routes.v52_alpha_embedded_backend_health_resolver_v1",
       "status": "ok",
-      "duration_ms": 357.14
+      "duration_ms": 45.5
     },
     {
       "module": "app.api.v1.routes.v52_alpha_fastapi_staticfiles_fix_v1",
       "status": "ok",
-      "duration_ms": 255.91
+      "duration_ms": 41.82
     },
     {
       "module": "app.api.v1.routes.v52_alpha_first_real_exe_build_v1",
       "status": "ok",
-      "duration_ms": 220.08
+      "duration_ms": 16.61
     },
     {
       "module": "app.api.v1.routes.v52_alpha_force_merge_k_sqlalchemy_gate_v1",
       "status": "ok",
-      "duration_ms": 275.05
+      "duration_ms": 17.01
     },
     {
       "module": "app.api.v1.routes.v52_alpha_in_process_backend_runner_v1",
       "status": "ok",
-      "duration_ms": 299.14
+      "duration_ms": 27.98
     },
     {
       "module": "app.api.v1.routes.v52_alpha_legacy_marker_launcher_sync_diagnostics_v1",
       "status": "ok",
-      "duration_ms": 542.65
+      "duration_ms": 33.62
     },
     {
       "module": "app.api.v1.routes.v52_alpha_native_launcher_v1",
       "status": "ok",
-      "duration_ms": 314.02
+      "duration_ms": 45.57
     },
     {
       "module": "app.api.v1.routes.v52_alpha_pydantic_settings_runtime_gate_v1",
       "status": "ok",
-      "duration_ms": 166.77
+      "duration_ms": 16.98
     },
     {
       "module": "app.api.v1.routes.v52_alpha_windows_spec_fix_v1",
       "status": "ok",
-      "duration_ms": 344.5
+      "duration_ms": 17.67
+    },
+    {
+      "module": "app.api.v1.routes.v52_dashboard_provider_hub_v1",
+      "status": "ok",
+      "duration_ms": 21.49
     },
     {
       "module": "app.api.v1.routes.v52_enterprise_trading_os_v1",
       "status": "ok",
-      "duration_ms": 34.17
+      "duration_ms": 33.59
     },
     {
       "module": "app.api.v1.routes.v52_enterprise_workspaces_v1",
       "status": "ok",
-      "duration_ms": 529.79
+      "duration_ms": 108.19
     },
     {
       "module": "app.api.v1.routes.version_v1",
       "status": "ok",
-      "duration_ms": 223.39
+      "duration_ms": 372.17
     }
   ],
   "failed": [],
-  "duration_ms": 191187.64,
+  "duration_ms": 15261.56,
   "mode": "isolated_auto_router_registry"
 }

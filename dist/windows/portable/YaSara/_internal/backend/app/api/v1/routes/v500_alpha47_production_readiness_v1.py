@@ -1,0 +1,25 @@
+from fastapi import APIRouter
+from app.v500_alpha47_production_readiness.service import production_readiness_facade_v500_alpha47 as _service
+
+router = APIRouter(prefix="/v5-0-alpha-47/production-readiness", tags=["v5.0-alpha.47-production-readiness"])
+
+@router.get("/summary")
+async def summary(): return _service.summary()
+@router.get("/manifest")
+async def manifest(): return _service.manifest()
+@router.get("/architecture")
+async def architecture(): return _service.architecture()
+@router.get("/production-contract")
+async def production_contract(): return _service.production_contract()
+@router.get("/consolidation")
+async def consolidation(): return _service.consolidation()
+@router.get("/technical-debt")
+async def technical_debt(): return _service.technical_debt()
+@router.get("/windows-exe-handoff")
+async def windows_exe_handoff(): return _service.windows_exe_handoff()
+@router.get("/report")
+async def report(): return _service.report()
+@router.get("/readiness")
+async def readiness(): return _service.readiness()
+@router.get("/contract")
+async def contract(): return _service.contract()

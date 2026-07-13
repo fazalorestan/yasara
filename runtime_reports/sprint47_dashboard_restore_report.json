@@ -1,0 +1,11 @@
+{
+  "ready": false,
+  "build_id": "2026.47.ENTERPRISE.001",
+  "selected_source": "D:\\yasara_clean\\frontend\\src\\App.tsx",
+  "selected_score": 120,
+  "backup": "D:\\yasara_clean\\frontend\\src\\App.pre_sprint47_1783943071.tsx",
+  "app_sha256": "ff528b31cdbf57fbe316b0753d644fc980c089a02fa5a0d9cf663c92457fad3c",
+  "approved_dashboard_locked": true,
+  "real_backend_data_only": true,
+  "mock_data": false
+}

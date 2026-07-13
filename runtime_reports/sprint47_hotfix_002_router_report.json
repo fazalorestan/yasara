@@ -1,0 +1,10 @@
+{
+  "ready": true,
+  "build_id": "2026.47.HOTFIX.002",
+  "timestamp": 1783943071.9558656,
+  "checks": {
+    "auto_registry_present": true,
+    "direct_route_import_absent": true,
+    "legacy_launcher_absent": true
+  }
+}

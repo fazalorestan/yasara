@@ -1,0 +1,18 @@
+from fastapi import APIRouter
+from app.v500_alpha21_patch_pipeline.service import PatchPipelineFacadeV500Alpha21
+router = APIRouter(prefix="/v5-0-alpha-21/patch-pipeline", tags=["v5.0-alpha.21-patch-pipeline"])
+_service = PatchPipelineFacadeV500Alpha21()
+@router.get("/summary")
+async def summary(): return _service.summary()
+@router.get("/discover")
+async def discover(): return _service.discover()
+@router.get("/classify")
+async def classify(script_name: str = "apply_v5_0_alpha_20_launcher_api_search_patch.py"): return _service.classify(script_name)
+@router.get("/safety")
+async def safety(script_name: str = "apply_v5_0_alpha_20_launcher_api_search_patch.py"): return _service.safety(script_name)
+@router.get("/plan")
+async def plan(): return _service.plan()
+@router.get("/readiness")
+async def readiness(): return _service.readiness()
+@router.get("/contract")
+async def contract(): return _service.contract()
