@@ -1,0 +1,3 @@
+from app.v500_alpha38_exchange_market_data.models import ExchangeMarketDataSummaryV500Alpha38
+
+def test_v500_alpha38_b_summary_backcompat(): assert ExchangeMarketDataSummaryV500Alpha38().backward_compatible is True

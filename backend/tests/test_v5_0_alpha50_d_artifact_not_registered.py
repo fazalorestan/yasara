@@ -1,0 +1,3 @@
+from app.v500_alpha50_artifact_registration.service import LocalExeArtifactRegistrationFacadeV500Alpha50
+
+def test_artifact_not_registered(): assert LocalExeArtifactRegistrationFacadeV500Alpha50().summary().artifact_registered is False

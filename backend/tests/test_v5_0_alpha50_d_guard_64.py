@@ -1,0 +1,3 @@
+from app.v500_alpha50_artifact_registration.models import LocalExeArtifactRegistrationSummaryV500Alpha50
+
+def test_guard(): assert LocalExeArtifactRegistrationSummaryV500Alpha50().ready is True

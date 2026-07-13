@@ -1,0 +1,3 @@
+from app.v500_alpha39_live_data_enterprise.models import LiveDataEnterpriseSummaryV500Alpha39
+
+def test_v500_alpha39_e_summary_exec(): assert LiveDataEnterpriseSummaryV500Alpha39().real_execution_enabled is False

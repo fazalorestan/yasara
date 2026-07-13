@@ -1,0 +1,254 @@
+/* ==========================================================
+   YaSara Enterprise Platform — Sprint 1.1 panel styles
+   Scoped additions only. Reuses existing --ent-* tokens from
+   enterprise-workspace.css. No existing class names are
+   redefined here — safe to import alongside the current CSS.
+   ========================================================== */
+
+/* ---------- Generic row / list primitives ---------- */
+.ent-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px 0;
+  border-bottom: 1px solid var(--ent-border);
+}
+.ent-row:last-child { border-bottom: none; }
+.ent-row-main { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.ent-row-title { font-size: 12.5px; font-weight: 600; color: var(--ent-text); }
+.ent-row-sub { font-size: 11px; color: var(--ent-text-dim); }
+.ent-row-value { font-size: 12.5px; font-weight: 700; white-space: nowrap; text-align: right; }
+
+.ent-empty { font-size: 12px; color: var(--ent-text-dim); padding: 10px 0; text-align: center; }
+
+/* Shown by resilient widgets when displaying a cached value after the
+   latest poll failed. Additive only - does not affect any existing rule. */
+.ent-stale-note { font-size: 10px; color: var(--ent-text-dim); margin-top: 8px; text-align: right; }
+
+/* ---------- AI Decision Engine ---------- */
+.ent-ai-decision-head { display: flex; align-items: baseline; gap: 10px; margin-bottom: 4px; }
+.ent-ai-decision-value { font-size: 24px; font-weight: 800; letter-spacing: 0.02em; }
+.ent-ai-decision-confidence { font-size: 12px; color: var(--ent-text-dim); }
+.ent-ai-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: 12px 0;
+}
+.ent-ai-grid-item { display: flex; flex-direction: column; gap: 2px; }
+.ent-ai-grid-label { font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--ent-text-dim); }
+.ent-ai-grid-value { font-size: 13px; font-weight: 700; }
+.ent-ai-note {
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--ent-text-dim);
+  background: var(--ent-panel-alt);
+  border: 1px solid var(--ent-border);
+  border-radius: 8px;
+  padding: 10px 12px;
+  margin-top: 4px;
+}
+.ent-link-action {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--ent-accent);
+  cursor: pointer;
+  margin-top: 10px;
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+/* ---------- Risk Panel ---------- */
+.ent-risk-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.ent-risk-stat { display: flex; flex-direction: column; gap: 3px; }
+.ent-risk-stat-label { font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--ent-text-dim); }
+.ent-risk-stat-value { font-size: 15px; font-weight: 700; }
+.ent-risk-bar-track {
+  height: 5px;
+  border-radius: 999px;
+  background: var(--ent-panel-alt);
+  overflow: hidden;
+  margin-top: 4px;
+}
+.ent-risk-bar-fill { height: 100%; border-radius: 999px; background: var(--ent-up); }
+.ent-risk-bar-fill.tone-warning { background: var(--ent-warning); }
+.ent-risk-bar-fill.tone-down { background: var(--ent-down); }
+
+/* ---------- Market Overview ---------- */
+.ent-overview-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 16px;
+}
+.ent-overview-item { display: flex; justify-content: space-between; align-items: center; font-size: 12px; padding: 4px 0; }
+.ent-overview-item span { color: var(--ent-text-dim); }
+.ent-overview-item strong { font-weight: 700; }
+
+/* ---------- Portfolio Allocation (donut) ---------- */
+.ent-donut-wrap { display: flex; align-items: center; gap: 18px; }
+.ent-donut-svg { flex-shrink: 0; }
+.ent-donut-center-label { font-size: 10px; fill: var(--ent-text-dim); }
+.ent-donut-center-value { font-size: 15px; font-weight: 800; fill: var(--ent-text); }
+.ent-legend { display: flex; flex-direction: column; gap: 8px; flex: 1; }
+.ent-legend-row { display: flex; align-items: center; gap: 8px; font-size: 12px; }
+.ent-legend-dot { width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0; }
+.ent-legend-name { flex: 1; color: var(--ent-text-dim); }
+.ent-legend-pct { font-weight: 700; }
+
+/* ---------- Positions / Orders tables ---------- */
+.ent-table-wrap { overflow-x: auto; }
+.ent-table { width: 100%; border-collapse: collapse; font-size: 12px; }
+.ent-table th {
+  text-align: left;
+  font-size: 10.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--ent-text-dim);
+  font-weight: 600;
+  padding: 0 8px 8px 0;
+  border-bottom: 1px solid var(--ent-border);
+}
+.ent-table td { padding: 7px 8px 7px 0; border-bottom: 1px solid var(--ent-border); white-space: nowrap; }
+.ent-table tr:last-child td { border-bottom: none; }
+.ent-table .up { color: var(--ent-up); }
+.ent-table .down { color: var(--ent-down); }
+.ent-symbol-cell { display: flex; align-items: center; gap: 6px; font-weight: 600; }
+.ent-side-pill {
+  font-size: 10.5px;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 999px;
+  text-transform: uppercase;
+}
+.ent-side-pill.buy, .ent-side-pill.long { background: rgba(34, 197, 94, 0.16); color: var(--ent-up); }
+.ent-side-pill.sell, .ent-side-pill.short { background: rgba(239, 68, 68, 0.16); color: var(--ent-down); }
+.ent-status-pill {
+  font-size: 10.5px;
+  font-weight: 600;
+  padding: 2px 7px;
+  border-radius: 999px;
+  background: var(--ent-panel-alt);
+  color: var(--ent-text-dim);
+}
+.ent-status-pill.open { color: var(--ent-accent); background: var(--ent-accent-soft); }
+.ent-status-pill.filled { color: var(--ent-up); background: rgba(34, 197, 94, 0.16); }
+
+.ent-panel-footer-actions { display: flex; gap: 8px; margin-top: 12px; }
+.ent-btn {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 7px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--ent-border);
+  background: var(--ent-panel-alt);
+  color: var(--ent-text);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.ent-btn.primary { background: var(--ent-accent); border-color: var(--ent-accent); color: #fff; }
+.ent-btn:hover { filter: brightness(1.08); }
+
+/* ---------- Tab bar (Orders Open/History, Performance ranges) ---------- */
+.ent-tabbar { display: flex; gap: 4px; margin-bottom: 10px; flex-wrap: wrap; }
+.ent-tabbar button {
+  font-size: 11.5px;
+  font-weight: 600;
+  padding: 5px 11px;
+  border-radius: 7px;
+  border: 1px solid transparent;
+  background: none;
+  color: var(--ent-text-dim);
+  cursor: pointer;
+}
+.ent-tabbar button.active { background: var(--ent-accent-soft); color: var(--ent-accent); border-color: var(--ent-accent-soft); }
+.ent-tabbar button:hover:not(.active) { background: var(--ent-panel-alt); color: var(--ent-text); }
+
+/* ---------- News & Events ---------- */
+.ent-news-item { display: flex; flex-direction: column; gap: 3px; padding: 8px 0; border-bottom: 1px solid var(--ent-border); }
+.ent-news-item:last-child { border-bottom: none; }
+.ent-news-meta { display: flex; align-items: center; gap: 8px; }
+.ent-news-time { font-size: 10.5px; color: var(--ent-text-dim); }
+.ent-tag {
+  font-size: 10px;
+  font-weight: 600;
+  padding: 1px 7px;
+  border-radius: 999px;
+  background: var(--ent-panel-alt);
+  color: var(--ent-text-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.ent-news-headline { font-size: 12.5px; color: var(--ent-text); line-height: 1.4; }
+
+/* ---------- Performance ---------- */
+.ent-perf-head { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 8px; }
+.ent-perf-return { font-size: 20px; font-weight: 800; }
+.ent-perf-sub { font-size: 11px; color: var(--ent-text-dim); }
+.ent-perf-chart { width: 100%; height: auto; display: block; margin-top: 6px; }
+.ent-perf-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-top: 14px; }
+.ent-perf-stat { text-align: left; }
+.ent-perf-stat-label { font-size: 10px; text-transform: uppercase; color: var(--ent-text-dim); display: block; }
+.ent-perf-stat-value { font-size: 13px; font-weight: 700; display: block; margin-top: 2px; }
+
+/* ---------- Quick Actions ---------- */
+.ent-quick-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+.ent-quick-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid var(--ent-border);
+  background: var(--ent-panel-alt);
+  color: var(--ent-text);
+  cursor: pointer;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 600;
+}
+.ent-quick-btn:hover { border-color: var(--ent-accent); background: var(--ent-accent-soft); }
+.ent-quick-btn svg { color: var(--ent-accent); }
+.ent-quick-btn.primary { background: var(--ent-accent); border-color: var(--ent-accent); color: #fff; }
+.ent-quick-btn.primary svg { color: #fff; }
+
+/* ---------- Enterprise Status Bar ---------- */
+.ent-statusbar-v2 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 8px 20px;
+  border-top: 1px solid var(--ent-border);
+  background: var(--ent-panel);
+  font-size: 11px;
+  color: var(--ent-text-dim);
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.ent-statusbar-v2 .ent-sb-item { display: flex; align-items: center; gap: 6px; }
+.ent-statusbar-v2 .ent-sb-label { text-transform: uppercase; letter-spacing: 0.04em; font-size: 10px; }
+.ent-statusbar-v2 .ent-sb-value { color: var(--ent-text); font-weight: 600; }
+.ent-statusbar-v2 .ent-sb-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--ent-down); flex-shrink: 0; }
+.ent-statusbar-v2 .ent-sb-dot.ok { background: var(--ent-up); box-shadow: 0 0 6px var(--ent-up); }
+.ent-statusbar-v2 .ent-sb-sep { width: 1px; height: 14px; background: var(--ent-border); flex-shrink: 0; }
+.ent-statusbar-v2 .ent-sb-mode { margin-left: auto; color: var(--ent-text); font-weight: 600; }
+.ent-statusbar-v2 .ent-sb-time { color: var(--ent-text-dim); }
+
+@media (max-width: 900px) {
+  .ent-ai-grid { grid-template-columns: 1fr; }
+  .ent-risk-grid { grid-template-columns: 1fr; }
+  .ent-overview-grid { grid-template-columns: 1fr; }
+  .ent-quick-grid { grid-template-columns: 1fr; }
+  .ent-perf-stats { grid-template-columns: repeat(2, 1fr); }
+  .ent-donut-wrap { flex-direction: column; align-items: flex-start; }
+}

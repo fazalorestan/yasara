@@ -1,0 +1,3 @@
+from app.platform_core.execution_engine.audit_contract import ExecutionAuditContractService
+
+def test_v500_alpha42_d_audit_contract(): assert ExecutionAuditContractService().contract()['immutable_log_required'] is True

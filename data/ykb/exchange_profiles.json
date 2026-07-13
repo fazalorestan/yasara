@@ -1,0 +1,34 @@
+{
+  "exchanges": [
+    {
+      "name": "bitunix",
+      "scope": "personal_primary",
+      "status": "planned_for_execution"
+    },
+    {
+      "name": "binance",
+      "scope": "shared_market_data",
+      "status": "foundation"
+    },
+    {
+      "name": "bybit",
+      "scope": "shared_market_data",
+      "status": "planned"
+    },
+    {
+      "name": "okx",
+      "scope": "shared_market_data",
+      "status": "planned"
+    },
+    {
+      "name": "kucoin",
+      "scope": "shared_market_data",
+      "status": "planned"
+    },
+    {
+      "name": "bingx",
+      "scope": "shared_market_data",
+      "status": "planned"
+    }
+  ]
+}

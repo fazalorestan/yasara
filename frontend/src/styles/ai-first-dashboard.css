@@ -1,0 +1,14 @@
+.afd-shell{min-height:100vh;padding:18px;background:#07111f;color:#eef4ff;font-family:Inter,system-ui,sans-serif}
+.afd-topbar,.afd-card,.afd-footer{border:1px solid rgba(148,163,184,.16);background:rgba(10,22,38,.84);backdrop-filter:blur(16px)}
+.afd-topbar{display:flex;justify-content:space-between;align-items:center;padding:16px 18px;border-radius:12px}
+.afd-topbar h1{margin:4px 0 0;font-size:22px}.afd-topbar small{color:#77e2d2}.afd-build{font-size:12px;color:#8aa0ba}
+.afd-kpis{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:10px;margin-top:12px}
+.afd-kpi{padding:14px;display:grid;gap:8px}.afd-kpi span,.afd-kpi small{color:#8da0b9;font-size:11px}.afd-kpi strong{font-size:18px}
+.afd-main-grid{display:grid;grid-template-columns:1.35fr 1.1fr .75fr;gap:12px;margin-top:12px}
+.afd-card{border-radius:12px;min-height:220px;padding:14px}.afd-card h2{margin:0 0 12px;font-size:14px}
+.afd-signal{min-height:340px}.afd-confirmations{min-height:340px}.afd-chart{min-height:340px}
+.afd-card pre{white-space:pre-wrap;overflow:auto;max-height:280px;color:#8edcff}
+.afd-waiting{color:#6f829b;font-size:12px}.afd-error{padding:20px;color:#ff8d99}.afd-loading{padding:20px;color:#9db0c8}
+.afd-footer{display:flex;gap:18px;flex-wrap:wrap;margin-top:12px;padding:10px 14px;border-radius:10px;color:#8ca0b8;font-size:11px}
+@media(max-width:1200px){.afd-kpis{grid-template-columns:repeat(3,1fr)}.afd-main-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:760px){.afd-kpis,.afd-main-grid{grid-template-columns:1fr}}

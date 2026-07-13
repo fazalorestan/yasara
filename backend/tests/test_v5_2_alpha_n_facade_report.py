@@ -1,0 +1,3 @@
+from app.v52_alpha_legacy_marker_launcher_sync_diagnostics.service import LegacyMarkerLauncherSyncDiagnosticsFacadeV52Alpha
+
+def test_facade_report(): assert LegacyMarkerLauncherSyncDiagnosticsFacadeV52Alpha().report() is not None

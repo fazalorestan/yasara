@@ -1,0 +1,4071 @@
+Folder PATH listing
+Volume serial number is 0000002B 0200:D79B
+D:.
++---.pytest_cache
+|   \---v
+|       \---cache
++---backend
+|   +---.pytest_cache
+|   |   \---v
+|   |       \---cache
+|   +---.venv
+|   |   +---Include
+|   |   |   \---site
+|   |   |       \---python3.12
+|   |   |           \---greenlet
+|   |   +---Lib
+|   |   |   \---site-packages
+|   |   |       +---aiosqlite
+|   |   |       |   +---tests
+|   |   |       |   |   \---__pycache__
+|   |   |       |   \---__pycache__
+|   |   |       +---aiosqlite-0.20.0.dist-info
+|   |   |       +---alembic
+|   |   |       |   +---autogenerate
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---ddl
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---operations
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---runtime
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---script
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---templates
+|   |   |       |   |   +---async
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---generic
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   \---multidb
+|   |   |       |   |       \---__pycache__
+|   |   |       |   +---testing
+|   |   |       |   |   +---plugin
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---suite
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---util
+|   |   |       |   |   \---__pycache__
+|   |   |       |   \---__pycache__
+|   |   |       +---alembic-1.14.0.dist-info
+|   |   |       +---annotated_types
+|   |   |       |   \---__pycache__
+|   |   |       +---annotated_types-0.7.0.dist-info
+|   |   |       |   \---licenses
+|   |   |       +---anyio
+|   |   |       |   +---abc
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---streams
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---_backends
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---_core
+|   |   |       |   |   \---__pycache__
+|   |   |       |   \---__pycache__
+|   |   |       +---anyio-4.14.1.dist-info
+|   |   |       |   \---licenses
+|   |   |       +---apscheduler
+|   |   |       |   +---executors
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---jobstores
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---schedulers
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---triggers
+|   |   |       |   |   +---cron
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   \---__pycache__
+|   |   |       |   \---__pycache__
+|   |   |       +---APScheduler-3.10.4.dist-info
+|   |   |       +---asyncpg
+|   |   |       |   +---exceptions
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---pgproto
+|   |   |       |   |   +---codecs
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---protocol
+|   |   |       |   |   +---codecs
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---record
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---_testbase
+|   |   |       |   |   \---__pycache__
+|   |   |       |   \---__pycache__
+|   |   |       +---asyncpg-0.30.0.dist-info
+|   |   |       +---bcrypt
+|   |   |       |   \---__pycache__
+|   |   |       +---bcrypt-4.2.1.dist-info
+|   |   |       +---certifi
+|   |   |       |   \---__pycache__
+|   |   |       +---certifi-2026.6.17.dist-info
+|   |   |       |   \---licenses
+|   |   |       +---cffi
+|   |   |       |   \---__pycache__
+|   |   |       +---cffi-2.0.0.dist-info
+|   |   |       |   \---licenses
+|   |   |       +---click
+|   |   |       |   \---__pycache__
+|   |   |       +---click-8.4.2.dist-info
+|   |   |       |   \---licenses
+|   |   |       +---colorama
+|   |   |       |   +---tests
+|   |   |       |   |   \---__pycache__
+|   |   |       |   \---__pycache__
+|   |   |       +---colorama-0.4.6.dist-info
+|   |   |       |   \---licenses
+|   |   |       +---coverage
+|   |   |       |   +---htmlfiles
+|   |   |       |   \---__pycache__
+|   |   |       +---coverage-7.14.3.dist-info
+|   |   |       |   \---licenses
+|   |   |       +---cryptography
+|   |   |       |   +---hazmat
+|   |   |       |   |   +---backends
+|   |   |       |   |   |   +---openssl
+|   |   |       |   |   |   |   \---__pycache__
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---bindings
+|   |   |       |   |   |   +---openssl
+|   |   |       |   |   |   |   \---__pycache__
+|   |   |       |   |   |   +---_rust
+|   |   |       |   |   |   |   \---openssl
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---decrepit
+|   |   |       |   |   |   +---ciphers
+|   |   |       |   |   |   |   \---__pycache__
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---primitives
+|   |   |       |   |   |   +---asymmetric
+|   |   |       |   |   |   |   \---__pycache__
+|   |   |       |   |   |   +---ciphers
+|   |   |       |   |   |   |   \---__pycache__
+|   |   |       |   |   |   +---kdf
+|   |   |       |   |   |   |   \---__pycache__
+|   |   |       |   |   |   +---serialization
+|   |   |       |   |   |   |   \---__pycache__
+|   |   |       |   |   |   +---twofactor
+|   |   |       |   |   |   |   \---__pycache__
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---x509
+|   |   |       |   |   \---__pycache__
+|   |   |       |   \---__pycache__
+|   |   |       +---cryptography-43.0.3.dist-info
+|   |   |       |   \---license_files
+|   |   |       +---dns
+|   |   |       |   +---dnssecalgs
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---quic
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---rdtypes
+|   |   |       |   |   +---ANY
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---CH
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---IN
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   \---__pycache__
+|   |   |       |   \---__pycache__
+|   |   |       +---dnspython-2.8.0.dist-info
+|   |   |       |   \---licenses
+|   |   |       +---dotenv
+|   |   |       |   \---__pycache__
+|   |   |       +---email_validator
+|   |   |       |   \---__pycache__
+|   |   |       +---email_validator-2.2.0.dist-info
+|   |   |       +---fastapi
+|   |   |       |   +---dependencies
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---middleware
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---openapi
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---security
+|   |   |       |   |   \---__pycache__
+|   |   |       |   \---__pycache__
+|   |   |       +---fastapi-0.115.5.dist-info
+|   |   |       |   \---licenses
+|   |   |       +---greenlet
+|   |   |       |   +---platform
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---tests
+|   |   |       |   |   \---__pycache__
+|   |   |       |   \---__pycache__
+|   |   |       +---greenlet-3.5.3.dist-info
+|   |   |       |   \---licenses
+|   |   |       +---h11
+|   |   |       |   \---__pycache__
+|   |   |       +---h11-0.16.0.dist-info
+|   |   |       |   \---licenses
+|   |   |       +---httpcore
+|   |   |       |   +---_async
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---_backends
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---_sync
+|   |   |       |   |   \---__pycache__
+|   |   |       |   \---__pycache__
+|   |   |       +---httpcore-1.0.9.dist-info
+|   |   |       |   \---licenses
+|   |   |       +---httptools
+|   |   |       |   +---parser
+|   |   |       |   |   \---__pycache__
+|   |   |       |   \---__pycache__
+|   |   |       +---httptools-0.8.0.dist-info
+|   |   |       |   \---licenses
+|   |   |       |       \---vendor
+|   |   |       |           +---http-parser
+|   |   |       |           \---llhttp
+|   |   |       +---httpx
+|   |   |       |   +---_transports
+|   |   |       |   |   \---__pycache__
+|   |   |       |   \---__pycache__
+|   |   |       +---httpx-0.28.1.dist-info
+|   |   |       |   \---licenses
+|   |   |       +---idna
+|   |   |       |   \---__pycache__
+|   |   |       +---idna-3.18.dist-info
+|   |   |       |   \---licenses
+|   |   |       +---iniconfig
+|   |   |       |   \---__pycache__
+|   |   |       +---iniconfig-2.3.0.dist-info
+|   |   |       |   \---licenses
+|   |   |       +---jwt
+|   |   |       |   \---__pycache__
+|   |   |       +---mako
+|   |   |       |   +---ext
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---testing
+|   |   |       |   |   \---__pycache__
+|   |   |       |   \---__pycache__
+|   |   |       +---mako-1.3.12.dist-info
+|   |   |       |   \---licenses
+|   |   |       +---markupsafe
+|   |   |       |   \---__pycache__
+|   |   |       +---markupsafe-3.0.3.dist-info
+|   |   |       |   \---licenses
+|   |   |       +---orjson
+|   |   |       |   \---__pycache__
+|   |   |       +---orjson-3.10.12.dist-info
+|   |   |       |   \---licenses
+|   |   |       +---packaging
+|   |   |       |   +---licenses
+|   |   |       |   |   \---__pycache__
+|   |   |       |   \---__pycache__
+|   |   |       +---packaging-26.2.dist-info
+|   |   |       |   \---licenses
+|   |   |       +---pip
+|   |   |       |   +---_internal
+|   |   |       |   |   +---cli
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---commands
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---distributions
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---index
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---locations
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---metadata
+|   |   |       |   |   |   +---importlib
+|   |   |       |   |   |   |   \---__pycache__
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---models
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---network
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---operations
+|   |   |       |   |   |   +---build
+|   |   |       |   |   |   |   \---__pycache__
+|   |   |       |   |   |   +---install
+|   |   |       |   |   |   |   \---__pycache__
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---req
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---resolution
+|   |   |       |   |   |   +---legacy
+|   |   |       |   |   |   |   \---__pycache__
+|   |   |       |   |   |   +---resolvelib
+|   |   |       |   |   |   |   \---__pycache__
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---utils
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---vcs
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---_vendor
+|   |   |       |   |   +---cachecontrol
+|   |   |       |   |   |   +---caches
+|   |   |       |   |   |   |   \---__pycache__
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---certifi
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---distlib
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---distro
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---idna
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---msgpack
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---packaging
+|   |   |       |   |   |   +---licenses
+|   |   |       |   |   |   |   \---__pycache__
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---pkg_resources
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---platformdirs
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---pygments
+|   |   |       |   |   |   +---filters
+|   |   |       |   |   |   |   \---__pycache__
+|   |   |       |   |   |   +---formatters
+|   |   |       |   |   |   |   \---__pycache__
+|   |   |       |   |   |   +---lexers
+|   |   |       |   |   |   |   \---__pycache__
+|   |   |       |   |   |   +---styles
+|   |   |       |   |   |   |   \---__pycache__
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---pyproject_hooks
+|   |   |       |   |   |   +---_in_process
+|   |   |       |   |   |   |   \---__pycache__
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---requests
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---resolvelib
+|   |   |       |   |   |   +---resolvers
+|   |   |       |   |   |   |   \---__pycache__
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---rich
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---tomli
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---tomli_w
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---truststore
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---urllib3
+|   |   |       |   |   |   +---contrib
+|   |   |       |   |   |   |   +---emscripten
+|   |   |       |   |   |   |   |   \---__pycache__
+|   |   |       |   |   |   |   \---__pycache__
+|   |   |       |   |   |   +---http2
+|   |   |       |   |   |   |   \---__pycache__
+|   |   |       |   |   |   +---util
+|   |   |       |   |   |   |   \---__pycache__
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   \---__pycache__
+|   |   |       |   \---__pycache__
+|   |   |       +---pip-26.1.2.dist-info
+|   |   |       |   \---licenses
+|   |   |       |       \---src
+|   |   |       |           \---pip
+|   |   |       |               \---_vendor
+|   |   |       |                   +---cachecontrol
+|   |   |       |                   +---certifi
+|   |   |       |                   +---distlib
+|   |   |       |                   +---distro
+|   |   |       |                   +---idna
+|   |   |       |                   +---msgpack
+|   |   |       |                   +---packaging
+|   |   |       |                   +---pkg_resources
+|   |   |       |                   +---platformdirs
+|   |   |       |                   +---pygments
+|   |   |       |                   +---pyproject_hooks
+|   |   |       |                   +---requests
+|   |   |       |                   +---resolvelib
+|   |   |       |                   +---rich
+|   |   |       |                   +---tomli
+|   |   |       |                   +---tomli_w
+|   |   |       |                   +---truststore
+|   |   |       |                   \---urllib3
+|   |   |       +---pluggy
+|   |   |       |   \---__pycache__
+|   |   |       +---pluggy-1.6.0.dist-info
+|   |   |       |   \---licenses
+|   |   |       +---pycparser
+|   |   |       |   \---__pycache__
+|   |   |       +---pycparser-3.0.dist-info
+|   |   |       |   \---licenses
+|   |   |       +---pydantic
+|   |   |       |   +---deprecated
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---experimental
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---plugin
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---v1
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---_internal
+|   |   |       |   |   \---__pycache__
+|   |   |       |   \---__pycache__
+|   |   |       +---pydantic-2.10.3.dist-info
+|   |   |       |   \---licenses
+|   |   |       +---pydantic_core
+|   |   |       |   \---__pycache__
+|   |   |       +---pydantic_core-2.27.1.dist-info
+|   |   |       |   \---licenses
+|   |   |       +---pydantic_settings
+|   |   |       |   \---__pycache__
+|   |   |       +---pydantic_settings-2.6.1.dist-info
+|   |   |       |   \---licenses
+|   |   |       +---PyJWT-2.10.1.dist-info
+|   |   |       +---pytest
+|   |   |       |   \---__pycache__
+|   |   |       +---pytest-8.3.4.dist-info
+|   |   |       +---pytest_asyncio
+|   |   |       |   \---__pycache__
+|   |   |       +---pytest_asyncio-0.24.0.dist-info
+|   |   |       +---pytest_cov
+|   |   |       |   \---__pycache__
+|   |   |       +---pytest_cov-6.0.0.dist-info
+|   |   |       +---python_dotenv-1.0.1.dist-info
+|   |   |       +---pytz
+|   |   |       |   +---zoneinfo
+|   |   |       |   |   +---Africa
+|   |   |       |   |   +---America
+|   |   |       |   |   |   +---Argentina
+|   |   |       |   |   |   +---Indiana
+|   |   |       |   |   |   +---Kentucky
+|   |   |       |   |   |   \---North_Dakota
+|   |   |       |   |   +---Antarctica
+|   |   |       |   |   +---Arctic
+|   |   |       |   |   +---Asia
+|   |   |       |   |   +---Atlantic
+|   |   |       |   |   +---Australia
+|   |   |       |   |   +---Brazil
+|   |   |       |   |   +---Canada
+|   |   |       |   |   +---Chile
+|   |   |       |   |   +---Etc
+|   |   |       |   |   +---Europe
+|   |   |       |   |   +---Indian
+|   |   |       |   |   +---Mexico
+|   |   |       |   |   +---Pacific
+|   |   |       |   |   \---US
+|   |   |       |   \---__pycache__
+|   |   |       +---pytz-2026.2.dist-info
+|   |   |       +---pyyaml-6.0.3.dist-info
+|   |   |       |   \---licenses
+|   |   |       +---ruff
+|   |   |       |   \---__pycache__
+|   |   |       +---ruff-0.8.4.dist-info
+|   |   |       |   \---licenses
+|   |   |       +---six-1.17.0.dist-info
+|   |   |       +---sqlalchemy
+|   |   |       |   +---connectors
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---cyextension
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---dialects
+|   |   |       |   |   +---mssql
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---mysql
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---oracle
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---postgresql
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---sqlite
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---engine
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---event
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---ext
+|   |   |       |   |   +---asyncio
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---declarative
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---mypy
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---future
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---orm
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---pool
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---sql
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---testing
+|   |   |       |   |   +---fixtures
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---plugin
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---suite
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---util
+|   |   |       |   |   \---__pycache__
+|   |   |       |   \---__pycache__
+|   |   |       +---SQLAlchemy-2.0.36.dist-info
+|   |   |       +---starlette
+|   |   |       |   +---middleware
+|   |   |       |   |   \---__pycache__
+|   |   |       |   \---__pycache__
+|   |   |       +---starlette-0.41.3.dist-info
+|   |   |       |   \---licenses
+|   |   |       +---typing_extensions-4.15.0.dist-info
+|   |   |       |   \---licenses
+|   |   |       +---tzdata
+|   |   |       |   +---zoneinfo
+|   |   |       |   |   +---Africa
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---America
+|   |   |       |   |   |   +---Argentina
+|   |   |       |   |   |   |   \---__pycache__
+|   |   |       |   |   |   +---Indiana
+|   |   |       |   |   |   |   \---__pycache__
+|   |   |       |   |   |   +---Kentucky
+|   |   |       |   |   |   |   \---__pycache__
+|   |   |       |   |   |   +---North_Dakota
+|   |   |       |   |   |   |   \---__pycache__
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---Antarctica
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---Arctic
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---Asia
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---Atlantic
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---Australia
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---Brazil
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---Canada
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---Chile
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---Etc
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---Europe
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---Indian
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---Mexico
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---Pacific
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---US
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   \---__pycache__
+|   |   |       |   \---__pycache__
+|   |   |       +---tzdata-2026.2.dist-info
+|   |   |       |   \---licenses
+|   |   |       |       \---licenses
+|   |   |       +---tzlocal
+|   |   |       |   \---__pycache__
+|   |   |       +---tzlocal-5.4.4.dist-info
+|   |   |       |   \---licenses
+|   |   |       +---uvicorn
+|   |   |       |   +---lifespan
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---loops
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---middleware
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---protocols
+|   |   |       |   |   +---http
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   +---websockets
+|   |   |       |   |   |   \---__pycache__
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---supervisors
+|   |   |       |   |   \---__pycache__
+|   |   |       |   \---__pycache__
+|   |   |       +---uvicorn-0.32.1.dist-info
+|   |   |       |   \---licenses
+|   |   |       +---watchfiles
+|   |   |       |   \---__pycache__
+|   |   |       +---watchfiles-1.2.0.dist-info
+|   |   |       |   +---licenses
+|   |   |       |   \---sboms
+|   |   |       +---websockets
+|   |   |       |   +---asyncio
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---extensions
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---legacy
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---sync
+|   |   |       |   |   \---__pycache__
+|   |   |       |   \---__pycache__
+|   |   |       +---websockets-14.1.dist-info
+|   |   |       +---yaml
+|   |   |       |   \---__pycache__
+|   |   |       +---_pytest
+|   |   |       |   +---assertion
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---config
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---mark
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---_code
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---_io
+|   |   |       |   |   \---__pycache__
+|   |   |       |   +---_py
+|   |   |       |   |   \---__pycache__
+|   |   |       |   \---__pycache__
+|   |   |       +---_yaml
+|   |   |       |   \---__pycache__
+|   |   |       \---__pycache__
+|   |   \---Scripts
+|   +---alembic
+|   |   \---versions
+|   +---app
+|   |   +---account_sync_v1
+|   |   |   +---application
+|   |   |   |   \---__pycache__
+|   |   |   +---domain
+|   |   |   |   \---__pycache__
+|   |   |   +---engine
+|   |   |   |   \---__pycache__
+|   |   |   \---__pycache__
+|   |   +---ai_trading_v1
+|   |   |   \---__pycache__
+|   |   +---api
+|   |   |   \---v1
+|   |   |       +---routes
+|   |   |       |   \---__pycache__
+|   |   |       \---__pycache__
+|   |   +---archive_handoff_v1
+|   |   |   \---__pycache__
+|   |   +---backtest_v1
+|   |   |   +---application
+|   |   |   |   \---__pycache__
+|   |   |   +---domain
+|   |   |   |   \---__pycache__
+|   |   |   +---engine
+|   |   |   |   \---__pycache__
+|   |   |   \---__pycache__
+|   |   +---cloud_v1
+|   |   |   \---__pycache__
+|   |   +---connectivity_v1
+|   |   |   \---__pycache__
+|   |   +---consolidation_v1
+|   |   |   \---__pycache__
+|   |   +---core
+|   |   |   \---__pycache__
+|   |   +---dashboard_v1
+|   |   |   +---application
+|   |   |   |   \---__pycache__
+|   |   |   +---domain
+|   |   |   |   \---__pycache__
+|   |   |   +---engine
+|   |   |   |   \---__pycache__
+|   |   |   \---__pycache__
+|   |   +---decision_v1
+|   |   |   +---application
+|   |   |   |   \---__pycache__
+|   |   |   +---domain
+|   |   |   |   \---__pycache__
+|   |   |   +---engine
+|   |   |   |   \---__pycache__
+|   |   |   \---__pycache__
+|   |   +---desktop_ui_v1
+|   |   |   \---__pycache__
+|   |   +---enterprise_v1
+|   |   |   \---__pycache__
+|   |   +---exchange_private_v1
+|   |   |   +---application
+|   |   |   |   \---__pycache__
+|   |   |   +---domain
+|   |   |   |   \---__pycache__
+|   |   |   +---engine
+|   |   |   |   \---__pycache__
+|   |   |   +---infrastructure
+|   |   |   |   \---__pycache__
+|   |   |   \---__pycache__
+|   |   +---execution_v1
+|   |   |   +---application
+|   |   |   |   \---__pycache__
+|   |   |   +---domain
+|   |   |   |   \---__pycache__
+|   |   |   +---engine
+|   |   |   |   \---__pycache__
+|   |   |   +---infrastructure
+|   |   |   |   \---__pycache__
+|   |   |   \---__pycache__
+|   |   +---final_closeout_v1
+|   |   |   \---__pycache__
+|   |   +---final_delivery_pack_v1
+|   |   |   \---__pycache__
+|   |   +---final_docs_qa_v1
+|   |   |   \---__pycache__
+|   |   +---final_export_scripts_v1
+|   |   |   \---__pycache__
+|   |   +---final_export_v1
+|   |   |   \---__pycache__
+|   |   +---final_integration_v1
+|   |   |   \---__pycache__
+|   |   +---final_operations_v1
+|   |   |   \---__pycache__
+|   |   +---final_package_v1
+|   |   |   \---__pycache__
+|   |   +---final_release_engineering_v1
+|   |   |   \---__pycache__
+|   |   +---final_release_v1
+|   |   |   \---__pycache__
+|   |   +---infrastructure
+|   |   |   \---db
+|   |   |       \---__pycache__
+|   |   +---intelligence_v1
+|   |   |   +---application
+|   |   |   |   \---__pycache__
+|   |   |   +---domain
+|   |   |   |   \---__pycache__
+|   |   |   +---engine
+|   |   |   |   \---__pycache__
+|   |   |   \---__pycache__
+|   |   +---market_data
+|   |   |   +---application
+|   |   |   |   \---__pycache__
+|   |   |   +---domain
+|   |   |   |   \---__pycache__
+|   |   |   +---infrastructure
+|   |   |   |   \---__pycache__
+|   |   |   \---__pycache__
+|   |   +---market_tools_v1
+|   |   |   \---__pycache__
+|   |   +---mobile_v1
+|   |   |   +---application
+|   |   |   |   \---__pycache__
+|   |   |   +---domain
+|   |   |   |   \---__pycache__
+|   |   |   +---engine
+|   |   |   |   \---__pycache__
+|   |   |   +---repository
+|   |   |   |   \---__pycache__
+|   |   |   \---__pycache__
+|   |   +---multi_exchange_v1
+|   |   |   +---adapters
+|   |   |   |   \---__pycache__
+|   |   |   +---application
+|   |   |   |   \---__pycache__
+|   |   |   +---clients
+|   |   |   |   \---__pycache__
+|   |   |   +---domain
+|   |   |   |   \---__pycache__
+|   |   |   \---__pycache__
+|   |   +---notifications_v1
+|   |   |   +---application
+|   |   |   |   \---__pycache__
+|   |   |   +---domain
+|   |   |   |   \---__pycache__
+|   |   |   +---engine
+|   |   |   |   \---__pycache__
+|   |   |   +---infrastructure
+|   |   |   |   \---__pycache__
+|   |   |   \---__pycache__
+|   |   +---paper_trading_v1
+|   |   |   +---application
+|   |   |   |   \---__pycache__
+|   |   |   +---domain
+|   |   |   |   \---__pycache__
+|   |   |   +---engine
+|   |   |   |   \---__pycache__
+|   |   |   \---__pycache__
+|   |   +---platform_core
+|   |   |   +---ai_decision
+|   |   |   |   +---enterprise
+|   |   |   |   |   \---__pycache__
+|   |   |   |   +---integration
+|   |   |   |   |   \---__pycache__
+|   |   |   |   \---__pycache__
+|   |   |   +---ai_intelligence
+|   |   |   |   +---enterprise
+|   |   |   |   |   \---__pycache__
+|   |   |   |   \---__pycache__
+|   |   |   +---alert_engine
+|   |   |   |   \---__pycache__
+|   |   |   +---api_health
+|   |   |   |   \---__pycache__
+|   |   |   +---api_routing
+|   |   |   |   \---__pycache__
+|   |   |   +---api_search
+|   |   |   |   \---__pycache__
+|   |   |   +---apscheduler_dependency_gate
+|   |   |   |   \---__pycache__
+|   |   |   +---auto_dependency_discovery_build_gate
+|   |   |   |   \---__pycache__
+|   |   |   +---auto_router_lazy_service_registry
+|   |   |   |   \---__pycache__
+|   |   |   +---auto_router_registry
+|   |   |   |   \---__pycache__
+|   |   |   +---backtest_engine
+|   |   |   |   \---__pycache__
+|   |   |   +---broker
+|   |   |   |   \---__pycache__
+|   |   |   +---broker_layer
+|   |   |   |   +---enterprise
+|   |   |   |   |   \---__pycache__
+|   |   |   |   \---__pycache__
+|   |   |   +---build_dashboard
+|   |   |   |   \---__pycache__
+|   |   |   +---build_pipeline
+|   |   |   |   \---__pycache__
+|   |   |   +---ci_pipeline
+|   |   |   |   \---__pycache__
+|   |   |   +---config_center
+|   |   |   |   \---__pycache__
+|   |   |   +---contracts
+|   |   |   |   \---__pycache__
+|   |   |   +---cryptography_runtime_dependency_fix
+|   |   |   |   \---__pycache__
+|   |   |   +---desktop_app
+|   |   |   |   \---__pycache__
+|   |   |   +---desktop_finalization
+|   |   |   |   \---__pycache__
+|   |   |   +---desktop_gui
+|   |   |   |   \---__pycache__
+|   |   |   +---desktop_launcher
+|   |   |   |   \---__pycache__
+|   |   |   +---diagnostics
+|   |   |   |   \---__pycache__
+|   |   |   +---embedded_backend_bootstrap
+|   |   |   |   \---__pycache__
+|   |   |   +---embedded_backend_health_resolver
+|   |   |   |   \---__pycache__
+|   |   |   +---enterprise_cache
+|   |   |   |   \---__pycache__
+|   |   |   +---enterprise_queue
+|   |   |   |   \---__pycache__
+|   |   |   +---enterprise_scheduler
+|   |   |   |   \---__pycache__
+|   |   |   +---enterprise_storage
+|   |   |   |   \---__pycache__
+|   |   |   +---exchanges
+|   |   |   |   +---sdk
+|   |   |   |   |   \---__pycache__
+|   |   |   |   \---__pycache__
+|   |   |   +---exchange_layer
+|   |   |   |   \---__pycache__
+|   |   |   +---execution_engine
+|   |   |   |   +---enterprise
+|   |   |   |   |   \---__pycache__
+|   |   |   |   \---__pycache__
+|   |   |   +---extension_host
+|   |   |   |   \---__pycache__
+|   |   |   +---fastapi_staticfiles_hidden_import_fix
+|   |   |   |   \---__pycache__
+|   |   |   +---first_real_exe_build
+|   |   |   |   \---__pycache__
+|   |   |   +---force_merge_k_sqlalchemy_gate
+|   |   |   |   \---__pycache__
+|   |   |   +---governance
+|   |   |   |   \---__pycache__
+|   |   |   +---indicators
+|   |   |   |   +---alerts
+|   |   |   |   |   \---__pycache__
+|   |   |   |   +---bridges
+|   |   |   |   |   \---__pycache__
+|   |   |   |   +---handoff
+|   |   |   |   |   \---__pycache__
+|   |   |   |   +---lifecycle
+|   |   |   |   |   \---__pycache__
+|   |   |   |   +---marketplace
+|   |   |   |   |   \---__pycache__
+|   |   |   |   +---math_runtime
+|   |   |   |   |   \---__pycache__
+|   |   |   |   +---pine_source
+|   |   |   |   |   \---__pycache__
+|   |   |   |   +---readiness
+|   |   |   |   |   \---__pycache__
+|   |   |   |   +---release_gate
+|   |   |   |   |   \---__pycache__
+|   |   |   |   +---runtime
+|   |   |   |   |   \---__pycache__
+|   |   |   |   +---sandbox
+|   |   |   |   |   \---__pycache__
+|   |   |   |   +---scanner
+|   |   |   |   |   \---__pycache__
+|   |   |   |   +---settings
+|   |   |   |   |   \---__pycache__
+|   |   |   |   +---signal_logic
+|   |   |   |   |   \---__pycache__
+|   |   |   |   +---signal_logic_expansion
+|   |   |   |   |   \---__pycache__
+|   |   |   |   +---v5_expansion
+|   |   |   |   |   \---__pycache__
+|   |   |   |   \---__pycache__
+|   |   |   +---in_process_backend_runner
+|   |   |   |   \---__pycache__
+|   |   |   +---kernel
+|   |   |   |   \---__pycache__
+|   |   |   +---legacy_marker_launcher_sync_diagnostics
+|   |   |   +---licensing
+|   |   |   |   +---activation
+|   |   |   |   |   \---__pycache__
+|   |   |   |   +---enforcement
+|   |   |   |   |   \---__pycache__
+|   |   |   |   +---manager
+|   |   |   |   |   \---__pycache__
+|   |   |   |   +---readiness
+|   |   |   |   |   \---__pycache__
+|   |   |   |   +---ui
+|   |   |   |   |   \---__pycache__
+|   |   |   |   \---__pycache__
+|   |   |   +---live_data_pipeline
+|   |   |   |   +---enterprise
+|   |   |   |   |   \---__pycache__
+|   |   |   |   \---__pycache__
+|   |   |   +---market_data
+|   |   |   |   \---__pycache__
+|   |   |   +---native_desktop
+|   |   |   |   \---__pycache__
+|   |   |   +---native_windows_launcher
+|   |   |   |   \---__pycache__
+|   |   |   +---operations
+|   |   |   |   \---__pycache__
+|   |   |   +---optimizer
+|   |   |   |   \---__pycache__
+|   |   |   +---optimizer_pro
+|   |   |   |   \---__pycache__
+|   |   |   +---patching
+|   |   |   |   +---self_healing
+|   |   |   |   |   \---__pycache__
+|   |   |   |   \---__pycache__
+|   |   |   +---patch_orchestrator
+|   |   |   |   \---__pycache__
+|   |   |   +---patch_runner_definitive
+|   |   |   |   \---__pycache__
+|   |   |   +---plugin_sdk
+|   |   |   |   +---enterprise
+|   |   |   |   |   \---__pycache__
+|   |   |   |   \---__pycache__
+|   |   |   +---portfolio_intelligence
+|   |   |   |   +---enterprise
+|   |   |   |   |   \---__pycache__
+|   |   |   |   \---__pycache__
+|   |   |   +---portfolio_manager
+|   |   |   |   \---__pycache__
+|   |   |   +---production_readiness
+|   |   |   |   \---__pycache__
+|   |   |   +---production_runtime
+|   |   |   |   +---enterprise
+|   |   |   |   |   \---__pycache__
+|   |   |   |   \---__pycache__
+|   |   |   +---project_intelligence
+|   |   |   |   \---__pycache__
+|   |   |   +---pydantic_settings_runtime_gate
+|   |   |   |   \---__pycache__
+|   |   |   +---release
+|   |   |   |   \---__pycache__
+|   |   |   +---release_candidate
+|   |   |   |   \---__pycache__
+|   |   |   +---release_registry
+|   |   |   |   \---__pycache__
+|   |   |   +---replay_engine
+|   |   |   |   \---__pycache__
+|   |   |   +---risk_engine
+|   |   |   |   \---__pycache__
+|   |   |   +---router_auto_registration
+|   |   |   |   \---__pycache__
+|   |   |   +---runtime_api_smoke
+|   |   |   |   \---__pycache__
+|   |   |   +---scanner
+|   |   |   |   \---__pycache__
+|   |   |   +---sdk
+|   |   |   |   \---__pycache__
+|   |   |   +---services
+|   |   |   |   \---__pycache__
+|   |   |   +---service_registry
+|   |   |   |   \---__pycache__
+|   |   |   +---simple_patch_runner
+|   |   |   |   \---__pycache__
+|   |   |   +---stabilization
+|   |   |   |   \---__pycache__
+|   |   |   +---startup
+|   |   |   |   \---__pycache__
+|   |   |   +---state
+|   |   |   |   \---__pycache__
+|   |   |   +---strategy_engine
+|   |   |   |   +---enterprise
+|   |   |   |   |   \---__pycache__
+|   |   |   |   \---__pycache__
+|   |   |   +---version_migration
+|   |   |   |   \---__pycache__
+|   |   |   +---windows_app
+|   |   |   |   \---__pycache__
+|   |   |   +---windows_artifact_registration
+|   |   |   |   \---__pycache__
+|   |   |   +---windows_builder
+|   |   |   |   \---__pycache__
+|   |   |   +---windows_exe_build
+|   |   |   |   \---__pycache__
+|   |   |   +---windows_exe_smoke_build
+|   |   |   |   \---__pycache__
+|   |   |   +---windows_packaging
+|   |   |   |   \---__pycache__
+|   |   |   +---windows_packaging_enablement
+|   |   |   |   \---__pycache__
+|   |   |   +---windows_portable_build
+|   |   |   |   \---__pycache__
+|   |   |   +---windows_real_exe
+|   |   |   |   \---__pycache__
+|   |   |   +---windows_spec_fix
+|   |   |   |   \---__pycache__
+|   |   |   \---__pycache__
+|   |   +---portfolio_v1
+|   |   |   +---application
+|   |   |   |   \---__pycache__
+|   |   |   +---domain
+|   |   |   |   \---__pycache__
+|   |   |   +---engine
+|   |   |   |   \---__pycache__
+|   |   |   \---__pycache__
+|   |   +---production_ai_v1
+|   |   |   +---application
+|   |   |   |   \---__pycache__
+|   |   |   +---domain
+|   |   |   |   \---__pycache__
+|   |   |   +---engine
+|   |   |   |   \---__pycache__
+|   |   |   +---repository
+|   |   |   |   \---__pycache__
+|   |   |   \---__pycache__
+|   |   +---production_freeze_v1
+|   |   |   \---__pycache__
+|   |   +---production_packaging_v1
+|   |   |   \---__pycache__
+|   |   +---productivity_v1
+|   |   |   \---__pycache__
+|   |   +---project_end_v1
+|   |   |   \---__pycache__
+|   |   +---rc1_hardening_v1
+|   |   |   \---__pycache__
+|   |   +---rc1_v1
+|   |   |   \---__pycache__
+|   |   +---release_pro_v1
+|   |   |   \---__pycache__
+|   |   +---release_v1
+|   |   |   +---application
+|   |   |   |   \---__pycache__
+|   |   |   +---domain
+|   |   |   |   \---__pycache__
+|   |   |   +---engine
+|   |   |   |   \---__pycache__
+|   |   |   \---__pycache__
+|   |   +---risk_v1
+|   |   |   +---application
+|   |   |   |   \---__pycache__
+|   |   |   +---domain
+|   |   |   |   \---__pycache__
+|   |   |   +---engine
+|   |   |   |   \---__pycache__
+|   |   |   \---__pycache__
+|   |   +---secrets_v1
+|   |   |   +---application
+|   |   |   |   \---__pycache__
+|   |   |   +---domain
+|   |   |   |   \---__pycache__
+|   |   |   +---engine
+|   |   |   |   \---__pycache__
+|   |   |   +---repository
+|   |   |   |   \---__pycache__
+|   |   |   \---__pycache__
+|   |   +---stable_release_v1
+|   |   |   \---__pycache__
+|   |   +---static
+|   |   |   \---dashboard
+|   |   +---strategy_builder_v1
+|   |   |   +---application
+|   |   |   |   \---__pycache__
+|   |   |   +---domain
+|   |   |   |   \---__pycache__
+|   |   |   +---engine
+|   |   |   |   \---__pycache__
+|   |   |   +---repository
+|   |   |   |   \---__pycache__
+|   |   |   \---__pycache__
+|   |   +---v11_ai_market_intelligence
+|   |   |   \---__pycache__
+|   |   +---v11_alerts
+|   |   |   \---__pycache__
+|   |   +---v11_backtest_replay
+|   |   |   \---__pycache__
+|   |   +---v11_dashboard_runtime
+|   |   |   \---__pycache__
+|   |   +---v11_distribution
+|   |   |   \---__pycache__
+|   |   +---v11_exchange_connectivity
+|   |   |   \---__pycache__
+|   |   +---v11_final_release
+|   |   |   \---__pycache__
+|   |   +---v11_market_data
+|   |   |   \---__pycache__
+|   |   +---v11_operations
+|   |   |   \---__pycache__
+|   |   +---v11_paper_trading
+|   |   |   \---__pycache__
+|   |   +---v11_release_candidate
+|   |   |   \---__pycache__
+|   |   +---v11_risk_control
+|   |   |   \---__pycache__
+|   |   +---v11_strategy_runtime
+|   |   |   \---__pycache__
+|   |   +---v12_dashboard
+|   |   |   \---__pycache__
+|   |   +---v12_market_workspace
+|   |   |   \---__pycache__
+|   |   +---v12_portfolio_orders
+|   |   |   \---__pycache__
+|   |   +---v12_realtime_intelligence
+|   |   |   \---__pycache__
+|   |   +---v12_trading_terminal
+|   |   |   \---__pycache__
+|   |   +---v12_workspace_polish
+|   |   |   \---__pycache__
+|   |   +---v20_final_release
+|   |   |   \---__pycache__
+|   |   +---v21_real_data
+|   |   |   \---__pycache__
+|   |   +---v22_market_engine
+|   |   |   \---__pycache__
+|   |   +---v23_exchange_connector
+|   |   |   \---__pycache__
+|   |   +---v24_indicator_signal
+|   |   |   \---__pycache__
+|   |   +---v25_risk_backtest_paper
+|   |   |   \---__pycache__
+|   |   +---v26_final_operational
+|   |   |   \---__pycache__
+|   |   +---v27_distribution
+|   |   |   \---__pycache__
+|   |   +---v31_live_exchange
+|   |   |   \---__pycache__
+|   |   +---v32_advanced_ai_indicators
+|   |   |   \---__pycache__
+|   |   +---v33_strategy_builder
+|   |   |   \---__pycache__
+|   |   +---v34_market_analysis
+|   |   |   \---__pycache__
+|   |   +---v351_constitution_audit
+|   |   |   \---__pycache__
+|   |   +---v35_smart_money
+|   |   |   \---__pycache__
+|   |   +---v361_phase_a_guardrails
+|   |   |   \---__pycache__
+|   |   +---v362_project_cli
+|   |   |   \---__pycache__
+|   |   +---v36_phase_a_meta_ykb
+|   |   |   \---__pycache__
+|   |   +---v40_market_context
+|   |   |   \---__pycache__
+|   |   +---v410_market_structure_sprint2
+|   |   |   \---__pycache__
+|   |   +---v411_smart_money_pro
+|   |   |   \---__pycache__
+|   |   +---v412_smart_money_pro_sprint2
+|   |   |   \---__pycache__
+|   |   +---v413_ict_engine
+|   |   |   \---__pycache__
+|   |   +---v414_ai_fusion
+|   |   |   \---__pycache__
+|   |   +---v415_engine_registry_pro
+|   |   |   \---__pycache__
+|   |   +---v415_neowave
+|   |   |   \---__pycache__
+|   |   +---v416_neowave_sprint2
+|   |   |   \---__pycache__
+|   |   +---v417_elliott
+|   |   |   \---__pycache__
+|   |   +---v418_launcher
+|   |   |   \---__pycache__
+|   |   +---v4191_premium_dashboard
+|   |   |   \---__pycache__
+|   |   +---v419_ui_workspace
+|   |   |   \---__pycache__
+|   |   +---v41_indicator_engine
+|   |   |   \---__pycache__
+|   |   +---v420_trading_workspace
+|   |   |   \---__pycache__
+|   |   +---v4211_frontend_compatibility
+|   |   |   \---__pycache__
+|   |   +---v421_market_structure_pro
+|   |   |   \---__pycache__
+|   |   +---v423_plugin_catalog
+|   |   |   \---__pycache__
+|   |   +---v424_plugin_registry_sync
+|   |   |   \---__pycache__
+|   |   +---v425_policy_gate
+|   |   |   \---__pycache__
+|   |   +---v426_platform_contracts_sdk
+|   |   |   \---__pycache__
+|   |   +---v427_extension_host
+|   |   |   \---__pycache__
+|   |   +---v428_plugin_state_snapshot
+|   |   |   \---__pycache__
+|   |   +---v429_timezone_runtime
+|   |   |   \---__pycache__
+|   |   +---v42_signal_engine
+|   |   |   \---__pycache__
+|   |   +---v430_platform_diagnostics
+|   |   |   \---__pycache__
+|   |   +---v431_release_readiness
+|   |   |   \---__pycache__
+|   |   +---v432_platform_versioning
+|   |   |   \---__pycache__
+|   |   +---v433_operations_runbook
+|   |   |   \---__pycache__
+|   |   +---v434_observability
+|   |   |   \---__pycache__
+|   |   +---v435_configuration_center
+|   |   |   \---__pycache__
+|   |   +---v436_enterprise_scheduler
+|   |   |   \---__pycache__
+|   |   +---v437_enterprise_queue
+|   |   |   \---__pycache__
+|   |   +---v438_enterprise_cache
+|   |   |   \---__pycache__
+|   |   +---v439_enterprise_storage
+|   |   |   \---__pycache__
+|   |   +---v43_risk_engine
+|   |   |   \---__pycache__
+|   |   +---v441_yasara_indicator
+|   |   |   \---__pycache__
+|   |   +---v442_indicator_chart_integration
+|   |   |   \---__pycache__
+|   |   +---v443_indicator_runtime_adapter
+|   |   |   \---__pycache__
+|   |   +---v444_indicator_pine_source
+|   |   |   \---__pycache__
+|   |   +---v445_indicator_engine_bridge
+|   |   |   \---__pycache__
+|   |   +---v446_indicator_scanner_watchlist
+|   |   |   \---__pycache__
+|   |   +---v447_indicator_alert_notification
+|   |   |   \---__pycache__
+|   |   +---v448_indicator_settings_presets
+|   |   |   \---__pycache__
+|   |   +---v449_indicator_final_readiness
+|   |   |   \---__pycache__
+|   |   +---v44_backtest_benchmark
+|   |   |   \---__pycache__
+|   |   +---v450_indicator_platform_handoff
+|   |   |   \---__pycache__
+|   |   +---v45_paper_trading
+|   |   |   \---__pycache__
+|   |   +---v46_trading_journal
+|   |   |   \---__pycache__
+|   |   +---v47_notification_alerts
+|   |   |   \---__pycache__
+|   |   +---v48_production_readiness
+|   |   |   \---__pycache__
+|   |   +---v49_market_structure
+|   |   |   \---__pycache__
+|   |   +---v500_alpha10_license_enforcement
+|   |   |   \---__pycache__
+|   |   +---v500_alpha11_license_activation
+|   |   |   \---__pycache__
+|   |   +---v500_alpha12_license_manager
+|   |   |   \---__pycache__
+|   |   +---v500_alpha13_license_ui
+|   |   |   \---__pycache__
+|   |   +---v500_alpha14_license_readiness
+|   |   |   \---__pycache__
+|   |   +---v500_alpha15_market_data
+|   |   |   \---__pycache__
+|   |   +---v500_alpha16_exchange_connector
+|   |   |   \---__pycache__
+|   |   +---v500_alpha17_api_health
+|   |   |   \---__pycache__
+|   |   +---v500_alpha18_exchange_sdk
+|   |   |   \---__pycache__
+|   |   +---v500_alpha19_auto_router
+|   |   |   \---__pycache__
+|   |   +---v500_alpha1_indicator_expansion
+|   |   |   \---__pycache__
+|   |   +---v500_alpha20_launcher_api_search
+|   |   |   \---__pycache__
+|   |   +---v500_alpha21_patch_pipeline
+|   |   |   \---__pycache__
+|   |   +---v500_alpha22_broker_layer
+|   |   |   \---__pycache__
+|   |   +---v500_alpha23_risk_engine
+|   |   |   \---__pycache__
+|   |   +---v500_alpha24_runtime_api_smoke
+|   |   |   \---__pycache__
+|   |   +---v500_alpha25_self_healing_patch_pipeline
+|   |   |   \---__pycache__
+|   |   +---v500_alpha26_portfolio_manager
+|   |   |   \---__pycache__
+|   |   +---v500_alpha27_scanner
+|   |   |   \---__pycache__
+|   |   +---v500_alpha28_alert_engine
+|   |   |   \---__pycache__
+|   |   +---v500_alpha29_backtest_engine
+|   |   |   \---__pycache__
+|   |   +---v500_alpha2_indicator_marketplace
+|   |   |   \---__pycache__
+|   |   +---v500_alpha30_1_router_auto_registration
+|   |   |   \---__pycache__
+|   |   +---v500_alpha30_replay_engine
+|   |   |   \---__pycache__
+|   |   +---v500_alpha31_1_patch_orchestrator
+|   |   |   \---__pycache__
+|   |   +---v500_alpha31_optimizer
+|   |   |   \---__pycache__
+|   |   +---v500_alpha32_1_definitive_patch_runner
+|   |   |   \---__pycache__
+|   |   +---v500_alpha32_strategy_optimizer_pro
+|   |   |   \---__pycache__
+|   |   +---v500_alpha33_1_simple_patch_runner
+|   |   |   \---__pycache__
+|   |   +---v500_alpha33_ai_decision_core
+|   |   |   \---__pycache__
+|   |   +---v500_alpha33_ai_decision_enterprise
+|   |   |   \---__pycache__
+|   |   +---v500_alpha33_ai_decision_integration
+|   |   |   \---__pycache__
+|   |   +---v500_alpha33_ai_decision_services
+|   |   |   \---__pycache__
+|   |   +---v500_alpha34_0_auto_router_registry
+|   |   |   \---__pycache__
+|   |   +---v500_alpha34_1_router_proof
+|   |   |   \---__pycache__
+|   |   +---v500_alpha35_portfolio_ai_optimization
+|   |   |   \---__pycache__
+|   |   +---v500_alpha35_portfolio_analytics_risk
+|   |   |   \---__pycache__
+|   |   +---v500_alpha35_portfolio_enterprise
+|   |   |   \---__pycache__
+|   |   +---v500_alpha35_portfolio_intelligence_core
+|   |   |   \---__pycache__
+|   |   +---v500_alpha36_plugin_enterprise
+|   |   |   \---__pycache__
+|   |   +---v500_alpha36_plugin_runtime_sandbox
+|   |   |   \---__pycache__
+|   |   +---v500_alpha36_plugin_sdk_core
+|   |   |   \---__pycache__
+|   |   +---v500_alpha36_plugin_versioning
+|   |   |   \---__pycache__
+|   |   +---v500_alpha37_broker_connectivity
+|   |   |   \---__pycache__
+|   |   +---v500_alpha37_broker_core
+|   |   |   \---__pycache__
+|   |   +---v500_alpha37_broker_enterprise
+|   |   |   \---__pycache__
+|   |   +---v500_alpha37_broker_orders_account
+|   |   |   \---__pycache__
+|   |   +---v500_alpha38_exchange_connectivity
+|   |   |   \---__pycache__
+|   |   +---v500_alpha38_exchange_core
+|   |   |   \---__pycache__
+|   |   +---v500_alpha38_exchange_market_data
+|   |   |   \---__pycache__
+|   |   +---v500_alpha39_live_data_cache
+|   |   |   \---__pycache__
+|   |   +---v500_alpha39_live_data_core
+|   |   |   \---__pycache__
+|   |   +---v500_alpha39_live_data_enterprise
+|   |   |   \---__pycache__
+|   |   +---v500_alpha39_live_stream_manager
+|   |   |   \---__pycache__
+|   |   +---v500_alpha3_indicator_sandbox
+|   |   |   \---__pycache__
+|   |   +---v500_alpha40_ai_agent_runtime
+|   |   |   \---__pycache__
+|   |   +---v500_alpha40_ai_core
+|   |   |   \---__pycache__
+|   |   +---v500_alpha40_ai_enterprise
+|   |   |   \---__pycache__
+|   |   +---v500_alpha40_ai_memory_context
+|   |   |   \---__pycache__
+|   |   +---v500_alpha40_ai_orchestration
+|   |   |   \---__pycache__
+|   |   +---v500_alpha41_strategy_allocation
+|   |   |   \---__pycache__
+|   |   +---v500_alpha41_strategy_core
+|   |   |   \---__pycache__
+|   |   +---v500_alpha41_strategy_enterprise
+|   |   |   \---__pycache__
+|   |   +---v500_alpha41_strategy_scoring
+|   |   |   \---__pycache__
+|   |   +---v500_alpha41_strategy_simulation
+|   |   |   \---__pycache__
+|   |   +---v500_alpha42_execution_analytics
+|   |   |   \---__pycache__
+|   |   +---v500_alpha42_execution_core
+|   |   |   \---__pycache__
+|   |   +---v500_alpha42_execution_enterprise
+|   |   |   \---__pycache__
+|   |   +---v500_alpha42_execution_lifecycle
+|   |   |   \---__pycache__
+|   |   +---v500_alpha42_order_routing
+|   |   |   \---__pycache__
+|   |   +---v500_alpha43_broker_account
+|   |   |   \---__pycache__
+|   |   +---v500_alpha43_broker_core
+|   |   |   \---__pycache__
+|   |   +---v500_alpha43_broker_monitoring
+|   |   |   \---__pycache__
+|   |   +---v500_alpha43_broker_order
+|   |   |   \---__pycache__
+|   |   +---v500_alpha44_build_intelligence
+|   |   |   \---__pycache__
+|   |   +---v500_alpha44_desktop_dashboard
+|   |   |   \---__pycache__
+|   |   +---v500_alpha44_live_dashboard
+|   |   |   \---__pycache__
+|   |   +---v500_alpha44_pic_core
+|   |   |   \---__pycache__
+|   |   +---v500_alpha44_pic_enterprise
+|   |   |   \---__pycache__
+|   |   +---v500_alpha45_runtime_core
+|   |   |   \---__pycache__
+|   |   +---v500_alpha45_runtime_diagnostics
+|   |   |   \---__pycache__
+|   |   +---v500_alpha45_runtime_enterprise
+|   |   |   \---__pycache__
+|   |   +---v500_alpha45_runtime_lifecycle
+|   |   |   \---__pycache__
+|   |   +---v500_alpha45_runtime_services
+|   |   |   \---__pycache__
+|   |   +---v500_alpha46_core_stabilization
+|   |   |   \---__pycache__
+|   |   +---v500_alpha46_desktop_dashboard_intelligence
+|   |   |   \---__pycache__
+|   |   +---v500_alpha46_desktop_foundation
+|   |   |   \---__pycache__
+|   |   +---v500_alpha46_desktop_host
+|   |   |   \---__pycache__
+|   |   +---v500_alpha46_desktop_ui
+|   |   |   \---__pycache__
+|   |   +---v500_alpha46_workspace_navigation
+|   |   |   \---__pycache__
+|   |   +---v500_alpha47_artifact_release
+|   |   |   \---__pycache__
+|   |   +---v500_alpha47_build_dashboard
+|   |   |   \---__pycache__
+|   |   +---v500_alpha47_build_pipeline
+|   |   |   \---__pycache__
+|   |   +---v500_alpha47_ci_pipeline
+|   |   |   \---__pycache__
+|   |   +---v500_alpha47_critical_review
+|   |   |   \---__pycache__
+|   |   +---v500_alpha47_production_readiness
+|   |   |   \---__pycache__
+|   |   +---v500_alpha48_windows_app
+|   |   |   \---__pycache__
+|   |   +---v500_alpha48_windows_builder
+|   |   |   \---__pycache__
+|   |   +---v500_alpha48_windows_packaging
+|   |   |   \---__pycache__
+|   |   +---v500_alpha49_desktop_finalization
+|   |   |   \---__pycache__
+|   |   +---v500_alpha49_desktop_gui
+|   |   |   \---__pycache__
+|   |   +---v500_alpha49_desktop_launcher
+|   |   |   \---__pycache__
+|   |   +---v500_alpha49_native_desktop
+|   |   |   \---__pycache__
+|   |   +---v500_alpha49_windows_portable_build
+|   |   |   \---__pycache__
+|   |   +---v500_alpha4_indicator_lifecycle
+|   |   |   \---__pycache__
+|   |   +---v500_alpha50_artifact_registration
+|   |   |   \---__pycache__
+|   |   +---v500_alpha50_packaging_enablement
+|   |   |   \---__pycache__
+|   |   +---v500_alpha50_release_candidate
+|   |   |   \---__pycache__
+|   |   +---v500_alpha50_windows_exe_build
+|   |   |   \---__pycache__
+|   |   +---v500_alpha50_windows_real_exe
+|   |   |   \---__pycache__
+|   |   +---v500_alpha51_exe_smoke_build
+|   |   |   \---__pycache__
+|   |   +---v500_alpha5_indicator_release_gate
+|   |   |   \---__pycache__
+|   |   +---v500_alpha6_indicator_math
+|   |   |   \---__pycache__
+|   |   +---v500_alpha7_runtime_signal_logic
+|   |   |   \---__pycache__
+|   |   +---v500_alpha8_signal_logic_expansion
+|   |   |   \---__pycache__
+|   |   +---v500_alpha9_license_core
+|   |   |   \---__pycache__
+|   |   +---v52_alpha_apscheduler_dependency_gate
+|   |   |   \---__pycache__
+|   |   +---v52_alpha_auto_dependency_build_gate
+|   |   |   \---__pycache__
+|   |   +---v52_alpha_auto_router_lazy_service_registry
+|   |   |   \---__pycache__
+|   |   +---v52_alpha_cryptography_runtime_fix
+|   |   |   \---__pycache__
+|   |   +---v52_alpha_embedded_backend_bootstrap
+|   |   |   \---__pycache__
+|   |   +---v52_alpha_embedded_backend_health_resolver
+|   |   |   \---__pycache__
+|   |   +---v52_alpha_fastapi_staticfiles_fix
+|   |   |   \---__pycache__
+|   |   +---v52_alpha_first_real_exe_build
+|   |   |   \---__pycache__
+|   |   +---v52_alpha_force_merge_k_sqlalchemy_gate
+|   |   |   \---__pycache__
+|   |   +---v52_alpha_in_process_backend_runner
+|   |   |   \---__pycache__
+|   |   +---v52_alpha_legacy_marker_launcher_sync_diagnostics
+|   |   +---v52_alpha_native_launcher
+|   |   |   \---__pycache__
+|   |   +---v52_alpha_pydantic_settings_runtime_gate
+|   |   |   \---__pycache__
+|   |   +---v52_alpha_windows_spec_fix
+|   |   |   \---__pycache__
+|   |   +---version_v1
+|   |   |   +---application
+|   |   |   |   \---__pycache__
+|   |   |   +---domain
+|   |   |   |   \---__pycache__
+|   |   |   +---engine
+|   |   |   |   \---__pycache__
+|   |   |   \---__pycache__
+|   |   \---__pycache__
+|   +---data
+|   |   +---v21
+|   |   \---v33
+|   +---runtime_reports
+|   +---scripts
+|   \---tests
+|       +---helpers
+|       |   \---__pycache__
+|       \---__pycache__
++---build
+|   +---windows
+|   |   \---YaSara
+|   |       \---localpycs
+|   \---YaSara
++---data
+|   +---backtests
+|   +---journal
+|   +---notifications
+|   +---paper_trading
+|   +---plugin_manifests
+|   \---ykb
++---deployment
+|   +---docker
+|   +---nginx
+|   \---scripts
++---desktop
++---desktop_packaging
++---dist
+|   +---windows
+|   |   +---artifacts
+|   |   +---portable
+|   |   |   \---YaSara
+|   |   |       \---_internal
+|   |   |           +---aiosqlite
+|   |   |           +---aiosqlite-0.20.0.dist-info
+|   |   |           +---anyio
+|   |   |           +---anyio-4.14.0.dist-info
+|   |   |           |   \---licenses
+|   |   |           +---APScheduler-3.10.4.dist-info
+|   |   |           +---asyncpg
+|   |   |           |   +---pgproto
+|   |   |           |   \---protocol
+|   |   |           +---backend
+|   |   |           |   +---.pytest_cache
+|   |   |           |   |   \---v
+|   |   |           |   |       \---cache
+|   |   |           |   +---.venv
+|   |   |           |   |   +---Include
+|   |   |           |   |   |   \---site
+|   |   |           |   |   |       \---python3.12
+|   |   |           |   |   |           \---greenlet
+|   |   |           |   |   +---Lib
+|   |   |           |   |   |   \---site-packages
+|   |   |           |   |   |       +---aiosqlite
+|   |   |           |   |   |       |   +---tests
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       +---aiosqlite-0.20.0.dist-info
+|   |   |           |   |   |       +---alembic
+|   |   |           |   |   |       |   +---autogenerate
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---ddl
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---operations
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---runtime
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---script
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---templates
+|   |   |           |   |   |       |   |   +---async
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---generic
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   \---multidb
+|   |   |           |   |   |       |   |       \---__pycache__
+|   |   |           |   |   |       |   +---testing
+|   |   |           |   |   |       |   |   +---plugin
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---suite
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---util
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       +---alembic-1.14.0.dist-info
+|   |   |           |   |   |       +---annotated_types
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       +---annotated_types-0.7.0.dist-info
+|   |   |           |   |   |       |   \---licenses
+|   |   |           |   |   |       +---anyio
+|   |   |           |   |   |       |   +---abc
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---streams
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---_backends
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---_core
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       +---anyio-4.14.1.dist-info
+|   |   |           |   |   |       |   \---licenses
+|   |   |           |   |   |       +---apscheduler
+|   |   |           |   |   |       |   +---executors
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---jobstores
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---schedulers
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---triggers
+|   |   |           |   |   |       |   |   +---cron
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       +---APScheduler-3.10.4.dist-info
+|   |   |           |   |   |       +---asyncpg
+|   |   |           |   |   |       |   +---exceptions
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---pgproto
+|   |   |           |   |   |       |   |   +---codecs
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---protocol
+|   |   |           |   |   |       |   |   +---codecs
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---record
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---_testbase
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       +---asyncpg-0.30.0.dist-info
+|   |   |           |   |   |       +---bcrypt
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       +---bcrypt-4.2.1.dist-info
+|   |   |           |   |   |       +---certifi
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       +---certifi-2026.6.17.dist-info
+|   |   |           |   |   |       |   \---licenses
+|   |   |           |   |   |       +---cffi
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       +---cffi-2.0.0.dist-info
+|   |   |           |   |   |       |   \---licenses
+|   |   |           |   |   |       +---click
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       +---click-8.4.2.dist-info
+|   |   |           |   |   |       |   \---licenses
+|   |   |           |   |   |       +---colorama
+|   |   |           |   |   |       |   +---tests
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       +---colorama-0.4.6.dist-info
+|   |   |           |   |   |       |   \---licenses
+|   |   |           |   |   |       +---coverage
+|   |   |           |   |   |       |   +---htmlfiles
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       +---coverage-7.14.3.dist-info
+|   |   |           |   |   |       |   \---licenses
+|   |   |           |   |   |       +---cryptography
+|   |   |           |   |   |       |   +---hazmat
+|   |   |           |   |   |       |   |   +---backends
+|   |   |           |   |   |       |   |   |   +---openssl
+|   |   |           |   |   |       |   |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---bindings
+|   |   |           |   |   |       |   |   |   +---openssl
+|   |   |           |   |   |       |   |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   |   +---_rust
+|   |   |           |   |   |       |   |   |   |   \---openssl
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---decrepit
+|   |   |           |   |   |       |   |   |   +---ciphers
+|   |   |           |   |   |       |   |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---primitives
+|   |   |           |   |   |       |   |   |   +---asymmetric
+|   |   |           |   |   |       |   |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   |   +---ciphers
+|   |   |           |   |   |       |   |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   |   +---kdf
+|   |   |           |   |   |       |   |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   |   +---serialization
+|   |   |           |   |   |       |   |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   |   +---twofactor
+|   |   |           |   |   |       |   |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---x509
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       +---cryptography-43.0.3.dist-info
+|   |   |           |   |   |       |   \---license_files
+|   |   |           |   |   |       +---dns
+|   |   |           |   |   |       |   +---dnssecalgs
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---quic
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---rdtypes
+|   |   |           |   |   |       |   |   +---ANY
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---CH
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---IN
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       +---dnspython-2.8.0.dist-info
+|   |   |           |   |   |       |   \---licenses
+|   |   |           |   |   |       +---dotenv
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       +---email_validator
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       +---email_validator-2.2.0.dist-info
+|   |   |           |   |   |       +---fastapi
+|   |   |           |   |   |       |   +---dependencies
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---middleware
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---openapi
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---security
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       +---fastapi-0.115.5.dist-info
+|   |   |           |   |   |       |   \---licenses
+|   |   |           |   |   |       +---greenlet
+|   |   |           |   |   |       |   +---platform
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---tests
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       +---greenlet-3.5.3.dist-info
+|   |   |           |   |   |       |   \---licenses
+|   |   |           |   |   |       +---h11
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       +---h11-0.16.0.dist-info
+|   |   |           |   |   |       |   \---licenses
+|   |   |           |   |   |       +---httpcore
+|   |   |           |   |   |       |   +---_async
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---_backends
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---_sync
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       +---httpcore-1.0.9.dist-info
+|   |   |           |   |   |       |   \---licenses
+|   |   |           |   |   |       +---httptools
+|   |   |           |   |   |       |   +---parser
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       +---httptools-0.8.0.dist-info
+|   |   |           |   |   |       |   \---licenses
+|   |   |           |   |   |       |       \---vendor
+|   |   |           |   |   |       |           +---http-parser
+|   |   |           |   |   |       |           \---llhttp
+|   |   |           |   |   |       +---httpx
+|   |   |           |   |   |       |   +---_transports
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       +---httpx-0.28.1.dist-info
+|   |   |           |   |   |       |   \---licenses
+|   |   |           |   |   |       +---idna
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       +---idna-3.18.dist-info
+|   |   |           |   |   |       |   \---licenses
+|   |   |           |   |   |       +---iniconfig
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       +---iniconfig-2.3.0.dist-info
+|   |   |           |   |   |       |   \---licenses
+|   |   |           |   |   |       +---jwt
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       +---mako
+|   |   |           |   |   |       |   +---ext
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---testing
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       +---mako-1.3.12.dist-info
+|   |   |           |   |   |       |   \---licenses
+|   |   |           |   |   |       +---markupsafe
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       +---markupsafe-3.0.3.dist-info
+|   |   |           |   |   |       |   \---licenses
+|   |   |           |   |   |       +---orjson
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       +---orjson-3.10.12.dist-info
+|   |   |           |   |   |       |   \---licenses
+|   |   |           |   |   |       +---packaging
+|   |   |           |   |   |       |   +---licenses
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       +---packaging-26.2.dist-info
+|   |   |           |   |   |       |   \---licenses
+|   |   |           |   |   |       +---pip
+|   |   |           |   |   |       |   +---_internal
+|   |   |           |   |   |       |   |   +---cli
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---commands
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---distributions
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---index
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---locations
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---metadata
+|   |   |           |   |   |       |   |   |   +---importlib
+|   |   |           |   |   |       |   |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---models
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---network
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---operations
+|   |   |           |   |   |       |   |   |   +---build
+|   |   |           |   |   |       |   |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   |   +---install
+|   |   |           |   |   |       |   |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---req
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---resolution
+|   |   |           |   |   |       |   |   |   +---legacy
+|   |   |           |   |   |       |   |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   |   +---resolvelib
+|   |   |           |   |   |       |   |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---utils
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---vcs
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---_vendor
+|   |   |           |   |   |       |   |   +---cachecontrol
+|   |   |           |   |   |       |   |   |   +---caches
+|   |   |           |   |   |       |   |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---certifi
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---distlib
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---distro
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---idna
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---msgpack
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---packaging
+|   |   |           |   |   |       |   |   |   +---licenses
+|   |   |           |   |   |       |   |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---pkg_resources
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---platformdirs
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---pygments
+|   |   |           |   |   |       |   |   |   +---filters
+|   |   |           |   |   |       |   |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   |   +---formatters
+|   |   |           |   |   |       |   |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   |   +---lexers
+|   |   |           |   |   |       |   |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   |   +---styles
+|   |   |           |   |   |       |   |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---pyproject_hooks
+|   |   |           |   |   |       |   |   |   +---_in_process
+|   |   |           |   |   |       |   |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---requests
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---resolvelib
+|   |   |           |   |   |       |   |   |   +---resolvers
+|   |   |           |   |   |       |   |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---rich
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---tomli
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---tomli_w
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---truststore
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---urllib3
+|   |   |           |   |   |       |   |   |   +---contrib
+|   |   |           |   |   |       |   |   |   |   +---emscripten
+|   |   |           |   |   |       |   |   |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   |   +---http2
+|   |   |           |   |   |       |   |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   |   +---util
+|   |   |           |   |   |       |   |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       +---pip-26.1.2.dist-info
+|   |   |           |   |   |       |   \---licenses
+|   |   |           |   |   |       |       \---src
+|   |   |           |   |   |       |           \---pip
+|   |   |           |   |   |       |               \---_vendor
+|   |   |           |   |   |       |                   +---cachecontrol
+|   |   |           |   |   |       |                   +---certifi
+|   |   |           |   |   |       |                   +---distlib
+|   |   |           |   |   |       |                   +---distro
+|   |   |           |   |   |       |                   +---idna
+|   |   |           |   |   |       |                   +---msgpack
+|   |   |           |   |   |       |                   +---packaging
+|   |   |           |   |   |       |                   +---pkg_resources
+|   |   |           |   |   |       |                   +---platformdirs
+|   |   |           |   |   |       |                   +---pygments
+|   |   |           |   |   |       |                   +---pyproject_hooks
+|   |   |           |   |   |       |                   +---requests
+|   |   |           |   |   |       |                   +---resolvelib
+|   |   |           |   |   |       |                   +---rich
+|   |   |           |   |   |       |                   +---tomli
+|   |   |           |   |   |       |                   +---tomli_w
+|   |   |           |   |   |       |                   +---truststore
+|   |   |           |   |   |       |                   \---urllib3
+|   |   |           |   |   |       +---pluggy
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       +---pluggy-1.6.0.dist-info
+|   |   |           |   |   |       |   \---licenses
+|   |   |           |   |   |       +---pycparser
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       +---pycparser-3.0.dist-info
+|   |   |           |   |   |       |   \---licenses
+|   |   |           |   |   |       +---pydantic
+|   |   |           |   |   |       |   +---deprecated
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---experimental
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---plugin
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---v1
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---_internal
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       +---pydantic-2.10.3.dist-info
+|   |   |           |   |   |       |   \---licenses
+|   |   |           |   |   |       +---pydantic_core
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       +---pydantic_core-2.27.1.dist-info
+|   |   |           |   |   |       |   \---licenses
+|   |   |           |   |   |       +---pydantic_settings
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       +---pydantic_settings-2.6.1.dist-info
+|   |   |           |   |   |       |   \---licenses
+|   |   |           |   |   |       +---PyJWT-2.10.1.dist-info
+|   |   |           |   |   |       +---pytest
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       +---pytest-8.3.4.dist-info
+|   |   |           |   |   |       +---pytest_asyncio
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       +---pytest_asyncio-0.24.0.dist-info
+|   |   |           |   |   |       +---pytest_cov
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       +---pytest_cov-6.0.0.dist-info
+|   |   |           |   |   |       +---python_dotenv-1.0.1.dist-info
+|   |   |           |   |   |       +---pytz
+|   |   |           |   |   |       |   +---zoneinfo
+|   |   |           |   |   |       |   |   +---Africa
+|   |   |           |   |   |       |   |   +---America
+|   |   |           |   |   |       |   |   |   +---Argentina
+|   |   |           |   |   |       |   |   |   +---Indiana
+|   |   |           |   |   |       |   |   |   +---Kentucky
+|   |   |           |   |   |       |   |   |   \---North_Dakota
+|   |   |           |   |   |       |   |   +---Antarctica
+|   |   |           |   |   |       |   |   +---Arctic
+|   |   |           |   |   |       |   |   +---Asia
+|   |   |           |   |   |       |   |   +---Atlantic
+|   |   |           |   |   |       |   |   +---Australia
+|   |   |           |   |   |       |   |   +---Brazil
+|   |   |           |   |   |       |   |   +---Canada
+|   |   |           |   |   |       |   |   +---Chile
+|   |   |           |   |   |       |   |   +---Etc
+|   |   |           |   |   |       |   |   +---Europe
+|   |   |           |   |   |       |   |   +---Indian
+|   |   |           |   |   |       |   |   +---Mexico
+|   |   |           |   |   |       |   |   +---Pacific
+|   |   |           |   |   |       |   |   \---US
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       +---pytz-2026.2.dist-info
+|   |   |           |   |   |       +---pyyaml-6.0.3.dist-info
+|   |   |           |   |   |       |   \---licenses
+|   |   |           |   |   |       +---ruff
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       +---ruff-0.8.4.dist-info
+|   |   |           |   |   |       |   \---licenses
+|   |   |           |   |   |       +---six-1.17.0.dist-info
+|   |   |           |   |   |       +---sqlalchemy
+|   |   |           |   |   |       |   +---connectors
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---cyextension
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---dialects
+|   |   |           |   |   |       |   |   +---mssql
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---mysql
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---oracle
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---postgresql
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---sqlite
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---engine
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---event
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---ext
+|   |   |           |   |   |       |   |   +---asyncio
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---declarative
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---mypy
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---future
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---orm
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---pool
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---sql
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---testing
+|   |   |           |   |   |       |   |   +---fixtures
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---plugin
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---suite
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---util
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       +---SQLAlchemy-2.0.36.dist-info
+|   |   |           |   |   |       +---starlette
+|   |   |           |   |   |       |   +---middleware
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       +---starlette-0.41.3.dist-info
+|   |   |           |   |   |       |   \---licenses
+|   |   |           |   |   |       +---typing_extensions-4.15.0.dist-info
+|   |   |           |   |   |       |   \---licenses
+|   |   |           |   |   |       +---tzdata
+|   |   |           |   |   |       |   +---zoneinfo
+|   |   |           |   |   |       |   |   +---Africa
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---America
+|   |   |           |   |   |       |   |   |   +---Argentina
+|   |   |           |   |   |       |   |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   |   +---Indiana
+|   |   |           |   |   |       |   |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   |   +---Kentucky
+|   |   |           |   |   |       |   |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   |   +---North_Dakota
+|   |   |           |   |   |       |   |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---Antarctica
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---Arctic
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---Asia
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---Atlantic
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---Australia
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---Brazil
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---Canada
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---Chile
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---Etc
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---Europe
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---Indian
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---Mexico
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---Pacific
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---US
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       +---tzdata-2026.2.dist-info
+|   |   |           |   |   |       |   \---licenses
+|   |   |           |   |   |       |       \---licenses
+|   |   |           |   |   |       +---tzlocal
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       +---tzlocal-5.4.4.dist-info
+|   |   |           |   |   |       |   \---licenses
+|   |   |           |   |   |       +---uvicorn
+|   |   |           |   |   |       |   +---lifespan
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---loops
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---middleware
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---protocols
+|   |   |           |   |   |       |   |   +---http
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   +---websockets
+|   |   |           |   |   |       |   |   |   \---__pycache__
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---supervisors
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       +---uvicorn-0.32.1.dist-info
+|   |   |           |   |   |       |   \---licenses
+|   |   |           |   |   |       +---watchfiles
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       +---watchfiles-1.2.0.dist-info
+|   |   |           |   |   |       |   +---licenses
+|   |   |           |   |   |       |   \---sboms
+|   |   |           |   |   |       +---websockets
+|   |   |           |   |   |       |   +---asyncio
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---extensions
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---legacy
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---sync
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       +---websockets-14.1.dist-info
+|   |   |           |   |   |       +---yaml
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       +---_pytest
+|   |   |           |   |   |       |   +---assertion
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---config
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---mark
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---_code
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---_io
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   +---_py
+|   |   |           |   |   |       |   |   \---__pycache__
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       +---_yaml
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       \---__pycache__
+|   |   |           |   |   \---Scripts
+|   |   |           |   +---alembic
+|   |   |           |   |   \---versions
+|   |   |           |   +---app
+|   |   |           |   |   +---account_sync_v1
+|   |   |           |   |   |   +---application
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---domain
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---engine
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---ai_trading_v1
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---api
+|   |   |           |   |   |   \---v1
+|   |   |           |   |   |       +---routes
+|   |   |           |   |   |       |   \---__pycache__
+|   |   |           |   |   |       \---__pycache__
+|   |   |           |   |   +---archive_handoff_v1
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---backtest_v1
+|   |   |           |   |   |   +---application
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---domain
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---engine
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---cloud_v1
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---connectivity_v1
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---consolidation_v1
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---core
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---dashboard_v1
+|   |   |           |   |   |   +---application
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---domain
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---engine
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---decision_v1
+|   |   |           |   |   |   +---application
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---domain
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---engine
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---desktop_ui_v1
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---enterprise_v1
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---exchange_private_v1
+|   |   |           |   |   |   +---application
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---domain
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---engine
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---infrastructure
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---execution_v1
+|   |   |           |   |   |   +---application
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---domain
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---engine
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---infrastructure
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---final_closeout_v1
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---final_delivery_pack_v1
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---final_docs_qa_v1
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---final_export_scripts_v1
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---final_export_v1
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---final_integration_v1
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---final_operations_v1
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---final_package_v1
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---final_release_engineering_v1
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---final_release_v1
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---infrastructure
+|   |   |           |   |   |   \---db
+|   |   |           |   |   |       \---__pycache__
+|   |   |           |   |   +---intelligence_v1
+|   |   |           |   |   |   +---application
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---domain
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---engine
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---market_data
+|   |   |           |   |   |   +---application
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---domain
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---infrastructure
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---market_tools_v1
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---mobile_v1
+|   |   |           |   |   |   +---application
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---domain
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---engine
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---repository
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---multi_exchange_v1
+|   |   |           |   |   |   +---adapters
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---application
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---clients
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---domain
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---notifications_v1
+|   |   |           |   |   |   +---application
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---domain
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---engine
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---infrastructure
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---paper_trading_v1
+|   |   |           |   |   |   +---application
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---domain
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---engine
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---platform_core
+|   |   |           |   |   |   +---ai_decision
+|   |   |           |   |   |   |   +---enterprise
+|   |   |           |   |   |   |   |   \---__pycache__
+|   |   |           |   |   |   |   +---integration
+|   |   |           |   |   |   |   |   \---__pycache__
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---ai_intelligence
+|   |   |           |   |   |   |   +---enterprise
+|   |   |           |   |   |   |   |   \---__pycache__
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---alert_engine
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---api_health
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---api_routing
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---api_search
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---apscheduler_dependency_gate
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---auto_dependency_discovery_build_gate
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---auto_router_lazy_service_registry
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---auto_router_registry
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---backtest_engine
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---broker
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---broker_layer
+|   |   |           |   |   |   |   +---enterprise
+|   |   |           |   |   |   |   |   \---__pycache__
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---build_dashboard
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---build_pipeline
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---ci_pipeline
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---config_center
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---contracts
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---cryptography_runtime_dependency_fix
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---desktop_app
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---desktop_finalization
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---desktop_gui
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---desktop_launcher
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---diagnostics
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---embedded_backend_bootstrap
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---embedded_backend_health_resolver
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---enterprise_cache
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---enterprise_queue
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---enterprise_scheduler
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---enterprise_storage
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---exchanges
+|   |   |           |   |   |   |   +---sdk
+|   |   |           |   |   |   |   |   \---__pycache__
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---exchange_layer
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---execution_engine
+|   |   |           |   |   |   |   +---enterprise
+|   |   |           |   |   |   |   |   \---__pycache__
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---extension_host
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---fastapi_staticfiles_hidden_import_fix
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---first_real_exe_build
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---force_merge_k_sqlalchemy_gate
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---governance
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---indicators
+|   |   |           |   |   |   |   +---alerts
+|   |   |           |   |   |   |   |   \---__pycache__
+|   |   |           |   |   |   |   +---bridges
+|   |   |           |   |   |   |   |   \---__pycache__
+|   |   |           |   |   |   |   +---handoff
+|   |   |           |   |   |   |   |   \---__pycache__
+|   |   |           |   |   |   |   +---lifecycle
+|   |   |           |   |   |   |   |   \---__pycache__
+|   |   |           |   |   |   |   +---marketplace
+|   |   |           |   |   |   |   |   \---__pycache__
+|   |   |           |   |   |   |   +---math_runtime
+|   |   |           |   |   |   |   |   \---__pycache__
+|   |   |           |   |   |   |   +---pine_source
+|   |   |           |   |   |   |   |   \---__pycache__
+|   |   |           |   |   |   |   +---readiness
+|   |   |           |   |   |   |   |   \---__pycache__
+|   |   |           |   |   |   |   +---release_gate
+|   |   |           |   |   |   |   |   \---__pycache__
+|   |   |           |   |   |   |   +---runtime
+|   |   |           |   |   |   |   |   \---__pycache__
+|   |   |           |   |   |   |   +---sandbox
+|   |   |           |   |   |   |   |   \---__pycache__
+|   |   |           |   |   |   |   +---scanner
+|   |   |           |   |   |   |   |   \---__pycache__
+|   |   |           |   |   |   |   +---settings
+|   |   |           |   |   |   |   |   \---__pycache__
+|   |   |           |   |   |   |   +---signal_logic
+|   |   |           |   |   |   |   |   \---__pycache__
+|   |   |           |   |   |   |   +---signal_logic_expansion
+|   |   |           |   |   |   |   |   \---__pycache__
+|   |   |           |   |   |   |   +---v5_expansion
+|   |   |           |   |   |   |   |   \---__pycache__
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---in_process_backend_runner
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---kernel
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---legacy_marker_launcher_sync_diagnostics
+|   |   |           |   |   |   +---licensing
+|   |   |           |   |   |   |   +---activation
+|   |   |           |   |   |   |   |   \---__pycache__
+|   |   |           |   |   |   |   +---enforcement
+|   |   |           |   |   |   |   |   \---__pycache__
+|   |   |           |   |   |   |   +---manager
+|   |   |           |   |   |   |   |   \---__pycache__
+|   |   |           |   |   |   |   +---readiness
+|   |   |           |   |   |   |   |   \---__pycache__
+|   |   |           |   |   |   |   +---ui
+|   |   |           |   |   |   |   |   \---__pycache__
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---live_data_pipeline
+|   |   |           |   |   |   |   +---enterprise
+|   |   |           |   |   |   |   |   \---__pycache__
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---market_data
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---native_desktop
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---native_windows_launcher
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---operations
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---optimizer
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---optimizer_pro
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---patching
+|   |   |           |   |   |   |   +---self_healing
+|   |   |           |   |   |   |   |   \---__pycache__
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---patch_orchestrator
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---patch_runner_definitive
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---plugin_sdk
+|   |   |           |   |   |   |   +---enterprise
+|   |   |           |   |   |   |   |   \---__pycache__
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---portfolio_intelligence
+|   |   |           |   |   |   |   +---enterprise
+|   |   |           |   |   |   |   |   \---__pycache__
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---portfolio_manager
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---production_readiness
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---production_runtime
+|   |   |           |   |   |   |   +---enterprise
+|   |   |           |   |   |   |   |   \---__pycache__
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---project_intelligence
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---pydantic_settings_runtime_gate
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---release
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---release_candidate
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---release_registry
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---replay_engine
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---risk_engine
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---router_auto_registration
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---runtime_api_smoke
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---scanner
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---sdk
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---services
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---service_registry
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---simple_patch_runner
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---stabilization
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---startup
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---state
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---strategy_engine
+|   |   |           |   |   |   |   +---enterprise
+|   |   |           |   |   |   |   |   \---__pycache__
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---version_migration
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---windows_app
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---windows_artifact_registration
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---windows_builder
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---windows_exe_build
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---windows_exe_smoke_build
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---windows_packaging
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---windows_packaging_enablement
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---windows_portable_build
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---windows_real_exe
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---windows_spec_fix
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---portfolio_v1
+|   |   |           |   |   |   +---application
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---domain
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---engine
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---production_ai_v1
+|   |   |           |   |   |   +---application
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---domain
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---engine
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---repository
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---production_freeze_v1
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---production_packaging_v1
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---productivity_v1
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---project_end_v1
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---rc1_hardening_v1
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---rc1_v1
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---release_pro_v1
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---release_v1
+|   |   |           |   |   |   +---application
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---domain
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---engine
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---risk_v1
+|   |   |           |   |   |   +---application
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---domain
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---engine
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---secrets_v1
+|   |   |           |   |   |   +---application
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---domain
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---engine
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---repository
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---stable_release_v1
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---static
+|   |   |           |   |   |   \---dashboard
+|   |   |           |   |   +---strategy_builder_v1
+|   |   |           |   |   |   +---application
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---domain
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---engine
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---repository
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v11_ai_market_intelligence
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v11_alerts
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v11_backtest_replay
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v11_dashboard_runtime
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v11_distribution
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v11_exchange_connectivity
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v11_final_release
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v11_market_data
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v11_operations
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v11_paper_trading
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v11_release_candidate
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v11_risk_control
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v11_strategy_runtime
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v12_dashboard
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v12_market_workspace
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v12_portfolio_orders
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v12_realtime_intelligence
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v12_trading_terminal
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v12_workspace_polish
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v20_final_release
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v21_real_data
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v22_market_engine
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v23_exchange_connector
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v24_indicator_signal
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v25_risk_backtest_paper
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v26_final_operational
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v27_distribution
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v31_live_exchange
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v32_advanced_ai_indicators
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v33_strategy_builder
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v34_market_analysis
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v351_constitution_audit
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v35_smart_money
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v361_phase_a_guardrails
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v362_project_cli
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v36_phase_a_meta_ykb
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v40_market_context
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v410_market_structure_sprint2
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v411_smart_money_pro
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v412_smart_money_pro_sprint2
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v413_ict_engine
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v414_ai_fusion
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v415_engine_registry_pro
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v415_neowave
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v416_neowave_sprint2
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v417_elliott
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v418_launcher
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v4191_premium_dashboard
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v419_ui_workspace
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v41_indicator_engine
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v420_trading_workspace
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v4211_frontend_compatibility
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v421_market_structure_pro
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v423_plugin_catalog
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v424_plugin_registry_sync
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v425_policy_gate
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v426_platform_contracts_sdk
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v427_extension_host
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v428_plugin_state_snapshot
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v429_timezone_runtime
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v42_signal_engine
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v430_platform_diagnostics
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v431_release_readiness
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v432_platform_versioning
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v433_operations_runbook
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v434_observability
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v435_configuration_center
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v436_enterprise_scheduler
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v437_enterprise_queue
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v438_enterprise_cache
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v439_enterprise_storage
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v43_risk_engine
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v441_yasara_indicator
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v442_indicator_chart_integration
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v443_indicator_runtime_adapter
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v444_indicator_pine_source
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v445_indicator_engine_bridge
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v446_indicator_scanner_watchlist
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v447_indicator_alert_notification
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v448_indicator_settings_presets
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v449_indicator_final_readiness
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v44_backtest_benchmark
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v450_indicator_platform_handoff
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v45_paper_trading
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v46_trading_journal
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v47_notification_alerts
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v48_production_readiness
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v49_market_structure
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha10_license_enforcement
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha11_license_activation
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha12_license_manager
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha13_license_ui
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha14_license_readiness
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha15_market_data
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha16_exchange_connector
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha17_api_health
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha18_exchange_sdk
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha19_auto_router
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha1_indicator_expansion
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha20_launcher_api_search
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha21_patch_pipeline
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha22_broker_layer
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha23_risk_engine
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha24_runtime_api_smoke
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha25_self_healing_patch_pipeline
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha26_portfolio_manager
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha27_scanner
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha28_alert_engine
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha29_backtest_engine
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha2_indicator_marketplace
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha30_1_router_auto_registration
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha30_replay_engine
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha31_1_patch_orchestrator
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha31_optimizer
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha32_1_definitive_patch_runner
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha32_strategy_optimizer_pro
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha33_1_simple_patch_runner
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha33_ai_decision_core
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha33_ai_decision_enterprise
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha33_ai_decision_integration
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha33_ai_decision_services
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha34_0_auto_router_registry
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha34_1_router_proof
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha35_portfolio_ai_optimization
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha35_portfolio_analytics_risk
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha35_portfolio_enterprise
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha35_portfolio_intelligence_core
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha36_plugin_enterprise
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha36_plugin_runtime_sandbox
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha36_plugin_sdk_core
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha36_plugin_versioning
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha37_broker_connectivity
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha37_broker_core
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha37_broker_enterprise
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha37_broker_orders_account
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha38_exchange_connectivity
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha38_exchange_core
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha38_exchange_market_data
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha39_live_data_cache
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha39_live_data_core
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha39_live_data_enterprise
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha39_live_stream_manager
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha3_indicator_sandbox
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha40_ai_agent_runtime
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha40_ai_core
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha40_ai_enterprise
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha40_ai_memory_context
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha40_ai_orchestration
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha41_strategy_allocation
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha41_strategy_core
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha41_strategy_enterprise
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha41_strategy_scoring
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha41_strategy_simulation
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha42_execution_analytics
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha42_execution_core
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha42_execution_enterprise
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha42_execution_lifecycle
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha42_order_routing
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha43_broker_account
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha43_broker_core
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha43_broker_monitoring
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha43_broker_order
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha44_build_intelligence
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha44_desktop_dashboard
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha44_live_dashboard
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha44_pic_core
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha44_pic_enterprise
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha45_runtime_core
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha45_runtime_diagnostics
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha45_runtime_enterprise
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha45_runtime_lifecycle
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha45_runtime_services
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha46_core_stabilization
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha46_desktop_dashboard_intelligence
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha46_desktop_foundation
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha46_desktop_host
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha46_desktop_ui
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha46_workspace_navigation
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha47_artifact_release
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha47_build_dashboard
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha47_build_pipeline
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha47_ci_pipeline
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha47_critical_review
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha47_production_readiness
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha48_windows_app
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha48_windows_builder
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha48_windows_packaging
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha49_desktop_finalization
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha49_desktop_gui
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha49_desktop_launcher
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha49_native_desktop
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha49_windows_portable_build
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha4_indicator_lifecycle
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha50_artifact_registration
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha50_packaging_enablement
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha50_release_candidate
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha50_windows_exe_build
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha50_windows_real_exe
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha51_exe_smoke_build
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha5_indicator_release_gate
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha6_indicator_math
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha7_runtime_signal_logic
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha8_signal_logic_expansion
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v500_alpha9_license_core
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v52_alpha_apscheduler_dependency_gate
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v52_alpha_auto_dependency_build_gate
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v52_alpha_auto_router_lazy_service_registry
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v52_alpha_cryptography_runtime_fix
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v52_alpha_embedded_backend_bootstrap
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v52_alpha_embedded_backend_health_resolver
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v52_alpha_fastapi_staticfiles_fix
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v52_alpha_first_real_exe_build
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v52_alpha_force_merge_k_sqlalchemy_gate
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v52_alpha_in_process_backend_runner
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v52_alpha_legacy_marker_launcher_sync_diagnostics
+|   |   |           |   |   +---v52_alpha_native_launcher
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v52_alpha_pydantic_settings_runtime_gate
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---v52_alpha_windows_spec_fix
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   +---version_v1
+|   |   |           |   |   |   +---application
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---domain
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   +---engine
+|   |   |           |   |   |   |   \---__pycache__
+|   |   |           |   |   |   \---__pycache__
+|   |   |           |   |   \---__pycache__
+|   |   |           |   +---data
+|   |   |           |   |   +---v21
+|   |   |           |   |   \---v33
+|   |   |           |   +---runtime_reports
+|   |   |           |   +---scripts
+|   |   |           |   \---tests
+|   |   |           |       +---helpers
+|   |   |           |       |   \---__pycache__
+|   |   |           |       \---__pycache__
+|   |   |           +---bcrypt
+|   |   |           +---certifi
+|   |   |           +---certifi-2026.5.20.dist-info
+|   |   |           |   \---licenses
+|   |   |           +---charset_normalizer
+|   |   |           +---click-8.4.1.dist-info
+|   |   |           |   \---licenses
+|   |   |           +---cryptography
+|   |   |           |   \---hazmat
+|   |   |           |       \---bindings
+|   |   |           |           \---_rust
+|   |   |           |               \---openssl
+|   |   |           +---cryptography-48.0.0.dist-info
+|   |   |           |   +---licenses
+|   |   |           |   \---sboms
+|   |   |           +---desktop
+|   |   |           +---dns
+|   |   |           +---dotenv
+|   |   |           +---email_validator-2.2.0.dist-info
+|   |   |           +---fastapi
+|   |   |           +---fastapi-0.115.5.dist-info
+|   |   |           |   \---licenses
+|   |   |           +---frontend
+|   |   |           |   +---node_modules
+|   |   |           |   |   +---.bin
+|   |   |           |   |   +---.vite
+|   |   |           |   |   |   \---deps
+|   |   |           |   |   +---@babel
+|   |   |           |   |   |   +---code-frame
+|   |   |           |   |   |   |   \---lib
+|   |   |           |   |   |   +---compat-data
+|   |   |           |   |   |   |   \---data
+|   |   |           |   |   |   +---core
+|   |   |           |   |   |   |   +---lib
+|   |   |           |   |   |   |   |   +---config
+|   |   |           |   |   |   |   |   |   +---files
+|   |   |           |   |   |   |   |   |   +---helpers
+|   |   |           |   |   |   |   |   |   \---validation
+|   |   |           |   |   |   |   |   +---errors
+|   |   |           |   |   |   |   |   +---gensync-utils
+|   |   |           |   |   |   |   |   +---parser
+|   |   |           |   |   |   |   |   |   \---util
+|   |   |           |   |   |   |   |   +---tools
+|   |   |           |   |   |   |   |   +---transformation
+|   |   |           |   |   |   |   |   |   +---file
+|   |   |           |   |   |   |   |   |   \---util
+|   |   |           |   |   |   |   |   \---vendor
+|   |   |           |   |   |   |   \---src
+|   |   |           |   |   |   |       +---config
+|   |   |           |   |   |   |       |   \---files
+|   |   |           |   |   |   |       \---transformation
+|   |   |           |   |   |   +---generator
+|   |   |           |   |   |   |   \---lib
+|   |   |           |   |   |   |       +---generators
+|   |   |           |   |   |   |       \---node
+|   |   |           |   |   |   +---helper-compilation-targets
+|   |   |           |   |   |   |   \---lib
+|   |   |           |   |   |   +---helper-globals
+|   |   |           |   |   |   |   \---data
+|   |   |           |   |   |   +---helper-module-imports
+|   |   |           |   |   |   |   \---lib
+|   |   |           |   |   |   +---helper-module-transforms
+|   |   |           |   |   |   |   \---lib
+|   |   |           |   |   |   +---helper-plugin-utils
+|   |   |           |   |   |   |   \---lib
+|   |   |           |   |   |   +---helper-string-parser
+|   |   |           |   |   |   |   \---lib
+|   |   |           |   |   |   +---helper-validator-identifier
+|   |   |           |   |   |   |   \---lib
+|   |   |           |   |   |   +---helper-validator-option
+|   |   |           |   |   |   |   \---lib
+|   |   |           |   |   |   +---helpers
+|   |   |           |   |   |   |   \---lib
+|   |   |           |   |   |   |       \---helpers
+|   |   |           |   |   |   +---parser
+|   |   |           |   |   |   |   +---bin
+|   |   |           |   |   |   |   +---lib
+|   |   |           |   |   |   |   \---typings
+|   |   |           |   |   |   +---plugin-transform-react-jsx-self
+|   |   |           |   |   |   |   \---lib
+|   |   |           |   |   |   +---plugin-transform-react-jsx-source
+|   |   |           |   |   |   |   \---lib
+|   |   |           |   |   |   +---template
+|   |   |           |   |   |   |   \---lib
+|   |   |           |   |   |   +---traverse
+|   |   |           |   |   |   |   \---lib
+|   |   |           |   |   |   |       +---path
+|   |   |           |   |   |   |       |   +---inference
+|   |   |           |   |   |   |       |   \---lib
+|   |   |           |   |   |   |       \---scope
+|   |   |           |   |   |   |           \---lib
+|   |   |           |   |   |   \---types
+|   |   |           |   |   |       \---lib
+|   |   |           |   |   |           +---asserts
+|   |   |           |   |   |           |   \---generated
+|   |   |           |   |   |           +---ast-types
+|   |   |           |   |   |           |   \---generated
+|   |   |           |   |   |           +---builders
+|   |   |           |   |   |           |   +---flow
+|   |   |           |   |   |           |   +---generated
+|   |   |           |   |   |           |   +---react
+|   |   |           |   |   |           |   \---typescript
+|   |   |           |   |   |           +---clone
+|   |   |           |   |   |           +---comments
+|   |   |           |   |   |           +---constants
+|   |   |           |   |   |           |   \---generated
+|   |   |           |   |   |           +---converters
+|   |   |           |   |   |           +---definitions
+|   |   |           |   |   |           +---modifications
+|   |   |           |   |   |           |   +---flow
+|   |   |           |   |   |           |   \---typescript
+|   |   |           |   |   |           +---retrievers
+|   |   |           |   |   |           +---traverse
+|   |   |           |   |   |           +---utils
+|   |   |           |   |   |           |   \---react
+|   |   |           |   |   |           \---validators
+|   |   |           |   |   |               +---generated
+|   |   |           |   |   |               \---react
+|   |   |           |   |   +---@esbuild
+|   |   |           |   |   |   \---win32-x64
+|   |   |           |   |   +---@jridgewell
+|   |   |           |   |   |   +---gen-mapping
+|   |   |           |   |   |   |   +---dist
+|   |   |           |   |   |   |   |   \---types
+|   |   |           |   |   |   |   +---src
+|   |   |           |   |   |   |   \---types
+|   |   |           |   |   |   +---remapping
+|   |   |           |   |   |   |   +---dist
+|   |   |           |   |   |   |   +---src
+|   |   |           |   |   |   |   \---types
+|   |   |           |   |   |   +---resolve-uri
+|   |   |           |   |   |   |   \---dist
+|   |   |           |   |   |   |       \---types
+|   |   |           |   |   |   +---sourcemap-codec
+|   |   |           |   |   |   |   +---dist
+|   |   |           |   |   |   |   +---src
+|   |   |           |   |   |   |   \---types
+|   |   |           |   |   |   \---trace-mapping
+|   |   |           |   |   |       +---dist
+|   |   |           |   |   |       +---src
+|   |   |           |   |   |       \---types
+|   |   |           |   |   +---@rolldown
+|   |   |           |   |   |   \---pluginutils
+|   |   |           |   |   |       \---dist
+|   |   |           |   |   +---@rollup
+|   |   |           |   |   |   +---rollup-win32-x64-gnu
+|   |   |           |   |   |   \---rollup-win32-x64-msvc
+|   |   |           |   |   +---@types
+|   |   |           |   |   |   +---babel__core
+|   |   |           |   |   |   +---babel__generator
+|   |   |           |   |   |   +---babel__template
+|   |   |           |   |   |   +---babel__traverse
+|   |   |           |   |   |   \---estree
+|   |   |           |   |   +---@vitejs
+|   |   |           |   |   |   \---plugin-react
+|   |   |           |   |   |       \---dist
+|   |   |           |   |   +---baseline-browser-mapping
+|   |   |           |   |   |   \---dist
+|   |   |           |   |   +---browserslist
+|   |   |           |   |   +---caniuse-lite
+|   |   |           |   |   |   +---data
+|   |   |           |   |   |   |   +---features
+|   |   |           |   |   |   |   \---regions
+|   |   |           |   |   |   \---dist
+|   |   |           |   |   |       +---lib
+|   |   |           |   |   |       \---unpacker
+|   |   |           |   |   +---convert-source-map
+|   |   |           |   |   +---debug
+|   |   |           |   |   |   \---src
+|   |   |           |   |   +---electron-to-chromium
+|   |   |           |   |   +---esbuild
+|   |   |           |   |   |   +---bin
+|   |   |           |   |   |   \---lib
+|   |   |           |   |   +---escalade
+|   |   |           |   |   |   +---dist
+|   |   |           |   |   |   \---sync
+|   |   |           |   |   +---fancy-canvas
+|   |   |           |   |   +---fdir
+|   |   |           |   |   |   \---dist
+|   |   |           |   |   +---gensync
+|   |   |           |   |   |   \---test
+|   |   |           |   |   +---js-tokens
+|   |   |           |   |   +---jsesc
+|   |   |           |   |   |   +---bin
+|   |   |           |   |   |   \---man
+|   |   |           |   |   +---json5
+|   |   |           |   |   |   +---dist
+|   |   |           |   |   |   \---lib
+|   |   |           |   |   +---lightweight-charts
+|   |   |           |   |   |   \---dist
+|   |   |           |   |   +---lru-cache
+|   |   |           |   |   +---lucide-react
+|   |   |           |   |   |   \---dist
+|   |   |           |   |   |       +---cjs
+|   |   |           |   |   |       +---esm
+|   |   |           |   |   |       |   +---icons
+|   |   |           |   |   |       |   \---shared
+|   |   |           |   |   |       |       \---src
+|   |   |           |   |   |       \---umd
+|   |   |           |   |   +---ms
+|   |   |           |   |   +---nanoid
+|   |   |           |   |   |   +---async
+|   |   |           |   |   |   +---bin
+|   |   |           |   |   |   +---non-secure
+|   |   |           |   |   |   \---url-alphabet
+|   |   |           |   |   +---node-releases
+|   |   |           |   |   |   \---data
+|   |   |           |   |   |       +---processed
+|   |   |           |   |   |       \---release-schedule
+|   |   |           |   |   +---picocolors
+|   |   |           |   |   +---picomatch
+|   |   |           |   |   |   \---lib
+|   |   |           |   |   +---postcss
+|   |   |           |   |   |   \---lib
+|   |   |           |   |   +---react
+|   |   |           |   |   |   \---cjs
+|   |   |           |   |   +---react-dom
+|   |   |           |   |   |   \---cjs
+|   |   |           |   |   +---react-refresh
+|   |   |           |   |   |   \---cjs
+|   |   |           |   |   +---rollup
+|   |   |           |   |   |   \---dist
+|   |   |           |   |   |       +---bin
+|   |   |           |   |   |       +---es
+|   |   |           |   |   |       |   \---shared
+|   |   |           |   |   |       \---shared
+|   |   |           |   |   +---scheduler
+|   |   |           |   |   |   \---cjs
+|   |   |           |   |   +---semver
+|   |   |           |   |   |   \---bin
+|   |   |           |   |   +---source-map-js
+|   |   |           |   |   |   \---lib
+|   |   |           |   |   +---tinyglobby
+|   |   |           |   |   |   \---dist
+|   |   |           |   |   +---typescript
+|   |   |           |   |   |   +---bin
+|   |   |           |   |   |   \---lib
+|   |   |           |   |   |       +---cs
+|   |   |           |   |   |       +---de
+|   |   |           |   |   |       +---es
+|   |   |           |   |   |       +---fr
+|   |   |           |   |   |       +---it
+|   |   |           |   |   |       +---ja
+|   |   |           |   |   |       +---ko
+|   |   |           |   |   |       +---pl
+|   |   |           |   |   |       +---pt-br
+|   |   |           |   |   |       +---ru
+|   |   |           |   |   |       +---tr
+|   |   |           |   |   |       +---zh-cn
+|   |   |           |   |   |       \---zh-tw
+|   |   |           |   |   +---update-browserslist-db
+|   |   |           |   |   +---vite
+|   |   |           |   |   |   +---bin
+|   |   |           |   |   |   +---dist
+|   |   |           |   |   |   |   +---client
+|   |   |           |   |   |   |   +---node
+|   |   |           |   |   |   |   |   \---chunks
+|   |   |           |   |   |   |   \---node-cjs
+|   |   |           |   |   |   +---misc
+|   |   |           |   |   |   \---types
+|   |   |           |   |   |       \---internal
+|   |   |           |   |   \---yallist
+|   |   |           |   \---src
+|   |   |           |       +---ai-decision
+|   |   |           |       +---ai-intelligence
+|   |   |           |       +---alerts
+|   |   |           |       +---api
+|   |   |           |       +---api-health
+|   |   |           |       +---api-routing
+|   |   |           |       +---api-search
+|   |   |           |       +---api-smoke
+|   |   |           |       +---backtest
+|   |   |           |       +---broker
+|   |   |           |       +---broker-layer
+|   |   |           |       +---build-pipeline
+|   |   |           |       +---components
+|   |   |           |       |   +---market
+|   |   |           |       |   +---operational
+|   |   |           |       |   +---realtime
+|   |   |           |       |   +---settings
+|   |   |           |       |   \---trading
+|   |   |           |       +---data
+|   |   |           |       +---desktop-app
+|   |   |           |       +---exchange-layer
+|   |   |           |       +---exchanges
+|   |   |           |       +---execution-engine
+|   |   |           |       +---hooks
+|   |   |           |       +---indicators
+|   |   |           |       |   \---yasara
+|   |   |           |       |       \---pine
+|   |   |           |       +---licensing
+|   |   |           |       +---live-data
+|   |   |           |       +---market-data
+|   |   |           |       +---optimizer
+|   |   |           |       +---optimizer-pro
+|   |   |           |       +---patching
+|   |   |           |       +---plugin-sdk
+|   |   |           |       +---portfolio
+|   |   |           |       +---portfolio-intelligence
+|   |   |           |       +---production-runtime
+|   |   |           |       +---project-intelligence
+|   |   |           |       +---replay
+|   |   |           |       +---risk
+|   |   |           |       +---router
+|   |   |           |       +---scanner
+|   |   |           |       +---stabilization
+|   |   |           |       +---strategy-engine
+|   |   |           |       +---styles
+|   |   |           |       \---windows-app
+|   |   |           +---greenlet
+|   |   |           +---httptools
+|   |   |           |   \---parser
+|   |   |           +---httpx
+|   |   |           +---httpx-0.28.1.dist-info
+|   |   |           |   \---licenses
+|   |   |           +---numpy
+|   |   |           |   +---char
+|   |   |           |   +---core
+|   |   |           |   +---ctypeslib
+|   |   |           |   +---f2py
+|   |   |           |   |   +---src
+|   |   |           |   |   +---tests
+|   |   |           |   |   |   \---src
+|   |   |           |   |   |       +---abstract_interface
+|   |   |           |   |   |       +---array_from_pyobj
+|   |   |           |   |   |       +---assumed_shape
+|   |   |           |   |   |       +---block_docstring
+|   |   |           |   |   |       +---callback
+|   |   |           |   |   |       +---cli
+|   |   |           |   |   |       +---common
+|   |   |           |   |   |       +---crackfortran
+|   |   |           |   |   |       +---f2cmap
+|   |   |           |   |   |       +---isocintrin
+|   |   |           |   |   |       +---kind
+|   |   |           |   |   |       +---mixed
+|   |   |           |   |   |       +---modules
+|   |   |           |   |   |       |   +---gh25337
+|   |   |           |   |   |       |   \---gh26920
+|   |   |           |   |   |       +---negative_bounds
+|   |   |           |   |   |       +---parameter
+|   |   |           |   |   |       +---quoted_character
+|   |   |           |   |   |       +---regression
+|   |   |           |   |   |       +---return_character
+|   |   |           |   |   |       +---return_complex
+|   |   |           |   |   |       +---return_integer
+|   |   |           |   |   |       +---return_logical
+|   |   |           |   |   |       +---return_real
+|   |   |           |   |   |       +---routines
+|   |   |           |   |   |       +---size
+|   |   |           |   |   |       +---string
+|   |   |           |   |   |       \---value_attrspec
+|   |   |           |   |   \---_backends
+|   |   |           |   +---fft
+|   |   |           |   +---lib
+|   |   |           |   |   \---tests
+|   |   |           |   |       \---data
+|   |   |           |   +---linalg
+|   |   |           |   +---ma
+|   |   |           |   +---matrixlib
+|   |   |           |   +---polynomial
+|   |   |           |   +---random
+|   |   |           |   |   +---lib
+|   |   |           |   |   +---tests
+|   |   |           |   |   |   \---data
+|   |   |           |   |   \---_examples
+|   |   |           |   |       \---cython
+|   |   |           |   +---rec
+|   |   |           |   +---strings
+|   |   |           |   +---testing
+|   |   |           |   |   \---_private
+|   |   |           |   +---typing
+|   |   |           |   |   \---tests
+|   |   |           |   |       \---data
+|   |   |           |   |           +---fail
+|   |   |           |   |           +---misc
+|   |   |           |   |           \---reveal
+|   |   |           |   +---_core
+|   |   |           |   |   +---include
+|   |   |           |   |   |   \---numpy
+|   |   |           |   |   |       \---random
+|   |   |           |   |   +---lib
+|   |   |           |   |   |   +---npy-pkg-config
+|   |   |           |   |   |   \---pkgconfig
+|   |   |           |   |   \---tests
+|   |   |           |   |       +---data
+|   |   |           |   |       \---examples
+|   |   |           |   |           +---cython
+|   |   |           |   |           \---limited_api
+|   |   |           |   +---_pyinstaller
+|   |   |           |   +---_typing
+|   |   |           |   \---_utils
+|   |   |           +---numpy-2.4.6.dist-info
+|   |   |           |   \---licenses
+|   |   |           |       \---numpy
+|   |   |           |           +---fft
+|   |   |           |           |   \---pocketfft
+|   |   |           |           +---linalg
+|   |   |           |           |   \---lapack_lite
+|   |   |           |           +---ma
+|   |   |           |           +---random
+|   |   |           |           |   \---src
+|   |   |           |           |       +---distributions
+|   |   |           |           |       +---mt19937
+|   |   |           |           |       +---pcg64
+|   |   |           |           |       +---philox
+|   |   |           |           |       +---sfc64
+|   |   |           |           |       \---splitmix64
+|   |   |           |           \---_core
+|   |   |           |               +---include
+|   |   |           |               |   \---numpy
+|   |   |           |               |       \---libdivide
+|   |   |           |               \---src
+|   |   |           |                   +---common
+|   |   |           |                   |   \---pythoncapi-compat
+|   |   |           |                   +---highway
+|   |   |           |                   +---multiarray
+|   |   |           |                   +---npysort
+|   |   |           |                   |   \---x86-simd-sort
+|   |   |           |                   \---umath
+|   |   |           |                       \---svml
+|   |   |           +---numpy.libs
+|   |   |           +---orjson
+|   |   |           +---orjson-3.10.12.dist-info
+|   |   |           |   \---licenses
+|   |   |           +---pydantic
+|   |   |           |   \---v1
+|   |   |           +---pydantic-2.10.3.dist-info
+|   |   |           |   \---licenses
+|   |   |           +---pydantic_core
+|   |   |           +---pydantic_settings
+|   |   |           +---pydantic_settings-2.6.1.dist-info
+|   |   |           |   \---licenses
+|   |   |           +---pytz
+|   |   |           |   \---zoneinfo
+|   |   |           |       +---Africa
+|   |   |           |       +---America
+|   |   |           |       |   +---Argentina
+|   |   |           |       |   +---Indiana
+|   |   |           |       |   +---Kentucky
+|   |   |           |       |   \---North_Dakota
+|   |   |           |       +---Antarctica
+|   |   |           |       +---Arctic
+|   |   |           |       +---Asia
+|   |   |           |       +---Atlantic
+|   |   |           |       +---Australia
+|   |   |           |       +---Brazil
+|   |   |           |       +---Canada
+|   |   |           |       +---Chile
+|   |   |           |       +---Etc
+|   |   |           |       +---Europe
+|   |   |           |       +---Indian
+|   |   |           |       +---Mexico
+|   |   |           |       +---Pacific
+|   |   |           |       \---US
+|   |   |           +---pytz-2026.2.dist-info
+|   |   |           +---setuptools
+|   |   |           |   \---_vendor
+|   |   |           |       +---importlib_metadata-8.7.1.dist-info
+|   |   |           |       |   \---licenses
+|   |   |           |       \---jaraco
+|   |   |           |           \---text
+|   |   |           +---six-1.17.0.dist-info
+|   |   |           +---sqlalchemy
+|   |   |           |   +---cyextension
+|   |   |           |   \---dialects
+|   |   |           +---SQLAlchemy-2.0.36.dist-info
+|   |   |           +---starlette
+|   |   |           +---starlette-0.41.3.dist-info
+|   |   |           |   \---licenses
+|   |   |           +---typing_extensions-4.15.0.dist-info
+|   |   |           |   \---licenses
+|   |   |           +---tzdata
+|   |   |           |   \---zoneinfo
+|   |   |           |       +---Africa
+|   |   |           |       +---America
+|   |   |           |       |   +---Argentina
+|   |   |           |       |   +---Indiana
+|   |   |           |       |   +---Kentucky
+|   |   |           |       |   \---North_Dakota
+|   |   |           |       +---Antarctica
+|   |   |           |       +---Arctic
+|   |   |           |       +---Asia
+|   |   |           |       +---Atlantic
+|   |   |           |       +---Australia
+|   |   |           |       +---Brazil
+|   |   |           |       +---Canada
+|   |   |           |       +---Chile
+|   |   |           |       +---Etc
+|   |   |           |       +---Europe
+|   |   |           |       +---Indian
+|   |   |           |       +---Mexico
+|   |   |           |       +---Pacific
+|   |   |           |       \---US
+|   |   |           \---tzdata-2026.2.dist-info
+|   |   |               \---licenses
+|   |   |                   \---licenses
+|   |   \---reports
+|   \---YaSara_Professional_v1_1_Mobile_PWA
+|       \---mobile_output
++---docs
+|   +---adr
+|   +---architecture
+|   +---consolidation
+|   +---constitution
+|   +---enterprise
+|   +---final
+|   +---final_closeout
+|   +---final_delivery
+|   +---final_export
+|   +---final_integration
+|   +---final_operations
+|   +---final_release
+|   +---phase_a
+|   +---production_packaging
+|   +---rc1
+|   +---sprint1
+|   +---sprint10
+|   +---sprint11
+|   +---sprint111_to_120
+|   +---sprint12
+|   +---sprint13
+|   +---sprint14
+|   +---sprint15
+|   +---sprint16
+|   +---sprint17
+|   +---sprint18
+|   +---sprint2
+|   +---sprint25
+|   +---sprint26
+|   +---sprint27
+|   +---sprint28_to_32
+|   +---sprint3
+|   +---sprint33_to_37
+|   +---sprint38_to_47
+|   +---sprint4
+|   +---sprint48_to_57
+|   +---sprint5
+|   +---sprint58_to_67
+|   +---sprint6
+|   +---sprint68_to_80
+|   +---sprint7
+|   +---sprint8
+|   +---sprint81_to_95
+|   +---sprint9
+|   +---sprint96_to_110
+|   +---sprint9_1
+|   +---sprints
+|   +---stable_release
+|   +---v1_1
+|   +---v1_2
+|   +---v2_0
+|   +---v2_1
+|   +---v2_2
+|   +---v2_3
+|   +---v2_4
+|   +---v2_5
+|   +---v2_6
+|   +---v2_7
+|   +---v3_1
+|   +---v3_2
+|   +---v3_3
+|   +---v3_4
+|   +---v3_5
+|   +---v4_0
+|   +---v4_1
+|   +---v4_10
+|   +---v4_11
+|   +---v4_12
+|   +---v4_13
+|   +---v4_14
+|   +---v4_15
+|   +---v4_16
+|   +---v4_17
+|   +---v4_18
+|   +---v4_19
+|   +---v4_19_1
+|   +---v4_2
+|   +---v4_20
+|   +---v4_21
+|   +---v4_21_1
+|   +---v4_22
+|   +---v4_23
+|   +---v4_23_1
+|   +---v4_24
+|   +---v4_25
+|   +---v4_26
+|   +---v4_27
+|   +---v4_28
+|   +---v4_29
+|   +---v4_3
+|   +---v4_30
+|   +---v4_31
+|   +---v4_32
+|   +---v4_33
+|   +---v4_34
+|   +---v4_35
+|   +---v4_36
+|   +---v4_37
+|   +---v4_38
+|   +---v4_39
+|   +---v4_4
+|   +---v4_41
+|   +---v4_42
+|   +---v4_43
+|   +---v4_44
+|   +---v4_45
+|   +---v4_46
+|   +---v4_47
+|   +---v4_48
+|   +---v4_49
+|   +---v4_5
+|   +---v4_50
+|   +---v4_6
+|   +---v4_7
+|   +---v4_8
+|   +---v4_9
+|   +---v5_0_alpha_1
+|   +---v5_0_alpha_10
+|   +---v5_0_alpha_11
+|   +---v5_0_alpha_12
+|   +---v5_0_alpha_13
+|   +---v5_0_alpha_14
+|   +---v5_0_alpha_15
+|   +---v5_0_alpha_16
+|   +---v5_0_alpha_17
+|   +---v5_0_alpha_17_1
+|   +---v5_0_alpha_18
+|   +---v5_0_alpha_19
+|   +---v5_0_alpha_2
+|   +---v5_0_alpha_20
+|   +---v5_0_alpha_21
+|   +---v5_0_alpha_22
+|   +---v5_0_alpha_23
+|   +---v5_0_alpha_24
+|   +---v5_0_alpha_25
+|   +---v5_0_alpha_26
+|   +---v5_0_alpha_27
+|   +---v5_0_alpha_28
+|   +---v5_0_alpha_29
+|   +---v5_0_alpha_3
+|   +---v5_0_alpha_30
+|   +---v5_0_alpha_30_1
+|   +---v5_0_alpha_31
+|   +---v5_0_alpha_31_1
+|   +---v5_0_alpha_32
+|   +---v5_0_alpha_32_1
+|   +---v5_0_alpha_33
+|   +---v5_0_alpha_33_1
+|   +---v5_0_alpha_34_0
+|   +---v5_0_alpha_34_1
+|   +---v5_0_alpha_35
+|   +---v5_0_alpha_36
+|   +---v5_0_alpha_37
+|   +---v5_0_alpha_38
+|   +---v5_0_alpha_39
+|   +---v5_0_alpha_4
+|   +---v5_0_alpha_40
+|   +---v5_0_alpha_41
+|   +---v5_0_alpha_42
+|   +---v5_0_alpha_43
+|   +---v5_0_alpha_44
+|   +---v5_0_alpha_45
+|   +---v5_0_alpha_46
+|   +---v5_0_alpha_47
+|   +---v5_0_alpha_48
+|   +---v5_0_alpha_49
+|   +---v5_0_alpha_5
+|   +---v5_0_alpha_50
+|   +---v5_0_alpha_51
+|   +---v5_0_alpha_6
+|   +---v5_0_alpha_7
+|   +---v5_0_alpha_8
+|   +---v5_0_alpha_9
+|   \---v5_2_alpha
++---frontend
+|   +---node_modules
+|   |   +---.bin
+|   |   +---.vite
+|   |   |   \---deps
+|   |   +---.vite-temp
+|   |   +---@babel
+|   |   |   +---code-frame
+|   |   |   |   \---lib
+|   |   |   +---compat-data
+|   |   |   |   \---data
+|   |   |   +---core
+|   |   |   |   +---lib
+|   |   |   |   |   +---config
+|   |   |   |   |   |   +---files
+|   |   |   |   |   |   +---helpers
+|   |   |   |   |   |   \---validation
+|   |   |   |   |   +---errors
+|   |   |   |   |   +---gensync-utils
+|   |   |   |   |   +---parser
+|   |   |   |   |   |   \---util
+|   |   |   |   |   +---tools
+|   |   |   |   |   +---transformation
+|   |   |   |   |   |   +---file
+|   |   |   |   |   |   \---util
+|   |   |   |   |   \---vendor
+|   |   |   |   \---src
+|   |   |   |       +---config
+|   |   |   |       |   \---files
+|   |   |   |       \---transformation
+|   |   |   +---generator
+|   |   |   |   \---lib
+|   |   |   |       +---generators
+|   |   |   |       \---node
+|   |   |   +---helper-compilation-targets
+|   |   |   |   \---lib
+|   |   |   +---helper-globals
+|   |   |   |   \---data
+|   |   |   +---helper-module-imports
+|   |   |   |   \---lib
+|   |   |   +---helper-module-transforms
+|   |   |   |   \---lib
+|   |   |   +---helper-plugin-utils
+|   |   |   |   \---lib
+|   |   |   +---helper-string-parser
+|   |   |   |   \---lib
+|   |   |   +---helper-validator-identifier
+|   |   |   |   \---lib
+|   |   |   +---helper-validator-option
+|   |   |   |   \---lib
+|   |   |   +---helpers
+|   |   |   |   \---lib
+|   |   |   |       \---helpers
+|   |   |   +---parser
+|   |   |   |   +---bin
+|   |   |   |   +---lib
+|   |   |   |   \---typings
+|   |   |   +---plugin-transform-react-jsx-self
+|   |   |   |   \---lib
+|   |   |   +---plugin-transform-react-jsx-source
+|   |   |   |   \---lib
+|   |   |   +---template
+|   |   |   |   \---lib
+|   |   |   +---traverse
+|   |   |   |   \---lib
+|   |   |   |       +---path
+|   |   |   |       |   +---inference
+|   |   |   |       |   \---lib
+|   |   |   |       \---scope
+|   |   |   |           \---lib
+|   |   |   \---types
+|   |   |       \---lib
+|   |   |           +---asserts
+|   |   |           |   \---generated
+|   |   |           +---ast-types
+|   |   |           |   \---generated
+|   |   |           +---builders
+|   |   |           |   +---flow
+|   |   |           |   +---generated
+|   |   |           |   +---react
+|   |   |           |   \---typescript
+|   |   |           +---clone
+|   |   |           +---comments
+|   |   |           +---constants
+|   |   |           |   \---generated
+|   |   |           +---converters
+|   |   |           +---definitions
+|   |   |           +---modifications
+|   |   |           |   +---flow
+|   |   |           |   \---typescript
+|   |   |           +---retrievers
+|   |   |           +---traverse
+|   |   |           +---utils
+|   |   |           |   \---react
+|   |   |           \---validators
+|   |   |               +---generated
+|   |   |               \---react
+|   |   +---@esbuild
+|   |   |   \---win32-x64
+|   |   +---@jridgewell
+|   |   |   +---gen-mapping
+|   |   |   |   +---dist
+|   |   |   |   |   \---types
+|   |   |   |   +---src
+|   |   |   |   \---types
+|   |   |   +---remapping
+|   |   |   |   +---dist
+|   |   |   |   +---src
+|   |   |   |   \---types
+|   |   |   +---resolve-uri
+|   |   |   |   \---dist
+|   |   |   |       \---types
+|   |   |   +---sourcemap-codec
+|   |   |   |   +---dist
+|   |   |   |   +---src
+|   |   |   |   \---types
+|   |   |   \---trace-mapping
+|   |   |       +---dist
+|   |   |       +---src
+|   |   |       \---types
+|   |   +---@rolldown
+|   |   |   \---pluginutils
+|   |   |       \---dist
+|   |   +---@rollup
+|   |   |   +---rollup-win32-x64-gnu
+|   |   |   \---rollup-win32-x64-msvc
+|   |   +---@types
+|   |   |   +---babel__core
+|   |   |   +---babel__generator
+|   |   |   +---babel__template
+|   |   |   +---babel__traverse
+|   |   |   \---estree
+|   |   +---@vitejs
+|   |   |   \---plugin-react
+|   |   |       \---dist
+|   |   +---baseline-browser-mapping
+|   |   |   \---dist
+|   |   +---browserslist
+|   |   +---caniuse-lite
+|   |   |   +---data
+|   |   |   |   +---features
+|   |   |   |   \---regions
+|   |   |   \---dist
+|   |   |       +---lib
+|   |   |       \---unpacker
+|   |   +---convert-source-map
+|   |   +---debug
+|   |   |   \---src
+|   |   +---electron-to-chromium
+|   |   +---esbuild
+|   |   |   +---bin
+|   |   |   \---lib
+|   |   +---escalade
+|   |   |   +---dist
+|   |   |   \---sync
+|   |   +---fancy-canvas
+|   |   +---fdir
+|   |   |   \---dist
+|   |   +---gensync
+|   |   |   \---test
+|   |   +---js-tokens
+|   |   +---jsesc
+|   |   |   +---bin
+|   |   |   \---man
+|   |   +---json5
+|   |   |   +---dist
+|   |   |   \---lib
+|   |   +---lightweight-charts
+|   |   |   \---dist
+|   |   +---lru-cache
+|   |   +---lucide-react
+|   |   |   \---dist
+|   |   |       +---cjs
+|   |   |       +---esm
+|   |   |       |   +---icons
+|   |   |       |   \---shared
+|   |   |       |       \---src
+|   |   |       \---umd
+|   |   +---ms
+|   |   +---nanoid
+|   |   |   +---async
+|   |   |   +---bin
+|   |   |   +---non-secure
+|   |   |   \---url-alphabet
+|   |   +---node-releases
+|   |   |   \---data
+|   |   |       +---processed
+|   |   |       \---release-schedule
+|   |   +---picocolors
+|   |   +---picomatch
+|   |   |   \---lib
+|   |   +---postcss
+|   |   |   \---lib
+|   |   +---react
+|   |   |   \---cjs
+|   |   +---react-dom
+|   |   |   \---cjs
+|   |   +---react-refresh
+|   |   |   \---cjs
+|   |   +---rollup
+|   |   |   \---dist
+|   |   |       +---bin
+|   |   |       +---es
+|   |   |       |   \---shared
+|   |   |       \---shared
+|   |   +---scheduler
+|   |   |   \---cjs
+|   |   +---semver
+|   |   |   \---bin
+|   |   +---source-map-js
+|   |   |   \---lib
+|   |   +---tinyglobby
+|   |   |   \---dist
+|   |   +---typescript
+|   |   |   +---bin
+|   |   |   \---lib
+|   |   |       +---cs
+|   |   |       +---de
+|   |   |       +---es
+|   |   |       +---fr
+|   |   |       +---it
+|   |   |       +---ja
+|   |   |       +---ko
+|   |   |       +---pl
+|   |   |       +---pt-br
+|   |   |       +---ru
+|   |   |       +---tr
+|   |   |       +---zh-cn
+|   |   |       \---zh-tw
+|   |   +---update-browserslist-db
+|   |   +---vite
+|   |   |   +---bin
+|   |   |   +---dist
+|   |   |   |   +---client
+|   |   |   |   +---node
+|   |   |   |   |   \---chunks
+|   |   |   |   \---node-cjs
+|   |   |   +---misc
+|   |   |   \---types
+|   |   |       \---internal
+|   |   \---yallist
+|   \---src
+|       +---ai-decision
+|       +---ai-intelligence
+|       +---alerts
+|       +---api
+|       +---api-health
+|       +---api-routing
+|       +---api-search
+|       +---api-smoke
+|       +---backtest
+|       +---broker
+|       +---broker-layer
+|       +---build-pipeline
+|       +---components
+|       |   +---market
+|       |   +---operational
+|       |   +---realtime
+|       |   +---settings
+|       |   \---trading
+|       +---data
+|       +---desktop-app
+|       +---exchange-layer
+|       +---exchanges
+|       +---execution-engine
+|       +---hooks
+|       +---indicators
+|       |   \---yasara
+|       |       \---pine
+|       +---licensing
+|       +---live-data
+|       +---market-data
+|       +---optimizer
+|       +---optimizer-pro
+|       +---patching
+|       +---plugin-sdk
+|       +---portfolio
+|       +---portfolio-intelligence
+|       +---production-runtime
+|       +---project-intelligence
+|       +---replay
+|       +---risk
+|       +---router
+|       +---scanner
+|       +---stabilization
+|       +---strategy-engine
+|       +---styles
+|       \---windows-app
++---installer
++---logs
++---mobile_output
++---packaging
+|   \---windows
++---release_automation
++---scripts
+|   \---__pycache__
++---windows_runtime
+\---yasara_professional_v1_0_stable_clean

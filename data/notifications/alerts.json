@@ -1,0 +1,4518 @@
+{
+  "alerts": [
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-06-30T14:24:49.904144+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-06-30T14:33:16.576690+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-06-30T15:44:45.777522+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-06-30T16:01:10.623013+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-06-30T16:10:56.049634+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-06-30T16:19:10.079615+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-06-30T16:30:10.062124+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-06-30T16:40:20.677388+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-06-30T17:20:52.375227+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-06-30T17:32:03.399483+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-06-30T17:45:28.223895+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-06-30T18:20:23.983776+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-06-30T22:14:55.556778+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-06-30T22:52:29.298547+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-06-30T23:46:23.762313+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-01T00:01:35.184373+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-01T00:21:40.918006+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-01T03:16:49.704030+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-01T03:37:36.823633+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-01T03:45:14.249795+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-01T03:53:53.316890+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-01T04:08:25.839190+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-01T04:28:05.586977+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-01T04:38:56.244128+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-01T04:47:43.487120+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-01T04:55:00.731355+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-01T05:00:06.168976+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-01T09:10:21.841882+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-01T11:25:11.871461+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-01T11:43:20.970243+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-01T12:01:54.427538+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-01T12:14:05.019602+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-01T12:32:34.086195+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-01T12:46:47.283784+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-01T12:59:22.904879+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-01T14:45:23.180884+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-01T15:00:08.874248+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-01T15:07:28.157645+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-01T15:18:48.430893+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-01T15:30:31.854069+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-01T16:07:37.388269+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-01T16:18:11.581770+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-01T16:26:39.938488+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-01T16:46:45.799388+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-01T17:29:22.072449+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-01T18:28:27.773189+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-01T18:56:26.424645+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-01T19:09:17.553624+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-01T19:18:40.657219+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-01T19:32:05.308545+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-01T19:41:10.366786+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-01T20:23:48.124280+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-01T20:42:28.236256+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-01T21:24:37.109389+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-01T21:34:12.697945+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-01T21:59:18.585061+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-01T22:26:59.424908+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-01T22:34:49.132283+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-01T22:53:15.941459+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-01T23:27:16.174404+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-02T00:37:35.221677+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-02T11:59:45.126886+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-02T12:30:59.101660+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-02T12:51:51.921679+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-02T14:06:13.796424+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-02T15:22:55.174492+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-02T16:29:48.346945+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-02T17:15:55.751485+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-02T17:58:46.957486+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-02T18:04:36.449614+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-02T18:35:47.591273+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-03T08:12:24.817665+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-03T08:51:11.141332+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-03T09:30:41.474684+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-03T09:59:35.467492+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-03T10:28:01.759015+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-03T10:54:55.681514+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-03T11:32:38.237326+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-03T11:46:58.565541+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-03T12:03:31.597861+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-03T12:28:49.776191+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-03T12:41:49.659521+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-03T13:29:31.303917+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-03T13:49:09.574449+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-03T14:03:14.644971+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-03T14:26:11.492971+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-03T15:25:31.237242+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-03T16:30:08.194111+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-03T17:48:27.115078+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-03T18:42:06.222724+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-03T19:01:32.661728+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-03T20:45:06.510443+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-03T21:08:49.804882+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-03T21:27:54.920308+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-03T21:56:15.787022+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-03T22:29:47.088061+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-03T22:48:08.973453+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-03T23:18:57.341963+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-03T23:34:24.193902+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-03T23:45:50.166067+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-04T11:25:27.120720+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-04T11:41:55.073221+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-04T11:57:37.666033+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-04T12:08:06.711655+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-04T12:48:22.380446+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-04T13:03:52.706572+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-04T13:19:41.880741+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-04T14:23:49.398686+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-04T14:35:15.614480+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-04T14:57:23.140087+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-04T15:23:27.556639+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-04T15:51:14.053817+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-04T16:08:19.042174+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-04T16:21:53.217898+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-04T16:35:38.182579+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-04T16:49:10.869893+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-04T17:15:39.661651+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-04T18:49:19.613287+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-04T19:07:21.467946+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-04T19:27:44.955671+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-04T19:40:01.294714+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-04T20:09:32.484172+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-04T20:23:24.558445+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-04T20:51:14.260851+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-04T21:05:26.093769+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-04T21:19:41.358646+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-04T22:50:23.975416+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-04T23:09:02.156772+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-04T23:26:28.561771+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-05T06:38:51.012381+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-05T07:12:01.218117+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-05T07:23:57.300719+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-05T07:56:46.658794+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-05T08:14:10.127205+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-05T08:47:39.940945+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-05T09:02:27.584528+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-05T10:04:48.083762+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-05T10:28:39.496405+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-05T10:50:00.745796+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-05T12:31:04.189629+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-05T17:01:52.822408+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-05T17:20:27.052767+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-05T17:33:45.680640+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-05T18:48:51.549747+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-05T19:21:32.111237+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-05T19:58:52.531877+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-05T20:19:06.856030+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-05T20:39:22.038894+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-05T21:32:34.902523+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-05T22:24:45.075089+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-05T22:48:38.615231+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-05T22:57:59.938071+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-05T23:18:06.333564+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-05T23:30:52.349812+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-05T23:54:38.525750+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-06T00:13:14.650104+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-06T01:17:49.381257+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-06T01:46:58.163367+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-06T02:00:59.810682+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-06T06:32:42.290653+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-06T06:51:22.270213+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-06T07:08:17.524365+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-06T07:24:41.451558+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-06T09:39:03.176678+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-06T10:06:37.116714+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-06T10:25:43.165279+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-06T11:02:44.186319+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-06T11:24:12.784972+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-06T14:26:26.219995+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-06T18:32:15.187594+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-06T19:37:59.200630+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-06T20:37:46.777777+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-06T21:33:38.886422+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-06T22:32:33.986882+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-06T23:09:37.232674+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-07T07:50:07.702842+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-07T09:18:42.329687+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-07T09:49:24.105452+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-07T10:08:58.034657+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-07T10:52:59.977763+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-11T15:41:47.332042+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-11T22:15:33.490548+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-12T08:10:25.218213+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-12T08:58:21.112049+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-12T09:53:43.920862+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-12T12:57:29.980856+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-12T21:20:43.070714+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-13T03:44:41.313690+00:00"
+    }
+  ],
+  "rules": [
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    }
+  ]
+}

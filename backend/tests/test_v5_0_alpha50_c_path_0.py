@@ -1,0 +1,4 @@
+from pathlib import Path
+
+def test_path_0():
+ root=Path(__file__).resolve().parents[2]; assert (root/'backend/app/platform_core/windows_packaging_enablement/__init__.py').exists()

@@ -1,0 +1,28 @@
+from fastapi import APIRouter
+from app.v500_alpha36_plugin_sdk_core.service import PluginSDKCoreFacadeV500Alpha36
+
+router = APIRouter(prefix="/v5-0-alpha-36/plugin-sdk-core", tags=["v5.0-alpha.36-plugin-sdk-core"])
+_service = PluginSDKCoreFacadeV500Alpha36()
+
+@router.get("/summary")
+async def summary(): return _service.summary()
+@router.get("/manifest")
+async def manifest(): return _service.manifest()
+@router.get("/validate")
+async def validate(): return _service.validate()
+@router.get("/metadata")
+async def metadata(): return _service.metadata()
+@router.get("/registry")
+async def registry(): return _service.registry()
+@router.get("/loader-contract")
+async def loader_contract(): return _service.loader_contract()
+@router.get("/compatibility")
+async def compatibility(): return _service.compatibility()
+@router.get("/safety")
+async def safety(): return _service.safety()
+@router.get("/status")
+async def status(): return _service.status()
+@router.get("/readiness")
+async def readiness(): return _service.readiness()
+@router.get("/contract")
+async def contract(): return _service.contract()

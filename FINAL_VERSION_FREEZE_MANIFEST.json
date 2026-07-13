@@ -1,0 +1,13 @@
+{
+  "product": "YaSara Professional",
+  "version": "1.0.0",
+  "channel": "stable",
+  "status": "frozen",
+  "live_trading_enabled_by_default": false,
+  "telemetry_enabled_by_default": false,
+  "created_at": "2026-06-29T14:11:57.635860+00:00",
+  "notes": [
+    "Clean release complete package restores all release files required by Sprint 21-24 tests.",
+    "Virtual environment and cache files remain excluded."
+  ]
+}

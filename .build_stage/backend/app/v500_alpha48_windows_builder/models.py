@@ -1,0 +1,22 @@
+from pydantic import BaseModel
+class WindowsExecutableBuilderSummaryV500Alpha48(BaseModel):
+    ready: bool = True
+    phase: str = "v5_0_alpha_48_package_e"
+    scope: str = "windows_executable_builder_foundation"
+    build_id: str = "2026.48.E.001"
+    build_coordinator: bool = True
+    exe_build_contract: bool = True
+    portable_build_contract: bool = True
+    installer_build_contract: bool = True
+    resource_manifest: bool = True
+    startup_validator: bool = True
+    dependency_checker: bool = True
+    smoke_test_contract: bool = True
+    final_exe_generated: bool = False
+    exe_packaging_enabled: bool = False
+    commercial_execution_engine_enabled: bool = False
+    commercial_api_key_required: bool = False
+    real_execution_enabled: bool = False
+    real_broker_connection_enabled: bool = False
+    backward_compatible: bool = True
+    test_pack_size: int = 90

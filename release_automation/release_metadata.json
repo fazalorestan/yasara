@@ -1,0 +1,5 @@
+{
+  "product": "YaSara Professional",
+  "version": "1.0.0",
+  "required_file": "release_automation/release_metadata.json"
+}

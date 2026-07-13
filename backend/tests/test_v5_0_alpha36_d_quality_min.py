@@ -1,0 +1,3 @@
+from app.platform_core.plugin_sdk.enterprise.quality_score import PluginEnterpriseQualityScoreService
+
+def test_v500_alpha36_d_quality_min(): assert PluginEnterpriseQualityScoreService().calculate()['overall'] >= 9.5

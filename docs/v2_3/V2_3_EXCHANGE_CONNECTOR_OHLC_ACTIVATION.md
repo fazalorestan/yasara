@@ -1,0 +1,1 @@
+Operational progress: 85%\nRemaining: 15%\n

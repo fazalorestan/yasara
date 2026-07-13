@@ -1,0 +1,3 @@
+from app.v500_alpha42_execution_enterprise.models import ExecutionEnterpriseSummaryV500Alpha42
+
+def test_v500_alpha42_e_summary_broker(): assert ExecutionEnterpriseSummaryV500Alpha42().broker_connection_enabled is False

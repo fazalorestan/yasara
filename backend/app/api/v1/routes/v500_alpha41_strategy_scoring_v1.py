@@ -1,0 +1,25 @@
+from fastapi import APIRouter
+from app.v500_alpha41_strategy_scoring.service import strategy_scoring_facade_v500_alpha41 as _service
+
+router = APIRouter(prefix="/v5-0-alpha-41/strategy-scoring", tags=["v5.0-alpha.41-strategy-scoring"])
+
+@router.get("/summary")
+async def summary(): return _service.summary()
+@router.get("/signal-evaluation")
+async def signal_evaluation(): return _service.signal_evaluation()
+@router.get("/strategy-score")
+async def strategy_score(): return _service.strategy_score()
+@router.get("/confidence")
+async def confidence(): return _service.confidence()
+@router.get("/rules")
+async def rules(): return _service.rules()
+@router.get("/aggregate")
+async def aggregate(): return _service.aggregate()
+@router.get("/safety")
+async def safety(): return _service.safety()
+@router.get("/report")
+async def report(): return _service.report()
+@router.get("/readiness")
+async def readiness(): return _service.readiness()
+@router.get("/contract")
+async def contract(): return _service.contract()

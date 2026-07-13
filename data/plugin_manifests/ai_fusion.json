@@ -1,0 +1,22 @@
+{
+  "name": "ai_fusion",
+  "version": "v4.14",
+  "category": "analysis_engine",
+  "metadata": {
+    "managed_by": "v4_23_1_path_resolver",
+    "backward_compatible": true
+  },
+  "dependencies": [],
+  "feature_flags": [
+    "ai_fusion"
+  ],
+  "required_permissions": [],
+  "required_licenses": [],
+  "event_registration": [],
+  "routes": [
+    "/api/v1/v4-14/ai-fusion/summary"
+  ],
+  "services": [],
+  "tests": [],
+  "documentation": []
+}

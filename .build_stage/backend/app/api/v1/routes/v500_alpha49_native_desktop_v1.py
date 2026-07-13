@@ -1,0 +1,27 @@
+from fastapi import APIRouter
+from app.v500_alpha49_native_desktop.service import native_desktop_application_facade_v500_alpha49 as _service
+
+router = APIRouter(prefix="/v5-0-alpha-49/native-desktop", tags=["v5.0-alpha.49-native-desktop"])
+
+@router.get("/summary")
+async def summary(): return _service.summary()
+@router.get("/entrypoint")
+async def entrypoint(): return _service.entrypoint()
+@router.get("/main-window")
+async def main_window(): return _service.main_window()
+@router.get("/backend-supervisor")
+async def backend_supervisor(): return _service.backend_supervisor()
+@router.get("/dashboard-webview")
+async def dashboard_webview(): return _service.dashboard_webview()
+@router.get("/single-instance")
+async def single_instance(): return _service.single_instance()
+@router.get("/safe-shutdown")
+async def safe_shutdown(): return _service.safe_shutdown()
+@router.get("/health")
+async def health(): return _service.health()
+@router.get("/report")
+async def report(): return _service.report()
+@router.get("/readiness")
+async def readiness(): return _service.readiness()
+@router.get("/contract")
+async def contract(): return _service.contract()

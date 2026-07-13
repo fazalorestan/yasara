@@ -1,0 +1,3 @@
+from app.v500_alpha50_artifact_registration.service import LocalExeArtifactRegistrationFacadeV500Alpha50
+
+def test_facade_hash_generator(): assert LocalExeArtifactRegistrationFacadeV500Alpha50().hash_generator() is not None

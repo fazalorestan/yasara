@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>YaSara Professional Dashboard</title>
+  <link rel="stylesheet" href="/static/dashboard/styles.css" />
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="logo">Y</div>
+        <div>
+          <h1>YaSara</h1>
+          <p>Professional v1.2</p>
+        </div>
+      </div>
+
+      <nav>
+        <a class="active" href="#overview">داشبورد</a>
+        <a href="#market">بازار</a>
+        <a href="#ai">هوش مصنوعی</a>
+        <a href="#paper">Paper Trading</a>
+        <a href="#risk">ریسک</a>
+        <a href="#alerts">هشدارها</a>
+      </nav>
+
+      <div class="safety">Live Trading: غیرفعال</div>
+    </aside>
+
+    <main class="content">
+      <header class="topbar">
+        <div>
+          <h2>داشبورد گرافیکی YaSara</h2>
+          <p>نمای یکپارچه بازار، تحلیل، ریسک و معاملات کاغذی</p>
+        </div>
+        <button id="refreshBtn">به‌روزرسانی</button>
+      </header>
+
+      <section class="cards">
+        <div class="card">
+          <span>وضعیت نسخه</span>
+          <strong id="releaseStatus">...</strong>
+          <small id="releasePhase">در حال دریافت</small>
+        </div>
+        <div class="card">
+          <span>نمادهای بازار</span>
+          <strong id="marketCount">...</strong>
+          <small>Market snapshot</small>
+        </div>
+        <div class="card">
+          <span>AI Insights</span>
+          <strong id="aiCount">...</strong>
+          <small>تحلیل‌های آماده</small>
+        </div>
+        <div class="card">
+          <span>هشدارها</span>
+          <strong id="alertCount">...</strong>
+          <small>Notification engine</small>
+        </div>
+      </section>
+
+      <section class="grid">
+        <div class="panel large">
+          <div class="panel-head">
+            <h3>Market Snapshot</h3>
+            <span id="marketState">Loading</span>
+          </div>
+          <div id="marketTable" class="table"></div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-head">
+            <h3>AI Market Intelligence</h3>
+          </div>
+          <div id="aiList" class="list"></div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-head">
+            <h3>Risk & Paper Trading</h3>
+          </div>
+          <pre id="paperBox">Loading...</pre>
+        </div>
+
+        <div class="panel">
+          <div class="panel-head">
+            <h3>Alerts</h3>
+          </div>
+          <div id="alertsList" class="list"></div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="/static/dashboard/app.js"></script>
+</body>
+</html>

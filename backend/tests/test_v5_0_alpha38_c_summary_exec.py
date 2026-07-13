@@ -1,0 +1,3 @@
+from app.v500_alpha38_exchange_connectivity.models import ExchangeConnectivitySummaryV500Alpha38
+
+def test_v500_alpha38_c_summary_exec(): assert ExchangeConnectivitySummaryV500Alpha38().real_execution_enabled is False

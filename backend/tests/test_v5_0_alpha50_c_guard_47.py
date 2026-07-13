@@ -1,0 +1,3 @@
+from app.v500_alpha50_packaging_enablement.models import GuardedPackagingEnablementSummaryV500Alpha50
+
+def test_guard(): assert GuardedPackagingEnablementSummaryV500Alpha50().ready is True

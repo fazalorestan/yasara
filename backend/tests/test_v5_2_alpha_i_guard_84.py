@@ -1,0 +1,3 @@
+from app.v52_alpha_cryptography_runtime_fix.models import CryptographyRuntimeFixSummaryV52Alpha
+
+def test_guard(): assert CryptographyRuntimeFixSummaryV52Alpha().auto_trading_enabled is False

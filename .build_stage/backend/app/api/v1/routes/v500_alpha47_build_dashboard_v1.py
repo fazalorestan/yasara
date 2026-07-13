@@ -1,0 +1,27 @@
+from fastapi import APIRouter
+from app.v500_alpha47_build_dashboard.service import build_dashboard_facade_v500_alpha47 as _service
+
+router = APIRouter(prefix="/v5-0-alpha-47/build-dashboard", tags=["v5.0-alpha.47-build-dashboard"])
+
+@router.get("/summary")
+async def summary(): return _service.summary()
+@router.get("/integration")
+async def integration(): return _service.integration()
+@router.get("/pipeline-status")
+async def pipeline_status(): return _service.pipeline_status()
+@router.get("/build-timeline")
+async def build_timeline(): return _service.build_timeline()
+@router.get("/ci-signal")
+async def ci_signal(): return _service.ci_signal()
+@router.get("/release-signal")
+async def release_signal(): return _service.release_signal()
+@router.get("/artifact-signal")
+async def artifact_signal(): return _service.artifact_signal()
+@router.get("/quality-signal")
+async def quality_signal(): return _service.quality_signal()
+@router.get("/report")
+async def report(): return _service.report()
+@router.get("/readiness")
+async def readiness(): return _service.readiness()
+@router.get("/contract")
+async def contract(): return _service.contract()

@@ -1,0 +1,17 @@
+from fastapi import APIRouter
+from app.v500_alpha46_desktop_foundation.service import desktop_foundation_facade_v500_alpha46 as _service
+router = APIRouter(prefix="/v5-0-alpha-46/desktop-foundation", tags=["v5.0-alpha.46-desktop-foundation"])
+@router.get("/summary")
+async def summary(): return _service.summary()
+@router.get("/acceptance")
+async def acceptance(): return _service.acceptance()
+@router.get("/quality")
+async def quality(): return _service.quality()
+@router.get("/dashboard-validation")
+async def dashboard_validation(): return _service.dashboard_validation()
+@router.get("/report")
+async def report(): return _service.report()
+@router.get("/readiness")
+async def readiness(): return _service.readiness()
+@router.get("/contract")
+async def contract(): return _service.contract()

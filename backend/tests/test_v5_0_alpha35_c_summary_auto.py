@@ -1,0 +1,3 @@
+from app.v500_alpha35_portfolio_ai_optimization.models import PortfolioAIOptimizationSummaryV500Alpha35
+
+def test_v500_alpha35_c_summary_auto(): assert PortfolioAIOptimizationSummaryV500Alpha35().auto_trading_enabled is False

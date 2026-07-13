@@ -1,0 +1,94 @@
+from scripts.yasara_one_command_launcher import start as yasara_start
+#!/usr/bin/env python
+from __future__ import annotations
+import argparse, os, subprocess, sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent
+BACKEND = ROOT / "backend"
+FRONTEND = ROOT / "frontend"
+
+def run(cmd, cwd=None, check=True):
+    cwd = cwd or ROOT
+    print(f"\n[YaSara] {cwd}> {' '.join(map(str, cmd))}")
+    env = os.environ.copy()
+    env["PYTHONPATH"] = str(BACKEND)
+    result = subprocess.run(cmd, cwd=str(cwd), env=env)
+    if check and result.returncode != 0:
+        raise SystemExit(result.returncode)
+    return result.returncode
+
+def router_scripts():
+    d = BACKEND / "scripts"
+    return sorted(d.glob("apply_v*_router_patch.py")) if d.exists() else []
+
+def apply_routers():
+    for s in router_scripts():
+        run([sys.executable, str(s.relative_to(BACKEND))], cwd=BACKEND)
+    if not router_scripts():
+        print("[YaSara] No router patch scripts found.")
+
+def sync_frontend():
+    s = BACKEND / "scripts" / "sync_operational_frontend_status.py"
+    if s.exists():
+        run([sys.executable, str(s.relative_to(BACKEND))], cwd=BACKEND)
+    else:
+        print("[YaSara] Frontend sync script not found; skipped.")
+
+def validate():
+    for name in ["validate_v3_6_1_guardrails.py", "validate_v3_6_phase_a_meta_ykb.py"]:
+        s = BACKEND / "scripts" / name
+        if s.exists():
+            run([sys.executable, str(s.relative_to(BACKEND))], cwd=BACKEND, check=False)
+
+def test():
+    run([sys.executable, "-m", "pytest", "tests"], cwd=BACKEND)
+
+def health():
+    required = [
+        ROOT/"feature_registry.yaml", ROOT/"dependency_graph.yaml", ROOT/"feature_flags.yaml",
+        ROOT/"technical_debt_log.md", ROOT/"docs"/"data_flow.md",
+        ROOT/"data"/"ykb"/"knowledge_entries.json",
+        BACKEND/"app"/"api"/"v1"/"router.py", FRONTEND/"src"/"App.tsx",
+    ]
+    ok = 0
+    for p in required:
+        exists = p.exists()
+        ok += int(exists)
+        print(f"[{'OK' if exists else 'MISS'}] {p.relative_to(ROOT)}")
+    print(f"[YaSara] Local health: {round(ok/len(required)*100,2)}%")
+
+def patch():
+    print("[YaSara] Unified patch flow started.")
+    apply_routers()
+    sync_frontend()
+    validate()
+    test()
+    health()
+    print("\n[YaSara] Patch flow completed successfully.")
+
+def run_backend():
+    run([sys.executable, "-m", "uvicorn", "app.main:app", "--host", "127.0.0.1", "--port", "8000", "--reload"], cwd=BACKEND)
+
+def run_frontend():
+    run(["npm.cmd", "run", "dev"], cwd=FRONTEND)
+
+def main():
+    parser = argparse.ArgumentParser(description="YaSara Project Control CLI")
+    sub = parser.add_subparsers(dest="command")
+    for c in ["patch","routers","sync-frontend","validate","test","health","run-backend","run-frontend"]:
+        sub.add_parser(c)
+    a = parser.parse_args()
+    if a.command == "patch": patch()
+    elif a.command == "routers": apply_routers()
+    elif a.command == "sync-frontend": sync_frontend()
+    elif a.command == "validate": validate()
+    elif a.command == "test": test()
+    elif a.command == "health": health()
+    elif a.command == "run-backend": run_backend()
+    elif a.command == "run-frontend": run_frontend()
+    elif a.command == "start": yasara_start(open_browser=True)
+    else: parser.print_help()
+
+if __name__ == "__main__":
+    main()

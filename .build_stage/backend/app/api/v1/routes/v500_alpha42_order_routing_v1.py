@@ -1,0 +1,25 @@
+from fastapi import APIRouter
+from app.v500_alpha42_order_routing.service import order_routing_facade_v500_alpha42 as _service
+
+router = APIRouter(prefix="/v5-0-alpha-42/order-routing", tags=["v5.0-alpha.42-order-routing"])
+
+@router.get("/summary")
+async def summary(): return _service.summary()
+@router.get("/validate-order")
+async def validate_order(): return _service.validate_order()
+@router.get("/router-contract")
+async def router_contract(): return _service.router_contract()
+@router.get("/dry-route")
+async def dry_route(): return _service.dry_route()
+@router.get("/pre-trade-checks")
+async def pre_trade_checks(): return _service.pre_trade_checks()
+@router.get("/idempotency")
+async def idempotency(): return _service.idempotency()
+@router.get("/safety")
+async def safety(): return _service.safety()
+@router.get("/report")
+async def report(): return _service.report()
+@router.get("/readiness")
+async def readiness(): return _service.readiness()
+@router.get("/contract")
+async def contract(): return _service.contract()

@@ -1,0 +1,3 @@
+from app.v500_alpha50_artifact_registration.service import LocalExeArtifactRegistrationFacadeV500Alpha50
+
+def test_facade_smoke_result(): assert LocalExeArtifactRegistrationFacadeV500Alpha50().smoke_result() is not None

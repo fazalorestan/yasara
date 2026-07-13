@@ -1,0 +1,13 @@
+//@version=6
+// YaSara Indicator Source Archive v1.0
+// Original logic adapted from Kaley System v3.
+// This file is an archive/source slot only.
+// Runtime implementation lives in:
+// backend/app/platform_core/indicators/runtime/yasara_runtime.py
+//
+// Update rule:
+// Replace this file when updating the Pine source.
+// Then update runtime mappings explicitly.
+// No live execution is allowed from this source file.
+
+indicator("YaSara", overlay=true, max_labels_count=300, max_lines_count=50)

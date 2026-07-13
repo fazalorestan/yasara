@@ -1,0 +1,22 @@
+{
+  "name": "market_structure_pro",
+  "version": "v4.21",
+  "category": "analysis_engine",
+  "metadata": {
+    "managed_by": "v4_23_1_path_resolver",
+    "backward_compatible": true
+  },
+  "dependencies": [],
+  "feature_flags": [
+    "market_structure"
+  ],
+  "required_permissions": [],
+  "required_licenses": [],
+  "event_registration": [],
+  "routes": [
+    "/api/v1/v4-21/market-structure-pro/summary"
+  ],
+  "services": [],
+  "tests": [],
+  "documentation": []
+}

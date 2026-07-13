@@ -1,0 +1,22 @@
+{
+  "name": "backtest_benchmark",
+  "version": "v4.4",
+  "category": "backtesting",
+  "metadata": {
+    "managed_by": "v4_23_1_path_resolver",
+    "backward_compatible": true
+  },
+  "dependencies": [],
+  "feature_flags": [
+    "backtest"
+  ],
+  "required_permissions": [],
+  "required_licenses": [],
+  "event_registration": [],
+  "routes": [
+    "/api/v1/v4-4/backtest/summary"
+  ],
+  "services": [],
+  "tests": [],
+  "documentation": []
+}

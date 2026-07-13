@@ -1,0 +1,1 @@
+"""Indicator Platform Handoff."""

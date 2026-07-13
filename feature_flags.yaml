@@ -1,0 +1,36 @@
+features:
+  market_analysis_engine:
+    enabled: true
+    scope: shared
+  market_context_engine:
+    enabled: true
+    scope: shared
+  engine_registry:
+    enabled: true
+    scope: shared
+  confidence_normalizer:
+    enabled: true
+    scope: shared
+  smart_money_engine:
+    enabled: true
+    scope: shared
+  strategy_builder_core:
+    enabled: true
+    scope: shared
+  phase_a_meta_infrastructure:
+    enabled: true
+    scope: shared
+  ykb:
+    enabled: true
+    scope: shared
+  personal_autotrade_gate:
+    enabled: true
+    scope: personal_only
+    commercial_included: false
+  execution_engine:
+    enabled: false
+    scope: personal_only
+    commercial_included: false
+  commercial_subscription:
+    enabled: false
+    scope: commercial_only

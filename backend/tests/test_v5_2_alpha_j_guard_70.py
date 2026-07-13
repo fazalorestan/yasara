@@ -1,0 +1,3 @@
+from app.v52_alpha_auto_dependency_build_gate.models import AutoDependencyBuildGateSummaryV52Alpha
+
+def test_guard(): assert AutoDependencyBuildGateSummaryV52Alpha().auto_trading_enabled is False

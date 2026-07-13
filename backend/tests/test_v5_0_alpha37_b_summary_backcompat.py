@@ -1,0 +1,3 @@
+from app.v500_alpha37_broker_orders_account.models import BrokerOrdersAccountSummaryV500Alpha37
+
+def test_v500_alpha37_b_summary_backcompat(): assert BrokerOrdersAccountSummaryV500Alpha37().backward_compatible is True

@@ -1,0 +1,3 @@
+from app.v500_alpha51_exe_smoke_build.service import WindowsExeSmokeBuildFacadeV500Alpha51
+
+def test_no_final_exe_by_patch(): assert WindowsExeSmokeBuildFacadeV500Alpha51().summary().final_exe_generated_by_patch is False

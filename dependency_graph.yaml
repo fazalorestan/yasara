@@ -1,0 +1,36 @@
+dependencies:
+  market_analysis_engine:
+    requires:
+      - live_exchange_foundation
+      - market_data_engine
+  smart_money_engine:
+    requires:
+      - live_exchange_foundation
+      - market_analysis_engine
+  strategy_builder_core:
+    requires:
+      - advanced_ai_indicators
+      - market_analysis_engine
+  ai_engine_full:
+    requires:
+      - indicator_signal_engine
+      - market_analysis_engine
+      - smart_money_engine
+      - strategy_builder_core
+      - ykb
+  backtest_engine:
+    requires:
+      - historical_database
+      - strategy_builder_core
+      - market_data_engine
+  execution_engine:
+    scope: personal_only
+    requires:
+      - risk_engine
+      - exchange_connector
+      - error_recovery_engine
+      - kill_switch
+  commercial_distribution:
+    excludes:
+      - execution_engine
+      - trade_api_keys

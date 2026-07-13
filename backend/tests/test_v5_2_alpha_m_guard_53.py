@@ -1,0 +1,3 @@
+from app.v52_alpha_apscheduler_dependency_gate.models import APSchedulerDependencyGateSummaryV52Alpha
+
+def test_guard(): assert APSchedulerDependencyGateSummaryV52Alpha().auto_trading_enabled is False

@@ -1,0 +1,3 @@
+from app.v500_alpha42_execution_lifecycle.models import ExecutionLifecycleSummaryV500Alpha42
+
+def test_v500_alpha42_c_summary_auto(): assert ExecutionLifecycleSummaryV500Alpha42().auto_trading_enabled is False

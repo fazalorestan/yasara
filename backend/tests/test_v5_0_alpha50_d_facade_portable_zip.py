@@ -1,0 +1,3 @@
+from app.v500_alpha50_artifact_registration.service import LocalExeArtifactRegistrationFacadeV500Alpha50
+
+def test_facade_portable_zip(): assert LocalExeArtifactRegistrationFacadeV500Alpha50().portable_zip() is not None

@@ -1,0 +1,3 @@
+from app.v500_alpha42_order_routing.models import OrderRoutingSummaryV500Alpha42
+
+def test_v500_alpha42_b_summary_broker(): assert OrderRoutingSummaryV500Alpha42().broker_connection_enabled is False

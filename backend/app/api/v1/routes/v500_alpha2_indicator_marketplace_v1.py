@@ -1,0 +1,16 @@
+from fastapi import APIRouter
+from app.v500_alpha2_indicator_marketplace.service import IndicatorMarketplaceFacadeV500Alpha2
+router=APIRouter(prefix="/v5-0-alpha-2/indicator-marketplace",tags=["v5.0-alpha.2-indicator-marketplace"])
+_service=IndicatorMarketplaceFacadeV500Alpha2()
+@router.get("/summary")
+async def summary(): return _service.summary()
+@router.get("/catalog")
+async def catalog(): return _service.catalog()
+@router.get("/discovery")
+async def discovery(): return _service.discovery()
+@router.get("/install-plan")
+async def install_plan(indicator: str="yasara"): return _service.install_plan(indicator)
+@router.get("/enable-plan")
+async def enable_plan(indicator: str="yasara"): return _service.enable_plan(indicator)
+@router.get("/disable-plan")
+async def disable_plan(indicator: str="yasara"): return _service.disable_plan(indicator)

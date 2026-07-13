@@ -1,0 +1,1 @@
+"""Indicator Settings and Presets."""

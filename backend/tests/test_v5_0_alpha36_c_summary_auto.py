@@ -1,0 +1,3 @@
+from app.v500_alpha36_plugin_versioning.models import PluginVersioningSummaryV500Alpha36
+
+def test_v500_alpha36_c_summary_auto(): assert PluginVersioningSummaryV500Alpha36().auto_trading_enabled is False

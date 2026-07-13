@@ -1,0 +1,22 @@
+{
+  "name": "paper_trading",
+  "version": "v4.5",
+  "category": "trading_simulation",
+  "metadata": {
+    "managed_by": "v4_23_1_path_resolver",
+    "backward_compatible": true
+  },
+  "dependencies": [],
+  "feature_flags": [
+    "paper_trading"
+  ],
+  "required_permissions": [],
+  "required_licenses": [],
+  "event_registration": [],
+  "routes": [
+    "/api/v1/v4-5/paper/summary"
+  ],
+  "services": [],
+  "tests": [],
+  "documentation": []
+}

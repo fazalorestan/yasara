@@ -1,0 +1,3 @@
+from app.platform_core.alert_engine.service import AlertEngineFoundationService
+
+def test_v500_alpha28_service_rules(): assert AlertEngineFoundationService().rules()['ready'] is True

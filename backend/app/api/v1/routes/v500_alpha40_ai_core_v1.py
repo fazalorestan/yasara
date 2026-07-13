@@ -1,0 +1,27 @@
+from fastapi import APIRouter
+from app.v500_alpha40_ai_core.service import ai_core_facade_v500_alpha40 as _service
+
+router = APIRouter(prefix="/v5-0-alpha-40/ai-core", tags=["v5.0-alpha.40-ai-core"])
+
+@router.get("/summary")
+async def summary(): return _service.summary()
+@router.get("/kernel")
+async def kernel(): return _service.kernel()
+@router.get("/providers")
+async def providers(): return _service.providers()
+@router.get("/provider-contract")
+async def provider_contract(): return _service.provider_contract()
+@router.get("/simulated-completion")
+async def simulated_completion(): return _service.simulated_completion()
+@router.get("/prompt")
+async def prompt(): return _service.prompt()
+@router.get("/context")
+async def context(): return _service.context()
+@router.get("/safety")
+async def safety(): return _service.safety()
+@router.get("/report")
+async def report(): return _service.report()
+@router.get("/readiness")
+async def readiness(): return _service.readiness()
+@router.get("/contract")
+async def contract(): return _service.contract()

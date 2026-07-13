@@ -1,0 +1,21 @@
+# Complete Module Index
+
+- Exchange & Market Data
+- Event Bus
+- Market Intelligence
+- Decision Intelligence
+- Risk Management
+- Backtesting
+- Portfolio Intelligence
+- Paper Trading
+- Execution Gateway
+- Notifications
+- Secrets Vault
+- Private Exchange Dry-Run
+- Account Sync
+- Strategy Builder
+- Desktop Dashboard Backend
+- Mobile Dashboard Backend
+- AI Assistant
+- Production Monitoring
+- Release Verification

@@ -1,0 +1,142 @@
+import { ElliottStatus } from "./components/operational/ElliottStatus";
+import { NeoWaveSprint2Status } from "./components/operational/NeoWaveSprint2Status";
+import { NeoWaveStatus } from "./components/operational/NeoWaveStatus";
+import { AIFusionStatus } from "./components/operational/AIFusionStatus";
+import { ICTEngineStatus } from "./components/operational/ICTEngineStatus";
+import { SmartMoneyProSprint2Status } from "./components/operational/SmartMoneyProSprint2Status";
+import { SmartMoneyProStatus } from "./components/operational/SmartMoneyProStatus";
+import { MarketStructureSprint2Status } from "./components/operational/MarketStructureSprint2Status";
+import { MarketStructureStatus } from "./components/operational/MarketStructureStatus";
+import { ProductionReadinessStatus } from "./components/operational/ProductionReadinessStatus";
+import { NotificationAlertsStatus } from "./components/operational/NotificationAlertsStatus";
+import { TradingJournalStatus } from "./components/operational/TradingJournalStatus";
+import { PaperTradingV45Status } from "./components/operational/PaperTradingV45Status";
+import { BacktestBenchmarkStatus } from "./components/operational/BacktestBenchmarkStatus";
+import { RiskEngineStatus } from "./components/operational/RiskEngineStatus";
+import { IndicatorEngineStatus } from "./components/operational/IndicatorEngineStatus";
+import { SignalEngineStatus } from "./components/operational/SignalEngineStatus";
+import { MarketContextStatus } from "./components/operational/MarketContextStatus";
+import { AutoTradeGateStatus } from "./components/operational/AutoTradeGateStatus";
+import { ProjectCliStatus } from "./components/operational/ProjectCliStatus";
+import { PhaseAGuardrailsStatus } from "./components/operational/PhaseAGuardrailsStatus";
+import { ConstitutionAuditStatus } from "./components/operational/ConstitutionAuditStatus";
+import { PhaseAMetaYkbStatus } from "./components/operational/PhaseAMetaYkbStatus";
+import { LiveExchangeStatus } from "./components/operational/LiveExchangeStatus";\nimport { AdvancedAiIndicatorStatus } from "./components/operational/AdvancedAiIndicatorStatus";\nimport { StrategyBuilderStatus } from "./components/operational/StrategyBuilderStatus";\nimport { MarketAnalysisStatus } from "./components/operational/MarketAnalysisStatus";\nimport { SmartMoneyStatus } from "./components/operational/SmartMoneyStatus";\nimport { useEffect, useMemo, useState } from "react";
+import { apiGet } from "./api/client";
+import type { AiDashboard, FinalReleaseSummary, MarketSnapshot } from "./api/types";
+import { Sidebar } from "./components/Sidebar";
+import { Header } from "./components/Header";
+import { MetricCard } from "./components/MetricCard";
+import { Panel } from "./components/Panel";
+import { MarketOverview } from "./components/market/MarketOverview";
+import { SymbolSearch } from "./components/market/SymbolSearch";
+import { marketOverview } from "./data/marketWorkspace";
+import { terminalSymbols, Timeframe } from "./data/tradingTerminal";
+import { TerminalHeader } from "./components/trading/TerminalHeader";
+import { TimeframeToolbar } from "./components/trading/TimeframeToolbar";
+import { TradingChart } from "./components/trading/TradingChart";
+import { ProfessionalWatchlist } from "./components/trading/ProfessionalWatchlist";
+import { MarketHeat } from "./components/trading/MarketHeat";
+import { PortfolioSummary } from "./components/trading/PortfolioSummary";
+import { PositionsTable } from "./components/trading/PositionsTable";
+import { OrdersTable } from "./components/trading/OrdersTable";
+import { OrderBook } from "./components/trading/OrderBook";
+import { RecentTrades } from "./components/trading/RecentTrades";
+import { OrderPanel } from "./components/trading/OrderPanel";
+import { FloatingNotifications } from "./components/trading/FloatingNotifications";
+import { useRealtimeFeed } from "./hooks/useRealtimeFeed";
+import { ConnectionStatus } from "./components/realtime/ConnectionStatus";
+import { LiveEventsPanel } from "./components/realtime/LiveEventsPanel";
+import { AISignalPanel } from "./components/realtime/AISignalPanel";
+import { RealtimeTicker } from "./components/realtime/RealtimeTicker";
+import { SettingsPanel } from "./components/settings/SettingsPanel";
+import { ProductionChecklist } from "./components/settings/ProductionChecklist";
+import { LayoutManager } from "./components/settings/LayoutManager";
+
+export function App() {
+  const [release, setRelease] = useState<FinalReleaseSummary | null>(null);
+  const [market, setMarket] = useState<MarketSnapshot | null>(null);
+  const [ai, setAi] = useState<AiDashboard | null>(null);
+  const [query, setQuery] = useState("");
+  const [exchange, setExchange] = useState("all");
+  const [selectedSymbol, setSelectedSymbol] = useState(terminalSymbols[0]);
+  const [timeframe, setTimeframe] = useState<Timeframe>("4H");
+  const realtime = useRealtimeFeed();
+
+  async function load() {
+    const [releaseData, marketData, aiData] = await Promise.all([
+      apiGet<FinalReleaseSummary>("/v1-1/final-release/summary"),
+      apiGet<MarketSnapshot>("/v1-1/market-data/snapshot"),
+      apiGet<AiDashboard>("/v1-1/ai-market-intelligence/dashboard")
+    ]);
+    setRelease(releaseData); setMarket(marketData); setAi(aiData);
+  }
+  useEffect(() => { load().catch(console.error); }, []);
+
+  const filteredSymbols = useMemo(() => terminalSymbols.filter((item) => item.symbol.toLowerCase().includes(query.toLowerCase()) && (exchange === "all" || item.exchange === exchange)), [query, exchange]);
+  const chartSeed = selectedSymbol.price > 10 ? selectedSymbol.price / 500 + realtime.tick * 0.05 : selectedSymbol.price * 100;
+
+  return <div className="app-shell"><Sidebar /><main className="main"><Header />
+    <RealtimeTicker tick={realtime.tick} />
+    <SmartMoneyStatus />\n    <MarketAnalysisStatus />\n    <StrategyBuilderStatus />\n    <AdvancedAiIndicatorStatus />\n    <LiveExchangeStatus />\n    <PhaseAMetaYkbStatus />
+    <ConstitutionAuditStatus />
+    <PhaseAGuardrailsStatus />
+    <ProjectCliStatus />
+    <AutoTradeGateStatus />
+    <MarketContextStatus />
+    <SignalEngineStatus />
+    <IndicatorEngineStatus />
+    <RiskEngineStatus />
+    <BacktestBenchmarkStatus />
+    <PaperTradingV45Status />
+    <TradingJournalStatus />
+    <NotificationAlertsStatus />
+    <ProductionReadinessStatus />
+    <MarketStructureStatus />
+    <MarketStructureSprint2Status />
+    <SmartMoneyProStatus />
+    <SmartMoneyProSprint2Status />
+    <ICTEngineStatus />
+    <AIFusionStatus />
+    <NeoWaveStatus />
+    <NeoWaveSprint2Status />
+    <ElliottStatus />
+    <div className="metrics">
+      <MetricCard label="وضعیت نسخه" value={release?.ready ? "Ready" : "..."} hint={release?.phase ?? "loading"} />
+      <MetricCard label="نمادهای بازار" value={market?.count ?? "..."} hint="Market snapshot" />
+      <MetricCard label="AI Insights" value={ai?.count ?? "..."} hint="تحلیل‌های آماده" />
+      <MetricCard label="پیشرفت پروژه" value="97%" hint="v1.2.6 Workspace Polish" />
+    </div>
+    <div className="terminal-grid advanced">
+      <section className="chart-area">
+        <TerminalHeader symbol={selectedSymbol} timeframe={timeframe} exchange={selectedSymbol.exchange} />
+        <div className="chart-toolbar-row"><SymbolSearch value={query} onChange={setQuery} exchange={exchange} onExchangeChange={setExchange} /><TimeframeToolbar value={timeframe} onChange={setTimeframe} /></div>
+        <TradingChart seed={chartSeed} />
+      </section>
+      <aside className="terminal-side">
+        <ConnectionStatus state={realtime.connection} statusText={realtime.statusText} lastUpdate={realtime.lastUpdate} />
+        <Panel title="Professional Watchlist"><ProfessionalWatchlist items={filteredSymbols} selected={selectedSymbol.symbol} onSelect={setSelectedSymbol} /></Panel>
+        <Panel title="Order Book"><OrderBook /></Panel>
+      </aside>
+    </div>
+    <PortfolioSummary />
+    <div className="terminal-lower-grid realtime">
+      <Panel title="Positions"><PositionsTable /></Panel>
+      <Panel title="Open Orders"><OrdersTable /></Panel>
+      <Panel title="AI Signal Panel"><AISignalPanel /></Panel>
+      <Panel title="Live Events"><LiveEventsPanel events={realtime.events} /></Panel>
+    </div>
+    <div className="workspace compact">
+      <Panel title="Order Panel"><OrderPanel /></Panel>
+      <Panel title="Recent Trades"><RecentTrades /></Panel>
+      <Panel title="Market Heat"><MarketHeat items={terminalSymbols} /></Panel>
+      <Panel title="Market Overview"><MarketOverview items={marketOverview} /></Panel>
+    </div>
+    <div className="settings-grid">
+      <Panel title="Workspace Settings"><SettingsPanel /></Panel>
+      <Panel title="Layout Manager"><LayoutManager /></Panel>
+      <Panel title="Production Checklist"><ProductionChecklist /></Panel>
+    </div>
+    <FloatingNotifications />
+  </main></div>;
+}

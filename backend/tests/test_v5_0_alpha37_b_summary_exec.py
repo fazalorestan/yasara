@@ -1,0 +1,3 @@
+from app.v500_alpha37_broker_orders_account.models import BrokerOrdersAccountSummaryV500Alpha37
+
+def test_v500_alpha37_b_summary_exec(): assert BrokerOrdersAccountSummaryV500Alpha37().real_execution_enabled is False

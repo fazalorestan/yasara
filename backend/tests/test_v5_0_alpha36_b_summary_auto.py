@@ -1,0 +1,3 @@
+from app.v500_alpha36_plugin_runtime_sandbox.models import PluginRuntimeSandboxSummaryV500Alpha36
+
+def test_v500_alpha36_b_summary_auto(): assert PluginRuntimeSandboxSummaryV500Alpha36().auto_trading_enabled is False

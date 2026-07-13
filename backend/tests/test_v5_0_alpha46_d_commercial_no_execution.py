@@ -1,0 +1,3 @@
+from app.v500_alpha46_desktop_dashboard_intelligence.service import DesktopDashboardIntelligenceFacadeV500Alpha46
+
+def test_commercial_no_execution(): assert DesktopDashboardIntelligenceFacadeV500Alpha46().report()['commercial_execution_engine_enabled'] is False

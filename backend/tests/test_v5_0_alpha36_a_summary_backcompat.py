@@ -1,0 +1,3 @@
+from app.v500_alpha36_plugin_sdk_core.models import PluginSDKCoreSummaryV500Alpha36
+
+def test_v500_alpha36_a_summary_backcompat(): assert PluginSDKCoreSummaryV500Alpha36().backward_compatible is True

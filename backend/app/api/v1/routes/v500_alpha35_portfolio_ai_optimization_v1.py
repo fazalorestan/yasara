@@ -1,0 +1,28 @@
+from fastapi import APIRouter
+from app.v500_alpha35_portfolio_ai_optimization.service import PortfolioAIOptimizationFacadeV500Alpha35
+
+router = APIRouter(prefix="/v5-0-alpha-35/portfolio-ai-optimization", tags=["v5.0-alpha.35-portfolio-ai-optimization"])
+_service = PortfolioAIOptimizationFacadeV500Alpha35()
+
+@router.get("/summary")
+async def summary(): return _service.summary()
+@router.get("/ai-decision")
+async def ai_decision(): return _service.ai_decision()
+@router.get("/ai-signal")
+async def ai_signal(): return _service.ai_signal()
+@router.get("/optimizer-best")
+async def optimizer_best(): return _service.optimizer_best()
+@router.get("/allocation-bias")
+async def allocation_bias(): return _service.allocation_bias()
+@router.get("/risk-check")
+async def risk_check(): return _service.risk_check()
+@router.get("/recommendation")
+async def recommendation(): return _service.recommendation()
+@router.get("/action-plan")
+async def action_plan(): return _service.action_plan()
+@router.get("/report")
+async def report(): return _service.report()
+@router.get("/readiness")
+async def readiness(): return _service.readiness()
+@router.get("/contract")
+async def contract(): return _service.contract()

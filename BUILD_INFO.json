@@ -1,0 +1,9 @@
+{
+  "product": "YaSara Professional",
+  "version": "2.0.0",
+  "status": "final",
+  "ui_progress_percent": 100,
+  "project_progress_percent": 100,
+  "live_trading_enabled": false,
+  "release_channel": "stable"
+}

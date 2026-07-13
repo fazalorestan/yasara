@@ -1,0 +1,3 @@
+from app.v500_alpha49_windows_portable_build.service import WindowsPortableBuildFacadeV500Alpha49
+
+def test_artifact_not_registered_yet(): assert WindowsPortableBuildFacadeV500Alpha49().summary().artifact_registered is False

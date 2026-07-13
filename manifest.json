@@ -1,0 +1,18 @@
+{
+  "project": "YaSara Enterprise",
+  "sprint": 46,
+  "name": "Workspace Foundation + Real Data Policy + Dashboard Stability Lock",
+  "build_id": "2026.46.ENTERPRISE.001",
+  "real_backend_data_only": true,
+  "mock_data": false,
+  "dashboard_layout_locked": true,
+  "root_app_unchanged": true,
+  "auto_router_registry": true,
+  "service_registry": true,
+  "lazy_initialization": true,
+  "doctor_integration": true,
+  "signal_only_default": true,
+  "auto_trading_enabled": false,
+  "tests_added": 100,
+  "backward_compatible": true
+}

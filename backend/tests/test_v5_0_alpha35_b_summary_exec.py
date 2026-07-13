@@ -1,0 +1,3 @@
+from app.v500_alpha35_portfolio_analytics_risk.models import PortfolioAnalyticsRiskSummaryV500Alpha35
+
+def test_v500_alpha35_b_summary_exec(): assert PortfolioAnalyticsRiskSummaryV500Alpha35().real_execution_enabled is False

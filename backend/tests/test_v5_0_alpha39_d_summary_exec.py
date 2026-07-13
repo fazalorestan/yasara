@@ -1,0 +1,3 @@
+from app.v500_alpha39_live_data_cache.models import LiveDataCacheSummaryV500Alpha39
+
+def test_v500_alpha39_d_summary_exec(): assert LiveDataCacheSummaryV500Alpha39().real_execution_enabled is False

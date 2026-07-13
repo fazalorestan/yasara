@@ -1,0 +1,1 @@
+"""Broker Core Adapter Contract."""

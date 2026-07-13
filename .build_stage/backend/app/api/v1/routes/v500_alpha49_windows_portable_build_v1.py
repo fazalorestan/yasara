@@ -1,0 +1,25 @@
+from fastapi import APIRouter
+from app.v500_alpha49_windows_portable_build.service import windows_portable_build_facade_v500_alpha49 as _service
+
+router = APIRouter(prefix="/v5-0-alpha-49/windows-portable-build", tags=["v5.0-alpha.49-windows-portable-build"])
+
+@router.get("/summary")
+async def summary(): return _service.summary()
+@router.get("/layout")
+async def layout(): return _service.layout()
+@router.get("/manifest")
+async def manifest(): return _service.manifest()
+@router.get("/build-script")
+async def build_script(): return _service.build_script()
+@router.get("/artifact-registration")
+async def artifact_registration(): return _service.artifact_registration()
+@router.get("/launch-smoke")
+async def launch_smoke(): return _service.launch_smoke()
+@router.get("/dashboard")
+async def dashboard(): return _service.dashboard()
+@router.get("/report")
+async def report(): return _service.report()
+@router.get("/readiness")
+async def readiness(): return _service.readiness()
+@router.get("/contract")
+async def contract(): return _service.contract()

@@ -1,0 +1,14 @@
+{
+  "product": "YaSara Professional",
+  "version": "2.7.0",
+  "phase": "v2_7_final_installer_distribution_pack",
+  "tests_expected_minimum": 481,
+  "operational_progress_percent": 100,
+  "outputs": [
+    "dist/YaSara_Professional_v2_7_Windows_Final.zip",
+    "dist/YaSara_Professional_v2_7_Windows_Portable.zip",
+    "dist/YaSara_Professional_v2_7_Mobile_PWA.zip",
+    "dist/SHA256SUMS_V2_7.txt"
+  ],
+  "safety": "live_trading_disabled"
+}

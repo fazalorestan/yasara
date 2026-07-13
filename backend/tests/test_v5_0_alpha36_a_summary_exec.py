@@ -1,0 +1,3 @@
+from app.v500_alpha36_plugin_sdk_core.models import PluginSDKCoreSummaryV500Alpha36
+
+def test_v500_alpha36_a_summary_exec(): assert PluginSDKCoreSummaryV500Alpha36().real_execution_enabled is False

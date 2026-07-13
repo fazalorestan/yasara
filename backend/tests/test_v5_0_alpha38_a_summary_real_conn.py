@@ -1,0 +1,3 @@
+from app.v500_alpha38_exchange_core.models import ExchangeCoreSummaryV500Alpha38
+
+def test_v500_alpha38_a_summary_real_conn(): assert ExchangeCoreSummaryV500Alpha38().real_exchange_connection is False

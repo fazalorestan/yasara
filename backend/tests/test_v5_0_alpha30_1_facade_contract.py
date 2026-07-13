@@ -1,0 +1,3 @@
+from app.v500_alpha30_1_router_auto_registration.service import RouterAutoRegistrationFacadeV500Alpha301
+
+def test_v500_alpha30_1_facade_contract(): assert RouterAutoRegistrationFacadeV500Alpha301().contract()['manual_router_patch_required'] is False

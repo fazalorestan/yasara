@@ -1,0 +1,22 @@
+{
+  "name": "professional_trading_workspace",
+  "version": "v4.20",
+  "category": "frontend_ui",
+  "metadata": {
+    "managed_by": "v4_23_1_path_resolver",
+    "backward_compatible": true
+  },
+  "dependencies": [],
+  "feature_flags": [
+    "dashboard"
+  ],
+  "required_permissions": [],
+  "required_licenses": [],
+  "event_registration": [],
+  "routes": [
+    "/"
+  ],
+  "services": [],
+  "tests": [],
+  "documentation": []
+}

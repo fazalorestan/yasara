@@ -1,0 +1,3 @@
+from app.v52_alpha_embedded_backend_bootstrap.models import EmbeddedBackendBootstrapSummaryV52Alpha
+
+def test_guard(): assert EmbeddedBackendBootstrapSummaryV52Alpha().auto_trading_enabled is False

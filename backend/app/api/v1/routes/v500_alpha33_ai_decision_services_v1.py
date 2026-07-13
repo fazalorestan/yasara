@@ -1,0 +1,26 @@
+from fastapi import APIRouter
+from app.v500_alpha33_ai_decision_services.service import AIDecisionServicesFacadeV500Alpha33
+
+router = APIRouter(prefix="/v5-0-alpha-33/ai-decision-services", tags=["v5.0-alpha.33-ai-decision-services"])
+_service = AIDecisionServicesFacadeV500Alpha33()
+
+@router.get("/summary")
+async def summary(): return _service.summary()
+@router.get("/consensus")
+async def consensus(): return _service.consensus()
+@router.get("/ranking")
+async def ranking(): return _service.ranking()
+@router.get("/pipeline")
+async def pipeline(): return _service.pipeline()
+@router.get("/quality-gate")
+async def quality_gate(): return _service.quality_gate()
+@router.get("/health")
+async def health(): return _service.health()
+@router.get("/runtime-acceptance")
+async def runtime_acceptance(): return _service.runtime_acceptance()
+@router.get("/status")
+async def status(): return _service.status()
+@router.get("/readiness")
+async def readiness(): return _service.readiness()
+@router.get("/contract")
+async def contract(): return _service.contract()

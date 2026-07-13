@@ -1,0 +1,3 @@
+from app.v500_alpha50_release_candidate.service import InternalRCPreparationFacadeV500Alpha50
+
+def test_system_reenable_blocked(): assert InternalRCPreparationFacadeV500Alpha50().summary().system_can_reenable_auto_trading is False

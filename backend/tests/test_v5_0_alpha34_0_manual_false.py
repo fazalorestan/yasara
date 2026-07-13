@@ -1,0 +1,3 @@
+from app.v500_alpha34_0_auto_router_registry.service import AutoRouterRegistryFacadeV500Alpha340
+
+def test_v500_alpha34_0_manual_false(): assert AutoRouterRegistryFacadeV500Alpha340().status()['manual_router_patch_required_after_this'] is False

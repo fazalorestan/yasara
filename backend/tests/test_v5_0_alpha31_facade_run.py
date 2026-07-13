@@ -1,0 +1,3 @@
+from app.v500_alpha31_optimizer.service import OptimizerFacadeV500Alpha31
+
+def test_v500_alpha31_facade_run(): assert OptimizerFacadeV500Alpha31().run()['ready'] is True

@@ -1,0 +1,33 @@
+services:
+  yasara-backend:
+    build:
+      context: ../..
+      dockerfile: deployment/docker/Dockerfile.backend
+    container_name: yasara-backend
+    env_file:
+      - ../../backend/.env.production.example
+    ports:
+      - "8000:8000"
+    depends_on:
+      - yasara-postgres
+      - yasara-redis
+    restart: unless-stopped
+
+  yasara-postgres:
+    image: postgres:16-alpine
+    container_name: yasara-postgres
+    environment:
+      POSTGRES_DB: yasara
+      POSTGRES_USER: yasara
+      POSTGRES_PASSWORD: change-me
+    volumes:
+      - yasara_postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+  yasara-redis:
+    image: redis:7-alpine
+    container_name: yasara-redis
+    restart: unless-stopped
+
+volumes:
+  yasara_postgres_data:

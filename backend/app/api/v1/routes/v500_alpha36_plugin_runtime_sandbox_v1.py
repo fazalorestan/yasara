@@ -1,0 +1,28 @@
+from fastapi import APIRouter
+from app.v500_alpha36_plugin_runtime_sandbox.service import PluginRuntimeSandboxFacadeV500Alpha36
+
+router = APIRouter(prefix="/v5-0-alpha-36/plugin-runtime-sandbox", tags=["v5.0-alpha.36-plugin-runtime-sandbox"])
+_service = PluginRuntimeSandboxFacadeV500Alpha36()
+
+@router.get("/summary")
+async def summary(): return _service.summary()
+@router.get("/runtime")
+async def runtime(): return _service.runtime()
+@router.get("/execute-contract")
+async def execute_contract(): return _service.execute_contract()
+@router.get("/sandbox-policy")
+async def sandbox_policy(): return _service.sandbox_policy()
+@router.get("/sandbox-evaluate")
+async def sandbox_evaluate(): return _service.sandbox_evaluate()
+@router.get("/permissions")
+async def permissions(): return _service.permissions()
+@router.get("/lifecycle")
+async def lifecycle(): return _service.lifecycle()
+@router.get("/health")
+async def health(): return _service.health()
+@router.get("/report")
+async def report(): return _service.report()
+@router.get("/readiness")
+async def readiness(): return _service.readiness()
+@router.get("/contract")
+async def contract(): return _service.contract()

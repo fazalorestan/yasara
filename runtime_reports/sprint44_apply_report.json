@@ -1,0 +1,10 @@
+{
+  "applied": true,
+  "build_id": "2026.44.ENTERPRISE.001",
+  "timestamp": 1783843394.0721939,
+  "auto_router_registry": true,
+  "service_registry": true,
+  "lazy_initialization": true,
+  "signal_only_default": true,
+  "auto_trading_enabled": false
+}

@@ -1,0 +1,20 @@
+from pydantic import BaseModel
+class WindowsExeSmokeBuildSummaryV500Alpha51(BaseModel):
+    ready: bool=True
+    phase: str='v5_0_alpha_51_package_a'
+    scope: str='first_internal_windows_exe_smoke_build'
+    build_id: str='2026.51.A.001'
+    build_attempt_contract: bool=True
+    exe_existence_check: bool=True
+    launch_smoke_contract: bool=True
+    failure_diagnostics: bool=True
+    dashboard_status: bool=True
+    final_exe_generated_by_patch: bool=False
+    signal_only_mode: bool=True
+    auto_trading_enabled: bool=False
+    real_execution_enabled: bool=False
+    real_broker_connection_enabled: bool=False
+    commercial_execution_engine_enabled: bool=False
+    commercial_api_key_required: bool=False
+    backward_compatible: bool=True
+    test_pack_size: int=90

@@ -1,0 +1,3 @@
+from app.v500_alpha50_artifact_registration.service import LocalExeArtifactRegistrationFacadeV500Alpha50
+
+def test_facade_build_result(): assert LocalExeArtifactRegistrationFacadeV500Alpha50().build_result() is not None

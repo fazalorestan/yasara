@@ -1,0 +1,3 @@
+from app.v500_alpha35_portfolio_analytics_risk.models import PortfolioAnalyticsRiskSummaryV500Alpha35
+
+def test_v500_alpha35_b_summary_backcompat(): assert PortfolioAnalyticsRiskSummaryV500Alpha35().backward_compatible is True

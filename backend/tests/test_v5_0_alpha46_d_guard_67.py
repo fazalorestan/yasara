@@ -1,0 +1,3 @@
+from app.v500_alpha46_desktop_dashboard_intelligence.models import DesktopDashboardIntelligenceSummaryV500Alpha46
+
+def test_guard(): assert DesktopDashboardIntelligenceSummaryV500Alpha46().ready is True

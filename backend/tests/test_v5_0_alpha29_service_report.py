@@ -1,0 +1,3 @@
+from app.platform_core.backtest_engine.service import BacktestEngineFoundationService
+
+def test_v500_alpha29_service_report(): assert BacktestEngineFoundationService().report()['real_execution'] is False

@@ -1,0 +1,20 @@
+from pydantic import BaseModel
+class LocalExeArtifactRegistrationSummaryV500Alpha50(BaseModel):
+    ready: bool=True
+    phase: str='v5_0_alpha_50_package_d'
+    scope: str='local_exe_artifact_hash_registration'
+    build_id: str='2026.50.D.001'
+    exe_detector: bool=True
+    hash_generator: bool=True
+    portable_zip_plan: bool=True
+    artifact_registry_update: bool=True
+    build_result_reader: bool=True
+    smoke_result_contract: bool=True
+    final_exe_generated: bool=False
+    artifact_registered: bool=False
+    real_execution_enabled: bool=False
+    real_broker_connection_enabled: bool=False
+    commercial_execution_engine_enabled: bool=False
+    commercial_api_key_required: bool=False
+    backward_compatible: bool=True
+    test_pack_size: int=90

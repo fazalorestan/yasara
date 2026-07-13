@@ -1,0 +1,3 @@
+from app.v500_alpha50_packaging_enablement.service import GuardedPackagingEnablementFacadeV500Alpha50
+
+def test_facade_real_build_gate(): assert GuardedPackagingEnablementFacadeV500Alpha50().real_build_gate() is not None

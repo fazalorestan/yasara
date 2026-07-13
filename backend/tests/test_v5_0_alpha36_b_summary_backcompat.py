@@ -1,0 +1,3 @@
+from app.v500_alpha36_plugin_runtime_sandbox.models import PluginRuntimeSandboxSummaryV500Alpha36
+
+def test_v500_alpha36_b_summary_backcompat(): assert PluginRuntimeSandboxSummaryV500Alpha36().backward_compatible is True

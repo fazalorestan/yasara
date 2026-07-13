@@ -1,0 +1,5 @@
+from app.v500_alpha12_license_manager.service import LicenseManagerFacadeV500Alpha12
+def test_v500_alpha12_facade_export_import():
+    f = LicenseManagerFacadeV500Alpha12()
+    assert f.export_sample("demo")["ready"] is True
+    assert f.import_sample()["ready"] is True

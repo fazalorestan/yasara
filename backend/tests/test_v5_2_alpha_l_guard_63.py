@@ -1,0 +1,3 @@
+from app.v52_alpha_force_merge_k_sqlalchemy_gate.models import ForceMergeKSQLAlchemyGateSummaryV52Alpha
+
+def test_guard(): assert ForceMergeKSQLAlchemyGateSummaryV52Alpha().auto_trading_enabled is False

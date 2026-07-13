@@ -1,0 +1,3 @@
+from app.v500_alpha50_packaging_enablement.service import GuardedPackagingEnablementFacadeV500Alpha50
+
+def test_facade_pyinstaller_check(): assert GuardedPackagingEnablementFacadeV500Alpha50().pyinstaller_check() is not None

@@ -1,0 +1,22 @@
+{
+  "name": "risk_engine",
+  "version": "v4.3",
+  "category": "risk_engine",
+  "metadata": {
+    "managed_by": "v4_23_1_path_resolver",
+    "backward_compatible": true
+  },
+  "dependencies": [],
+  "feature_flags": [
+    "risk_engine"
+  ],
+  "required_permissions": [],
+  "required_licenses": [],
+  "event_registration": [],
+  "routes": [
+    "/api/v1/v4-3/risk/summary"
+  ],
+  "services": [],
+  "tests": [],
+  "documentation": []
+}

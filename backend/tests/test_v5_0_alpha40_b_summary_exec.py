@@ -1,0 +1,3 @@
+from app.v500_alpha40_ai_memory_context.models import AIMemoryContextSummaryV500Alpha40
+
+def test_v500_alpha40_b_summary_exec(): assert AIMemoryContextSummaryV500Alpha40().real_execution_enabled is False

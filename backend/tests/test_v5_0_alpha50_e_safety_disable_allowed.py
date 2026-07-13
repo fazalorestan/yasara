@@ -1,0 +1,3 @@
+from app.v500_alpha50_release_candidate.service import InternalRCPreparationFacadeV500Alpha50
+
+def test_safety_disable_allowed(): assert InternalRCPreparationFacadeV500Alpha50().summary().safety_can_disable_auto_trading is True

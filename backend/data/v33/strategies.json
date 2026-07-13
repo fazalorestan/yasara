@@ -1,0 +1,64 @@
+{
+  "demo-ema-rsi": {
+    "strategy_id": "demo-ema-rsi",
+    "name": "Demo EMA RSI Strategy",
+    "symbol": "BTCUSDT",
+    "exchange": "binance",
+    "timeframe": "1m",
+    "rules": [
+      {
+        "rule_id": "rule-long-1",
+        "name": "EMA bullish and RSI healthy",
+        "conditions": [
+          {
+            "left": "ema20",
+            "operator": "gt",
+            "right": "ema50"
+          },
+          {
+            "left": "rsi14",
+            "operator": "lt",
+            "right": 70.0
+          },
+          {
+            "left": "ai_score",
+            "operator": "gte",
+            "right": 55.0
+          }
+        ],
+        "action": "buy",
+        "enabled": true
+      },
+      {
+        "rule_id": "rule-short-1",
+        "name": "EMA bearish and weak AI score",
+        "conditions": [
+          {
+            "left": "ema20",
+            "operator": "lt",
+            "right": "ema50"
+          },
+          {
+            "left": "ai_score",
+            "operator": "lte",
+            "right": 45.0
+          }
+        ],
+        "action": "sell",
+        "enabled": true
+      }
+    ],
+    "status": "active",
+    "live_trading_enabled": false
+  },
+  "test-store": {
+    "strategy_id": "test-store",
+    "name": "Test Store",
+    "symbol": "BTCUSDT",
+    "exchange": "binance",
+    "timeframe": "1m",
+    "rules": [],
+    "status": "draft",
+    "live_trading_enabled": false
+  }
+}

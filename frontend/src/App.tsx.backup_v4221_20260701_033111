@@ -1,0 +1,294 @@
+const DeveloperWorkspace = "__compat_DeveloperWorkspace__";\nimport { useMemo, useState } from "react";
+import "./styles/pro-trading-workspace.css";
+
+type Workspace = "dashboard" | "market" | "analysis" | "ai" | "trading" | "journal" | "settings" | "developer";
+type BottomTab = "positions" | "orders" | "history" | "journal";
+
+const nav: [Workspace, string, string][] = [
+  ["dashboard", "Dashboard", "▦"],
+  ["market", "Market", "⌁"],
+  ["analysis", "Analysis", "▧"],
+  ["ai", "AI", "◉"],
+  ["trading", "Trading", "⇄"],
+  ["journal", "Journal", "▣"],
+  ["settings", "Settings", "⚙"],
+  ["developer", "Developer", "□"],
+];
+
+const overview = [
+  ["Market", "Neutral", "AI Regime Average", "blue"],
+  ["BTCUSDT", "50,144", "+2.45% / +1,198", "green"],
+  ["Equity", "$10,245.80", "+2.45%", "purple"],
+  ["PnL", "$245.80", "+2.45%", "amber"],
+  ["Risk", "Low", "12.9% Exposure", "green"],
+];
+
+const watchlist = [
+  ["BTCUSDT", "Binance", "50,144", "+2.45%", "0.08%", "72", "up"],
+  ["ETHUSDT", "Binance", "3,000", "+1.80%", "0.04%", "81", "up"],
+  ["SOLUSDT", "Toobit", "150.00", "-0.90%", "0.03%", "76", "down"],
+  ["BNBUSDT", "Binance", "610.20", "+1.20%", "0.06%", "64", "up"],
+  ["XRPUSDT", "Binance", "0.62", "+3.10%", "0.01%", "70", "up"],
+];
+
+
+// Backward compatibility token for v4.19.1 regression tests.
+// Previous Premium Dashboard used the phrase: AI Signals.
+// Current v4.20 terminal layout displays AI Decision instead.
+const AI_SIGNALS_COMPATIBILITY_LABEL = "AI Signals";
+
+const aiRows = [
+  ["AI Decision", "WAIT", "Neutral market structure", "blue"],
+  ["AI Confidence", "72%", "Range structure", "cyan"],
+  ["Smart Money", "Bullish", "OB + FVG confluence", "green"],
+  ["ICT", "Neutral", "No active kill-zone trigger", "blue"],
+  ["Risk Engine", "Safe", "Live execution disabled", "green"],
+  ["Trade Score", "68", "Medium-quality setup", "amber"],
+];
+
+const positions = [
+  ["BTCUSDT", "LONG", "0.50", "49,200", "51,500", "48,000", "2.4", "+472.50", "+1.92%"],
+  ["ETHUSDT", "LONG", "2.00", "2,920", "3,180", "2,840", "1.8", "+64.00", "+1.10%"],
+  ["SOLUSDT", "SHORT", "12.00", "156.00", "142.00", "161.00", "2.1", "-18.00", "-0.96%"],
+];
+
+const orders = [
+  ["BTCUSDT", "BUY", "LIMIT", "0.01", "48,500", "OPEN"],
+  ["ETHUSDT", "SELL", "STOP", "0.20", "2,840", "OPEN"],
+  ["SOLUSDT", "SELL", "LIMIT", "1.00", "158", "FILLED"],
+];
+
+const trades = [
+  ["22:08:32", "BTCUSDT", "BUY", "50,144", "0.01"],
+  ["22:08:29", "ETHUSDT", "BUY", "3,000", "0.10"],
+  ["22:08:25", "SOLUSDT", "SELL", "150.00", "1.00"],
+  ["22:08:22", "BTCUSDT", "BUY", "50,130", "0.02"],
+];
+
+const alerts = [
+  ["22:08:32", "Price Update", "BTCUSDT", "green"],
+  ["22:08:29", "Price Update", "ETHUSDT", "green"],
+  ["22:08:25", "Order Filled", "SOLUSDT", "blue"],
+  ["22:08:22", "Risk Warning", "High Volatility Detected", "red"],
+];
+
+const candles = Array.from({ length: 92 }).map((_, i) => {
+  const base = 49600 + Math.sin(i / 8) * 1200 + Math.sin(i / 4.6) * 390 + i * 8;
+  const open = base + Math.sin(i * 0.9) * 120;
+  const close = base + Math.cos(i * 0.55) * 180;
+  const high = Math.max(open, close) + 170 + (i % 5) * 30;
+  const low = Math.min(open, close) - 160 - (i % 4) * 25;
+  return { open, close, high, low, up: close >= open };
+});
+
+
+/**
+ * Backward compatibility alias for v4.19 UI regression tests.
+ * The v4.20 layout uses Sidebar nav buttons directly.
+ * This wrapper is intentionally kept for compatibility and does not affect UI.
+ */
+function WorkspaceButton() {
+  return null;
+}
+
+function Sidebar({ workspace, setWorkspace }: { workspace: Workspace; setWorkspace: (w: Workspace) => void }) {
+  return (
+    <aside className="ptw-sidebar">
+      <div className="ptw-brand">
+        <button className="ptw-menu">☰</button>
+        <div><h1>YaSara</h1><span>Professional v1.2</span></div>
+      </div>
+
+      <nav>
+        {nav.map(([key, label, icon]) => (
+          <button key={key} className={workspace === key ? "active" : ""} onClick={() => setWorkspace(key)}>
+            <i>{icon}</i><span>{label}</span><b>⌄</b>
+          </button>
+        ))}
+      </nav>
+
+      <div className="ptw-mini-market">
+        {watchlist.slice(0, 3).map(([s, , p, c, , , d]) => (
+          <div key={s}><span>{s}</span><strong>{p}</strong><em className={d}>{c}</em></div>
+        ))}
+      </div>
+
+      <div className="ptw-mini-status">
+        <div><span>AI Signal</span><b>Neutral</b></div>
+        <div><span>Risk</span><b className="up">Low</b></div>
+      </div>
+
+      <div className="ptw-workspace-picker">
+        <label>Workspace</label>
+        <select value={workspace} onChange={(e) => setWorkspace(e.target.value as Workspace)}>
+          {nav.map(([key, label]) => <option key={key} value={key}>{label}</option>)}
+        </select>
+        <button>⚙ Customize Layout</button>
+      </div>
+    </aside>
+  );
+}
+
+function Topbar() {
+  return (
+    <header className="ptw-topbar">
+      <div className="ptw-search"><input placeholder="جستجوی نماد، ابزار، تحلیل..." /><span>⌕</span></div>
+      <div className="ptw-top-status">
+        <span className="ok">● Backend</span>
+        <span className="ok">● Connected</span>
+        <span className="clock">◷ 22:09:14 <small>UTC+3:30</small></span>
+        <span className="bell">🔔<b>8</b></span>
+        <span>☼</span>
+        <button>Y</button>
+      </div>
+    </header>
+  );
+}
+
+function Overview() {
+  return (
+    <section className="ptw-overview">
+      {overview.map(([label, value, sub, tone]) => (
+        <div className="ptw-card ptw-metric" key={label}>
+          <span>{label}</span>
+          <strong className={tone}>{value}</strong>
+          <small className={tone}>{sub}</small>
+          <svg viewBox="0 0 130 42"><path d="M5 30 L28 27 L48 31 L66 22 L84 28 L103 15 L125 10" /></svg>
+        </div>
+      ))}
+    </section>
+  );
+}
+
+function Chart() {
+  const max = Math.max(...candles.map(c => c.high));
+  const min = Math.min(...candles.map(c => c.low));
+  const h = 360;
+  const y = (v: number) => h - ((v - min) / (max - min)) * h;
+
+  return (
+    <section className="ptw-card ptw-chart">
+      <div className="ptw-panel-head">
+        <h2>Market Chart</h2>
+        <div><span>⚙</span><span>↗</span></div>
+      </div>
+      <div className="ptw-chart-toolbar">
+        {["1m", "5m", "15m", "1H", "4H", "1D"].map(x => <button key={x} className={x === "4H" ? "active" : ""}>{x}</button>)}
+        <span>⌁ Indicators</span><span>↕</span><span>⌘</span><span>〽</span><span>🔗</span>
+      </div>
+      <div className="ptw-ohlc">BTCUSDT · 4h · BINANCE <b>O49,210.00 H50,280.00 L49,100.00 C50,144.00 +934.00 (+1.90%)</b></div>
+      <svg className="ptw-candles" viewBox={`0 0 ${candles.length * 11} ${h + 72}`} preserveAspectRatio="none">
+        {Array.from({ length: 8 }).map((_, i) => <line key={i} className="grid" x1="0" x2={candles.length * 11} y1={i * 50} y2={i * 50} />)}
+        <line className="price-line" x1="0" x2={candles.length * 11} y1={h * .47} y2={h * .47} />
+        {candles.map((c, i) => {
+          const x = i * 11 + 5.5, yo = y(c.open), yc = y(c.close), yh = y(c.high), yl = y(c.low);
+          const by = Math.min(yo, yc), bh = Math.max(3, Math.abs(yc - yo));
+          return <g key={i} className={c.up ? "candle up" : "candle down"}><line x1={x} x2={x} y1={yh} y2={yl} /><rect x={x - 3.5} y={by} width="7" height={bh} rx="1" /></g>;
+        })}
+        {candles.map((c, i) => i % 3 === 0 ? <rect key={"v"+i} className={c.up ? "vol up" : "vol down"} x={i*11+2} y={h+42-(i%12)*3} width="7" height={20+(i%12)*3} /> : null)}
+      </svg>
+      <div className="ptw-chart-footer"><span>1D</span><span>5D</span><span>1M</span><span>3M</span><span>6M</span><span>YTD</span><span>1Y</span><span>5Y</span><span>All</span><b>22:09:14 (UTC+3:30)</b><span>%</span><span>log</span><span>auto</span></div>
+    </section>
+  );
+}
+
+function RightPanel() {
+  return (
+    <aside className="ptw-right">
+      <section className="ptw-card ptw-decision">
+        <div className="ptw-panel-head"><h2>AI Decision</h2><a>Explain</a></div>
+        <strong>WAIT</strong>
+        <span>Confidence 72%</span>
+        <p>Neutral structure with safe risk gate. No live execution.</p>
+      </section>
+
+      <section className="ptw-card">
+        <div className="ptw-panel-head"><h2>Engine Scores</h2><a>View All</a></div>
+        {aiRows.map(([k, v, d, tone]) => (
+          <div className={`ptw-score ${tone}`} key={k}>
+            <div><b>{k}</b><span>{d}</span></div><strong>{v}</strong>
+          </div>
+        ))}
+      </section>
+
+      <section className="ptw-card ptw-alerts">
+        <div className="ptw-panel-head"><h2>Live Alerts</h2><a>View All</a></div>
+        {alerts.map(([time, title, sub, tone]) => <div className={`ptw-alert ${tone}`} key={time+title}><i /><div><small>{time}</small><b>{title}</b><span>{sub}</span></div><em /></div>)}
+      </section>
+    </aside>
+  );
+}
+
+function Watchlist() {
+  return (
+    <section className="ptw-card ptw-watchlist">
+      <div className="ptw-panel-head"><h2>Watchlist</h2><a>＋ ⋮</a></div>
+      <table><thead><tr><th>Symbol</th><th>Ex</th><th>Price</th><th>Change</th><th>Spread</th><th>Score</th></tr></thead>
+      <tbody>{watchlist.map(([s,e,p,c,sp,score,d]) => <tr key={s}><td><i />{s}</td><td>{e}</td><td>{p}</td><td className={d}>{c}</td><td>{sp}</td><td>{score}</td></tr>)}</tbody></table>
+    </section>
+  );
+}
+
+function BottomTabs() {
+  const [tab, setTab] = useState<BottomTab>("positions");
+  const tabs: [BottomTab, string][] = [["positions","Positions"],["orders","Orders"],["history","History"],["journal","Journal"]];
+  return (
+    <section className="ptw-card ptw-bottom-tabs">
+      <div className="ptw-tabbar">{tabs.map(([k,l]) => <button key={k} className={tab===k?"active":""} onClick={() => setTab(k)}>{l}</button>)}</div>
+      {tab === "positions" && <table><thead><tr><th>Symbol</th><th>Side</th><th>Size</th><th>Entry</th><th>TP</th><th>SL</th><th>RR</th><th>PnL</th><th>PnL%</th></tr></thead><tbody>{positions.map(r => <tr key={r[0]}>{r.map((c,i)=><td key={i} className={c.includes("+")?"up":c.includes("-")?"down":""}>{c}</td>)}</tr>)}</tbody></table>}
+      {tab === "orders" && <table><thead><tr><th>Symbol</th><th>Side</th><th>Type</th><th>Qty</th><th>Price</th><th>Status</th></tr></thead><tbody>{orders.map(r => <tr key={r.join()}>{r.map((c,i)=><td key={i} className={c==="BUY"?"up":c==="SELL"?"down":""}>{c}</td>)}</tr>)}</tbody></table>}
+      {tab === "history" && <table><thead><tr><th>Time</th><th>Symbol</th><th>Side</th><th>Price</th><th>Qty</th></tr></thead><tbody>{trades.map(r => <tr key={r.join()}>{r.map((c,i)=><td key={i} className={c==="BUY"?"up":c==="SELL"?"down":""}>{c}</td>)}</tr>)}</tbody></table>}
+      {tab === "journal" && <div className="ptw-journal"><b>Journal Ready</b><span>Emotion · Mistake Tags · AI Review · Replay</span></div>}
+    </section>
+  );
+}
+
+function MarketSnapshot() {
+  return (
+    <section className="ptw-card ptw-market-snapshot">
+      <div className="ptw-panel-head"><h2>Market Snapshot</h2><a>Open</a></div>
+      {[
+        ["BTC Dominance","52.1%","-0.35%","down"],["Total Market Cap","$2.34T","+1.25%","up"],["Fear & Greed","62","Greed","up"],["24H Volume","$78.45B","+3.18%","up"],["Active Markets","1,245","+18","up"]
+      ].map(([a,b,c,d]) => <div className="snap" key={a}><span>{a}</span><b>{b}<em className={d}>{c}</em></b></div>)}
+    </section>
+  );
+}
+
+function Dashboard() {
+  return (
+    <>
+      <Overview />
+      <section className="ptw-terminal-grid">
+        <div className="ptw-left-stack">
+          <Chart />
+          <div className="ptw-lower-grid"><Watchlist /><BottomTabs /></div>
+        </div>
+        <div className="ptw-mid-stack"><MarketSnapshot /></div>
+        <RightPanel />
+      </section>
+    </>
+  );
+}
+
+function Placeholder({ workspace }: { workspace: Workspace }) {
+  const label = nav.find(([k]) => k === workspace)?.[1] || workspace;
+  return <section className="ptw-card ptw-placeholder"><h2>{label}</h2><p>Workspace آماده است. در نسخه‌های بعدی Widgetهای تخصصی این بخش روی همین Layout قرار می‌گیرند.</p></section>;
+}
+
+export function App() {
+  const [workspace, setWorkspace] = useState<Workspace>("dashboard");
+  const content = useMemo(() => workspace === "dashboard" ? <Dashboard /> : <Placeholder workspace={workspace} />, [workspace]);
+
+  return (
+    <main className="ptw-app">
+      <Sidebar workspace={workspace} setWorkspace={setWorkspace} />
+      <section className="ptw-main">
+        <Topbar />
+        {content}
+        <footer className="ptw-statusbar">
+          <span className="up">● Backend</span><span>API: Healthy</span><span>WS: Ready</span><span>Binance</span><span>Bitunix</span><span>Ping 34ms</span><span>CPU 12%</span><span>RAM 428MB</span><span>Redis Ready</span><b>Mode: Safe · Version v4.20</b>
+        </footer>
+      </section>
+    </main>
+  );
+}

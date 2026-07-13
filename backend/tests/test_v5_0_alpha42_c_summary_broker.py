@@ -1,0 +1,3 @@
+from app.v500_alpha42_execution_lifecycle.models import ExecutionLifecycleSummaryV500Alpha42
+
+def test_v500_alpha42_c_summary_broker(): assert ExecutionLifecycleSummaryV500Alpha42().broker_connection_enabled is False

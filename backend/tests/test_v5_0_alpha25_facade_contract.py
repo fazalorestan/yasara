@@ -1,0 +1,3 @@
+from app.v500_alpha25_self_healing_patch_pipeline.service import SelfHealingPatchPipelineFacadeV500Alpha25
+
+def test_v500_alpha25_facade_contract(): assert SelfHealingPatchPipelineFacadeV500Alpha25().contract()['manual_patch_registration_required'] is False

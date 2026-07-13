@@ -1,0 +1,13 @@
+{
+  "product": "YaSara Professional",
+  "version": "2.0.0",
+  "status": "final",
+  "progress_percent": 100,
+  "outputs": [
+    "dist/YaSara_Professional_v2_0_Windows_Final.zip",
+    "dist/YaSara_Professional_v2_0_Windows_Portable.zip",
+    "dist/YaSara_Professional_v2_0_Mobile_PWA.zip",
+    "dist/SHA256SUMS_V2_0.txt"
+  ],
+  "safety": "live_trading_disabled"
+}

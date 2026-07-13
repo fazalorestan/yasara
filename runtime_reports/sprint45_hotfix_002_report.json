@@ -1,0 +1,14 @@
+{
+  "applied": true,
+  "build_id": "2026.45.HOTFIX.002",
+  "timestamp": 1783899403.0267472,
+  "checks": {
+    "app_rewritten": true,
+    "legacy_compat_import_removed": true,
+    "enterprise_root_restored": true,
+    "router_rewritten": true,
+    "typescript_replaceall_removed": true
+  },
+  "signal_only_default": true,
+  "auto_trading_enabled": false
+}

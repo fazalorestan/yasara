@@ -1,0 +1,3 @@
+from app.v500_alpha46_desktop_dashboard_intelligence.service import DesktopDashboardIntelligenceFacadeV500Alpha46
+
+def test_commercial_no_api_key(): assert DesktopDashboardIntelligenceFacadeV500Alpha46().report()['commercial_api_key_required'] is False

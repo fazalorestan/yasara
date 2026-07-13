@@ -1,0 +1,25 @@
+from fastapi import APIRouter
+from app.v500_alpha50_windows_real_exe.service import windows_real_exe_build_pipeline_facade_v500_alpha50 as _service
+
+router = APIRouter(prefix="/v5-0-alpha-50/windows-real-exe", tags=["v5.0-alpha.50-windows-real-exe"])
+
+@router.get("/summary")
+async def summary(): return _service.summary()
+@router.get("/pyinstaller")
+async def pyinstaller(): return _service.pyinstaller()
+@router.get("/spec")
+async def spec(): return _service.spec()
+@router.get("/portable-builder")
+async def portable_builder(): return _service.portable_builder()
+@router.get("/build-script")
+async def build_script(): return _service.build_script()
+@router.get("/artifact-hash")
+async def artifact_hash(): return _service.artifact_hash()
+@router.get("/smoke-test")
+async def smoke_test(): return _service.smoke_test()
+@router.get("/report")
+async def report(): return _service.report()
+@router.get("/readiness")
+async def readiness(): return _service.readiness()
+@router.get("/contract")
+async def contract(): return _service.contract()

@@ -1,0 +1,32 @@
+{
+  "balance": 10000.0,
+  "equity": 10000.0,
+  "realized_pnl": 0.0,
+  "unrealized_pnl": 0.0,
+  "orders": [
+    {
+      "id": "paper-1",
+      "symbol": "BTCUSDT",
+      "exchange": "binance",
+      "side": "buy",
+      "order_type": "market",
+      "quantity": 0.01,
+      "price": 49850.0,
+      "notional": 498.5,
+      "status": "filled",
+      "source": "manual",
+      "real_order_execution_enabled": false
+    }
+  ],
+  "positions": [
+    {
+      "symbol": "BTCUSDT",
+      "exchange": "binance",
+      "side": "long",
+      "quantity": 0.01,
+      "avg_entry": 49850.0,
+      "mark_price": 49850.0,
+      "unrealized_pnl": 0.0
+    }
+  ]
+}

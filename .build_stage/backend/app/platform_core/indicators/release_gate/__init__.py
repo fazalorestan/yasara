@@ -1,0 +1,1 @@
+"""Indicator Platform Release Gate."""

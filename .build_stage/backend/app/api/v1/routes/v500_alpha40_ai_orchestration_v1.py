@@ -1,0 +1,27 @@
+from fastapi import APIRouter
+from app.v500_alpha40_ai_orchestration.service import ai_orchestration_facade_v500_alpha40 as _service
+
+router = APIRouter(prefix="/v5-0-alpha-40/ai-orchestration", tags=["v5.0-alpha.40-ai-orchestration"])
+
+@router.get("/summary")
+async def summary(): return _service.summary()
+@router.get("/prompts")
+async def prompts(): return _service.prompts()
+@router.get("/prompt-version")
+async def prompt_version(): return _service.prompt_version()
+@router.get("/orchestrate")
+async def orchestrate(): return _service.orchestrate()
+@router.get("/tools")
+async def tools(): return _service.tools()
+@router.get("/tool-contract")
+async def tool_contract(): return _service.tool_contract()
+@router.get("/tool-dry-run")
+async def tool_dry_run(): return _service.tool_dry_run()
+@router.get("/tool-safety")
+async def tool_safety(): return _service.tool_safety()
+@router.get("/report")
+async def report(): return _service.report()
+@router.get("/readiness")
+async def readiness(): return _service.readiness()
+@router.get("/contract")
+async def contract(): return _service.contract()

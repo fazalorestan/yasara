@@ -1,0 +1,3 @@
+from app.v52_alpha_fastapi_staticfiles_fix.models import FastAPIStaticFilesFixSummaryV52Alpha
+
+def test_guard(): assert FastAPIStaticFilesFixSummaryV52Alpha().auto_trading_enabled is False

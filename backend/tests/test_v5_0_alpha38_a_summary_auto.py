@@ -1,0 +1,3 @@
+from app.v500_alpha38_exchange_core.models import ExchangeCoreSummaryV500Alpha38
+
+def test_v500_alpha38_a_summary_auto(): assert ExchangeCoreSummaryV500Alpha38().auto_trading_enabled is False

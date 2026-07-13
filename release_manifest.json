@@ -1,0 +1,20 @@
+{
+  "project": "YaSara",
+  "version": "v4.8",
+  "build_profiles": [
+    "personal",
+    "commercial"
+  ],
+  "commercial_excludes": [
+    "execution_engine",
+    "trade_api_keys",
+    "real_order_placement"
+  ],
+  "personal_may_include_future": [
+    "execution_engine",
+    "bitunix_private_api",
+    "kill_switch_real"
+  ],
+  "current_safety": "no_real_execution",
+  "tests_minimum_expected": 600
+}

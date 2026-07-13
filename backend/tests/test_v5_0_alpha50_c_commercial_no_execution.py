@@ -1,0 +1,3 @@
+from app.v500_alpha50_packaging_enablement.service import GuardedPackagingEnablementFacadeV500Alpha50
+
+def test_commercial_no_execution(): assert GuardedPackagingEnablementFacadeV500Alpha50().report()['commercial_execution_engine_enabled'] is False

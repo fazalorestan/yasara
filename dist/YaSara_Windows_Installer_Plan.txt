@@ -1,0 +1,7 @@
+YaSara Professional v1.1 Windows Installer Plan
+1. Extract Windows Final ZIP
+2. Create Python venv inside backend
+3. Install requirements
+4. Create desktop shortcut to windows_runtime\YaSara_Start_Backend.bat
+5. Create test shortcut to windows_runtime\YaSara_Run_Tests.bat
+6. Open http://127.0.0.1:8000/docs

@@ -1,0 +1,3 @@
+from app.v52_alpha_embedded_backend_health_resolver.models import EmbeddedBackendHealthResolverSummaryV52Alpha
+
+def test_guard(): assert EmbeddedBackendHealthResolverSummaryV52Alpha().auto_trading_enabled is False

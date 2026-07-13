@@ -1,0 +1,3 @@
+from app.platform_core.ai_intelligence.tool_registry import AIToolRegistry
+
+def test_v500_alpha40_c_tools(): assert AIToolRegistry().list_tools()['count']==2

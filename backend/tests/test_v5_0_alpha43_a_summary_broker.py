@@ -1,0 +1,3 @@
+from app.v500_alpha43_broker_core.models import BrokerCoreSummaryV500Alpha43
+
+def test_v500_alpha43_a_summary_broker(): assert BrokerCoreSummaryV500Alpha43().real_broker_connection_enabled is False

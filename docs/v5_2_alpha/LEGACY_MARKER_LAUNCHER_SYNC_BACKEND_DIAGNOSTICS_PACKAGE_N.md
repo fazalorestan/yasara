@@ -1,0 +1,1 @@
+# YaSara v5.2-alpha Package N\n\nFixes legacy marker tests, syncs launcher runtime build id, and writes backend hang diagnostics when Health does not become ready.\n

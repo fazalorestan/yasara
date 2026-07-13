@@ -1,0 +1,25 @@
+from fastapi import APIRouter
+from app.v500_alpha42_execution_analytics.service import execution_analytics_facade_v500_alpha42 as _service
+
+router = APIRouter(prefix="/v5-0-alpha-42/execution-analytics", tags=["v5.0-alpha.42-execution-analytics"])
+
+@router.get("/summary")
+async def summary(): return _service.summary()
+@router.get("/metrics")
+async def metrics(): return _service.metrics()
+@router.get("/timeline")
+async def timeline(): return _service.timeline()
+@router.get("/audit-contract")
+async def audit_contract(): return _service.audit_contract()
+@router.get("/compliance-log")
+async def compliance_log(): return _service.compliance_log()
+@router.get("/statistics")
+async def statistics(): return _service.statistics()
+@router.get("/safety")
+async def safety(): return _service.safety()
+@router.get("/report")
+async def report(): return _service.report()
+@router.get("/readiness")
+async def readiness(): return _service.readiness()
+@router.get("/contract")
+async def contract(): return _service.contract()

@@ -1,0 +1,3 @@
+from app.v500_alpha39_live_data_core.models import LiveDataCoreSummaryV500Alpha39
+
+def test_v500_alpha39_a_summary_real_live(): assert LiveDataCoreSummaryV500Alpha39().real_live_connection is False

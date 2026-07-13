@@ -1,0 +1,3 @@
+from app.v500_alpha43_broker_account.models import BrokerAccountSummaryV500Alpha43
+
+def test_v500_alpha43_b_summary_auto(): assert BrokerAccountSummaryV500Alpha43().auto_trading_enabled is False

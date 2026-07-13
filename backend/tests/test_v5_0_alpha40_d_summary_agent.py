@@ -1,0 +1,3 @@
+from app.v500_alpha40_ai_agent_runtime.models import AIAgentRuntimeSummaryV500Alpha40
+
+def test_v500_alpha40_d_summary_agent(): assert AIAgentRuntimeSummaryV500Alpha40().agent_execution_enabled is False

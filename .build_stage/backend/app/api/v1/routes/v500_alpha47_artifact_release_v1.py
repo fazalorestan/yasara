@@ -1,0 +1,27 @@
+from fastapi import APIRouter
+from app.v500_alpha47_artifact_release.service import artifact_release_facade_v500_alpha47 as _service
+
+router = APIRouter(prefix="/v5-0-alpha-47/artifact-release", tags=["v5.0-alpha.47-artifact-release"])
+
+@router.get("/summary")
+async def summary(): return _service.summary()
+@router.get("/artifact-store")
+async def artifact_store(): return _service.artifact_store()
+@router.get("/releases")
+async def releases(): return _service.releases()
+@router.get("/version-matrix")
+async def version_matrix(): return _service.version_matrix()
+@router.get("/build-history")
+async def build_history(): return _service.build_history()
+@router.get("/release-notes")
+async def release_notes(): return _service.release_notes()
+@router.get("/artifact-integrity")
+async def artifact_integrity(): return _service.artifact_integrity()
+@router.get("/dashboard")
+async def dashboard(): return _service.dashboard()
+@router.get("/report")
+async def report(): return _service.report()
+@router.get("/readiness")
+async def readiness(): return _service.readiness()
+@router.get("/contract")
+async def contract(): return _service.contract()

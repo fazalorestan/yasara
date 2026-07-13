@@ -1,0 +1,25 @@
+from fastapi import APIRouter
+from app.v500_alpha44_build_intelligence.service import build_intelligence_facade_v500_alpha44 as _service
+
+router = APIRouter(prefix="/v5-0-alpha-44/build-intelligence", tags=["v5.0-alpha.44-build-intelligence"])
+
+@router.get("/summary")
+async def summary(): return _service.summary()
+@router.get("/state-store")
+async def state_store(): return _service.state_store()
+@router.get("/write-build-state")
+async def write_build_state(): return _service.write_build_state()
+@router.get("/write-test-state")
+async def write_test_state(): return _service.write_test_state()
+@router.get("/write-sprint-state")
+async def write_sprint_state(): return _service.write_sprint_state()
+@router.get("/file-count")
+async def file_count(): return _service.file_count()
+@router.get("/build-metadata")
+async def build_metadata(): return _service.build_metadata()
+@router.get("/report")
+async def report(): return _service.report()
+@router.get("/readiness")
+async def readiness(): return _service.readiness()
+@router.get("/contract")
+async def contract(): return _service.contract()

@@ -1,0 +1,1 @@
+# Apply v5.2-alpha Package N\n\n```cmd\ncd /d D:\\yasara_clean\npython yasara.py patch\npython yasara.py test\npython scripts\\build_first_real_windows_exe.py --execute\npython scripts\\check_yasara_executable_validation.py\npython scripts\\show_yasara_backend_logs.py\n```\n

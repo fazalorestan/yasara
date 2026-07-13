@@ -1,0 +1,68 @@
+features:
+  - key: dashboard
+    status: active
+    version: v1
+    scope: shared
+    test_coverage: partial
+    documentation: partial
+  - key: market_data_engine
+    status: active
+    version: v2.2
+    scope: shared
+    test_coverage: partial
+    documentation: partial
+  - key: exchange_connector
+    status: active
+    version: v2.3
+    scope: shared
+    test_coverage: partial
+    documentation: partial
+  - key: indicator_signal_engine
+    status: active
+    version: v2.4
+    scope: shared
+    test_coverage: partial
+    documentation: partial
+  - key: risk_backtest_paper
+    status: active
+    version: v2.5
+    scope: shared
+    test_coverage: partial
+    documentation: partial
+  - key: live_exchange_foundation
+    status: active
+    version: v3.1
+    scope: shared
+    test_coverage: partial
+    documentation: partial
+  - key: advanced_ai_indicators
+    status: active
+    version: v3.2
+    scope: shared
+    test_coverage: partial
+    documentation: partial
+  - key: strategy_builder_core
+    status: active
+    version: v3.3
+    scope: shared
+    test_coverage: partial
+    documentation: partial
+  - key: market_analysis_engine
+    status: active
+    version: v3.4
+    scope: shared
+    test_coverage: partial
+    documentation: partial
+  - key: smart_money_engine
+    status: active
+    version: v3.5
+    scope: shared
+    test_coverage: partial
+    documentation: partial
+  - key: execution_engine
+    status: planned
+    version: future
+    scope: personal_only
+    commercial_included: false
+    test_coverage: none
+    documentation: planned

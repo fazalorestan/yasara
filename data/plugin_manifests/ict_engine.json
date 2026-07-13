@@ -1,0 +1,22 @@
+{
+  "name": "ict_engine",
+  "version": "v4.13",
+  "category": "analysis_engine",
+  "metadata": {
+    "managed_by": "v4_23_1_path_resolver",
+    "backward_compatible": true
+  },
+  "dependencies": [],
+  "feature_flags": [
+    "ict_engine"
+  ],
+  "required_permissions": [],
+  "required_licenses": [],
+  "event_registration": [],
+  "routes": [
+    "/api/v1/v4-13/ict-engine/summary"
+  ],
+  "services": [],
+  "tests": [],
+  "documentation": []
+}

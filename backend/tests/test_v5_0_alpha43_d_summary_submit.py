@@ -1,0 +1,3 @@
+from app.v500_alpha43_broker_monitoring.models import BrokerMonitoringSummaryV500Alpha43
+
+def test_v500_alpha43_d_summary_submit(): assert BrokerMonitoringSummaryV500Alpha43().real_order_submit_enabled is False

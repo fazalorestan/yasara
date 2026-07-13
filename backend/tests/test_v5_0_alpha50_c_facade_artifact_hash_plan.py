@@ -1,0 +1,3 @@
+from app.v500_alpha50_packaging_enablement.service import GuardedPackagingEnablementFacadeV500Alpha50
+
+def test_facade_artifact_hash_plan(): assert GuardedPackagingEnablementFacadeV500Alpha50().artifact_hash_plan() is not None

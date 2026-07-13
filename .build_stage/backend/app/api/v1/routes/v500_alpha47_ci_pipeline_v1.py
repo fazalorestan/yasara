@@ -1,0 +1,27 @@
+from fastapi import APIRouter
+from app.v500_alpha47_ci_pipeline.service import ci_pipeline_facade_v500_alpha47 as _service
+
+router = APIRouter(prefix="/v5-0-alpha-47/ci-pipeline", tags=["v5.0-alpha.47-ci-pipeline"])
+
+@router.get("/summary")
+async def summary(): return _service.summary()
+@router.get("/core")
+async def core(): return _service.core()
+@router.get("/test-runner")
+async def test_runner(): return _service.test_runner()
+@router.get("/regression")
+async def regression(): return _service.regression()
+@router.get("/coverage")
+async def coverage(): return _service.coverage()
+@router.get("/results")
+async def results(): return _service.results()
+@router.get("/test-report")
+async def test_report(): return _service.test_report()
+@router.get("/dashboard")
+async def dashboard(): return _service.dashboard()
+@router.get("/report")
+async def report(): return _service.report()
+@router.get("/readiness")
+async def readiness(): return _service.readiness()
+@router.get("/contract")
+async def contract(): return _service.contract()

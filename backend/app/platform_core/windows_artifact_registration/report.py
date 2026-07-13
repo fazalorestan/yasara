@@ -1,0 +1,12 @@
+from app.platform_core.windows_artifact_registration.artifact_registry_update import local_artifact_registry_update_contract
+from app.platform_core.windows_artifact_registration.build_result_reader import local_build_result_reader
+from app.platform_core.windows_artifact_registration.exe_detector import local_exe_artifact_detector
+from app.platform_core.windows_artifact_registration.hash_generator import local_exe_hash_generator_contract
+from app.platform_core.windows_artifact_registration.portable_zip_plan import local_portable_zip_plan
+from app.platform_core.windows_artifact_registration.smoke_result_contract import local_exe_smoke_result_contract
+class LocalExeArtifactRegistrationReportService:
+    def report(self):
+        return {'ready': True,'build_id':'2026.50.D.001','exe_detector':local_exe_artifact_detector.detect(),'hash_generator':local_exe_hash_generator_contract.contract(),'portable_zip':local_portable_zip_plan.plan(),'registry_update':local_artifact_registry_update_contract.update(),'build_result':local_build_result_reader.read(),'smoke_result':local_exe_smoke_result_contract.result(),'final_exe_generated':False,'artifact_registered':False,'real_execution_enabled':False,'real_broker_connection_enabled':False,'commercial_execution_engine_enabled':False,'commercial_api_key_required':False}
+local_exe_artifact_registration_report_service=LocalExeArtifactRegistrationReportService()
+LocalExeArtifactRegistrationReport=LocalExeArtifactRegistrationReportService
+local_exe_artifact_registration_report=local_exe_artifact_registration_report_service

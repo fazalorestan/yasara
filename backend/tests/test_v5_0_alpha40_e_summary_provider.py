@@ -1,0 +1,3 @@
+from app.v500_alpha40_ai_enterprise.models import AIEnterpriseSummaryV500Alpha40
+
+def test_v500_alpha40_e_summary_provider(): assert AIEnterpriseSummaryV500Alpha40().real_provider_connection is False

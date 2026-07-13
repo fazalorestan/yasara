@@ -1,0 +1,27 @@
+from fastapi import APIRouter
+from app.v500_alpha49_desktop_launcher.service import desktop_runtime_launcher_facade_v500_alpha49 as _service
+
+router = APIRouter(prefix="/v5-0-alpha-49/desktop-launcher", tags=["v5.0-alpha.49-desktop-launcher"])
+
+@router.get("/summary")
+async def summary(): return _service.summary()
+@router.get("/launcher")
+async def launcher(): return _service.launcher()
+@router.get("/backend-launch")
+async def backend_launch(): return _service.backend_launch()
+@router.get("/dashboard-launch")
+async def dashboard_launch(): return _service.dashboard_launch()
+@router.get("/launch-flow")
+async def launch_flow(): return _service.launch_flow()
+@router.get("/smoke-test")
+async def smoke_test(): return _service.smoke_test()
+@router.get("/launch-health")
+async def launch_health(): return _service.launch_health()
+@router.get("/build-readiness")
+async def build_readiness(): return _service.build_readiness()
+@router.get("/report")
+async def report(): return _service.report()
+@router.get("/readiness")
+async def readiness(): return _service.readiness()
+@router.get("/contract")
+async def contract(): return _service.contract()

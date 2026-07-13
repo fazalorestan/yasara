@@ -1,0 +1,3 @@
+from app.v500_alpha36_plugin_versioning.models import PluginVersioningSummaryV500Alpha36
+
+def test_v500_alpha36_c_summary_backcompat(): assert PluginVersioningSummaryV500Alpha36().backward_compatible is True

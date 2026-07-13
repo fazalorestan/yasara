@@ -1,0 +1,3 @@
+from app.v500_alpha42_execution_enterprise.models import ExecutionEnterpriseSummaryV500Alpha42
+
+def test_v500_alpha42_e_summary_exec(): assert ExecutionEnterpriseSummaryV500Alpha42().real_execution_enabled is False

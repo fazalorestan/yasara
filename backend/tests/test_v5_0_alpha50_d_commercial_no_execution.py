@@ -1,0 +1,3 @@
+from app.v500_alpha50_artifact_registration.service import LocalExeArtifactRegistrationFacadeV500Alpha50
+
+def test_commercial_no_execution(): assert LocalExeArtifactRegistrationFacadeV500Alpha50().report()['commercial_execution_engine_enabled'] is False

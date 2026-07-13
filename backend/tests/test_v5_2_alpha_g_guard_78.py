@@ -1,0 +1,3 @@
+from app.v52_alpha_in_process_backend_runner.models import InProcessBackendRunnerSummaryV52Alpha
+
+def test_guard(): assert InProcessBackendRunnerSummaryV52Alpha().auto_trading_enabled is False
