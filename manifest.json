@@ -1,7 +1,23 @@
 {
-  "project": "YaSara Enterprise",
-  "build_id": "2026.47.RELEASE.001",
+  "project": "YaSara Enterprise Trading OS",
+  "sprint": 48,
+  "build_id": "2026.48.ENTERPRISE.002",
   "command": "python yasara.py release",
+  "modifies_yasara_py": false,
+  "backward_compatible": true,
   "commit_only_after_validation": true,
-  "push_only_after_validation": true
+  "push_only_after_validation": true,
+  "windows_npm_cmd_support": true,
+  "features": [
+    "modular release manager",
+    "tool discovery with environment overrides",
+    "remote validation",
+    "branch and commit reporting",
+    "per-step timeout",
+    "atomic JSON reports",
+    "per-step logs",
+    "multi-path release script discovery",
+    "optional packaged backend validation",
+    "post-validation staged-change verification"
+  ]
 }

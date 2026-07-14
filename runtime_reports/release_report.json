@@ -1,0 +1,146 @@
+{
+  "build_id": "2026.48.ENTERPRISE.002",
+  "started_at": "2026-07-14T03:19:54.500192+03:30",
+  "finished_at": null,
+  "ready": false,
+  "commit_created": false,
+  "pushed": false,
+  "branch": "main",
+  "remote": "origin",
+  "commit": null,
+  "commit_message": null,
+  "tools": {
+    "git": {
+      "available": true,
+      "path": "C:\\flutter\\Git\\cmd\\git.exe",
+      "version": "git version 2.55.0.windows.2"
+    },
+    "node": {
+      "available": true,
+      "path": "C:\\Program Files\\nodejs\\node.exe",
+      "version": "v24.15.0"
+    },
+    "npm": {
+      "available": true,
+      "path": "C:\\Program Files\\nodejs\\npm.cmd",
+      "version": "11.12.1"
+    },
+    "python": {
+      "available": true,
+      "path": "C:\\Program Files\\Python312\\python.exe",
+      "version": "Python 3.12.10"
+    }
+  },
+  "steps": [
+    {
+      "name": "git_add",
+      "success": true,
+      "return_code": 0,
+      "command": [
+        "C:\\flutter\\Git\\cmd\\git.exe",
+        "add",
+        "--all"
+      ],
+      "cwd": "D:\\yasara_clean",
+      "duration_seconds": 119.422,
+      "log_file": "runtime_reports\\release_logs\\01_git_add.log",
+      "timed_out": false
+    },
+    {
+      "name": "git_diff_check",
+      "success": true,
+      "return_code": 0,
+      "command": [
+        "C:\\flutter\\Git\\cmd\\git.exe",
+        "diff",
+        "--cached",
+        "--check"
+      ],
+      "cwd": "D:\\yasara_clean",
+      "duration_seconds": 2.344,
+      "log_file": "runtime_reports\\release_logs\\02_git_diff_check.log",
+      "timed_out": false
+    },
+    {
+      "name": "tests",
+      "success": true,
+      "return_code": 0,
+      "command": [
+        "C:\\Program Files\\Python312\\python.exe",
+        "yasara.py",
+        "test"
+      ],
+      "cwd": "D:\\yasara_clean",
+      "duration_seconds": 228.188,
+      "log_file": "runtime_reports\\release_logs\\03_tests.log",
+      "timed_out": false
+    },
+    {
+      "name": "frontend_build",
+      "success": true,
+      "return_code": 0,
+      "command": [
+        "C:\\Program Files\\nodejs\\npm.cmd",
+        "run",
+        "build"
+      ],
+      "cwd": "D:\\yasara_clean\\frontend",
+      "duration_seconds": 21.156,
+      "log_file": "runtime_reports\\release_logs\\04_frontend_build.log",
+      "timed_out": false
+    },
+    {
+      "name": "windows_build",
+      "success": true,
+      "return_code": 0,
+      "command": [
+        "C:\\Program Files\\Python312\\python.exe",
+        "D:\\yasara_clean\\scripts\\build_first_real_windows_exe.py",
+        "--execute"
+      ],
+      "cwd": "D:\\yasara_clean",
+      "duration_seconds": 276.469,
+      "log_file": "runtime_reports\\release_logs\\05_windows_build.log",
+      "timed_out": false
+    },
+    {
+      "name": "packaged_backend_validation",
+      "success": true,
+      "return_code": 0,
+      "command": [
+        "C:\\Program Files\\Python312\\python.exe",
+        "D:\\yasara_clean\\scripts\\verify_packaged_backend_snapshot.py"
+      ],
+      "cwd": "D:\\yasara_clean",
+      "duration_seconds": 0.11,
+      "log_file": "runtime_reports\\release_logs\\06_packaged_backend_validation.log",
+      "timed_out": false
+    },
+    {
+      "name": "executable_validation",
+      "success": true,
+      "return_code": 0,
+      "command": [
+        "C:\\Program Files\\Python312\\python.exe",
+        "D:\\yasara_clean\\scripts\\check_yasara_executable_validation.py"
+      ],
+      "cwd": "D:\\yasara_clean",
+      "duration_seconds": 0.063,
+      "log_file": "runtime_reports\\release_logs\\07_executable_validation.log",
+      "timed_out": false
+    },
+    {
+      "name": "dashboard_validation",
+      "success": true,
+      "return_code": 0,
+      "command": [
+        "C:\\Program Files\\Python312\\python.exe",
+        "D:\\yasara_clean\\scripts\\validate_approved_dashboard_sprint47.py"
+      ],
+      "cwd": "D:\\yasara_clean",
+      "duration_seconds": 0.157,
+      "log_file": "runtime_reports\\release_logs\\08_dashboard_validation.log",
+      "timed_out": false
+    }
+  ]
+}

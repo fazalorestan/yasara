@@ -1,0 +1,31 @@
+{
+  "build_id": "2026.48.ENTERPRISE.002",
+  "root": "D:\\yasara_clean",
+  "tools": {
+    "git": {
+      "available": true,
+      "path": "C:\\flutter\\Git\\cmd\\git.exe",
+      "version": "git version 2.55.0.windows.2"
+    },
+    "node": {
+      "available": true,
+      "path": "C:\\Program Files\\nodejs\\node.exe",
+      "version": "v24.15.0"
+    },
+    "npm": {
+      "available": true,
+      "path": "C:\\Program Files\\nodejs\\npm.cmd",
+      "version": "11.12.1"
+    },
+    "python": {
+      "available": true,
+      "path": "C:\\Program Files\\Python312\\python.exe",
+      "version": "Python 3.12.10"
+    }
+  },
+  "paths": {
+    "frontend": "D:\\yasara_clean\\frontend",
+    "runtime_reports": "D:\\yasara_clean\\runtime_reports"
+  },
+  "timeout_seconds": 3600
+}

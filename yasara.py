@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 # YASARA_RELEASE_COMMAND_BEGIN
 def _yasara_release_command_dispatch():
     import runpy
@@ -15,7 +17,6 @@ def _yasara_release_command_dispatch():
 _yasara_release_command_dispatch()
 # YASARA_RELEASE_COMMAND_END
 
-from __future__ import annotations
 
 import argparse
 import os

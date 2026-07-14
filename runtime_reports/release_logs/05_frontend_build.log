@@ -1,0 +1,13 @@
+
+> yasara-dashboard@1.2.6 build
+> tsc && vite build
+
+[36mvite v6.4.3 [32mbuilding for production...[36m[39m
+transforming...
+[32mâœ“[39m 1642 modules transformed.
+rendering chunks...
+computing gzip size...
+[2mdist/[22m[32mindex.html                 [39m[1m[2m  0.38 kB[22m[1m[22m[2m â”‚ gzip:  0.27 kB[22m
+[2mdist/[22m[35massets/index-Cb6N2too.css  [39m[1m[2m 47.29 kB[22m[1m[22m[2m â”‚ gzip:  8.77 kB[22m
+[2mdist/[22m[36massets/index-n10a8rDT.js   [39m[1m[2m251.98 kB[22m[1m[22m[2m â”‚ gzip: 75.17 kB[22m
+[32mâœ“ built in 6.40s[39m

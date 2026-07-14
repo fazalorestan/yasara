@@ -1,4 +1,5 @@
 @echo off
+setlocal
 cd /d "%~dp0"
-python yasara.py release %*
-exit /b %ERRORLEVEL%
+python scripts\yasara_release.py %*
+exit /b %errorlevel%

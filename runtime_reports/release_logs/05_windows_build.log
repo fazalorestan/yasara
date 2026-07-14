@@ -1,0 +1,1419 @@
+{
+  "build_id": "2026.52.P.001",
+  "legacy_accepted_build_ids": [
+    "2026.52.K.001",
+    "2026.52.L.001",
+    "2026.52.M.001",
+    "2026.52.N.001",
+    "2026.52.O.001",
+    "2026.52.P.001"
+  ],
+  "dependency_validation": {
+    "ready": true,
+    "checked": [
+      "aiosqlite",
+      "anyio",
+      "apscheduler",
+      "certifi",
+      "cryptography",
+      "dns",
+      "dotenv",
+      "fastapi",
+      "httpx",
+      "numpy",
+      "orjson",
+      "pydantic",
+      "pydantic_settings",
+      "sqlalchemy",
+      "starlette",
+      "typing_extensions",
+      "uvicorn",
+      "websockets",
+      "yaml"
+    ],
+    "missing": [],
+    "discovered_import_roots": [
+      "ConfigParser",
+      "HTMLParser",
+      "IPython",
+      "OpenSSL",
+      "Queue",
+      "StringIO",
+      "UserDict",
+      "__builtin__",
+      "__future__",
+      "__main__",
+      "__pypy__",
+      "__version__",
+      "_abcoll",
+      "_abnf",
+      "_aix_support",
+      "_api",
+      "_ast",
+      "_async",
+      "_asyncio_compat",
+      "_auth",
+      "_autogen",
+      "_autogen_fixtures",
+      "_backends",
+      "_base",
+      "_base_connection",
+      "_bcrypt",
+      "_callers",
+      "_cell_widths",
+      "_cffi_backend",
+      "_client",
+      "_cmsgpack",
+      "_code",
+      "_collections",
+      "_compat",
+      "_concurrency_py3k",
+      "_config",
+      "_content",
+      "_core",
+      "_core_metadata",
+      "_core_utils",
+      "_dataclasses",
+      "_decoders",
+      "_decorators",
+      "_dists",
+      "_dml_constructors",
+      "_docs_extraction",
+      "_dummy_thread",
+      "_elements_constructors",
+      "_elffile",
+      "_emoji_codes",
+      "_emoji_replace",
+      "_envs",
+      "_eventloop",
+      "_events",
+      "_exceptions",
+      "_export_format",
+      "_extension",
+      "_fields",
+      "_fileno",
+      "_forward_ref",
+      "_frozen_importlib",
+      "_frozen_importlib_external",
+      "_generate_schema",
+      "_generics",
+      "_greenlet",
+      "_has_cy",
+      "_headers",
+      "_hooks",
+      "_imp",
+      "_impl",
+      "_import_utils",
+      "_in_process",
+      "_internal",
+      "_internal_dataclass",
+      "_internal_utils",
+      "_interpqueues",
+      "_interpreters",
+      "_json",
+      "_loader",
+      "_log_render",
+      "_loop",
+      "_macos",
+      "_main",
+      "_manager",
+      "_manylinux",
+      "_migration",
+      "_mock_val_ser",
+      "_models",
+      "_multipart",
+      "_namespace_utils",
+      "_native",
+      "_openssl",
+      "_orm_constructors",
+      "_orm_types",
+      "_osx_support",
+      "_palettes",
+      "_parse",
+      "_parser",
+      "_pick",
+      "_psycopg_common",
+      "_py_collections",
+      "_py_processors",
+      "_py_row",
+      "_py_util",
+      "_pydantic_core",
+      "_pytest",
+      "_ratio",
+      "_re",
+      "_readers",
+      "_receivebuffer",
+      "_repr",
+      "_request_methods",
+      "_resources",
+      "_result",
+      "_rust_notify",
+      "_schema_generation_shared",
+      "_selectable_constructors",
+      "_serializers",
+      "_signature",
+      "_socket",
+      "_sockets",
+      "_spdx",
+      "_speedups",
+      "_spinners",
+      "_sqlite3",
+      "_ssl",
+      "_ssl_constants",
+      "_state",
+      "_status_codes",
+      "_std_types_schema",
+      "_streams",
+      "_subprocesses",
+      "_sync",
+      "_synchronization",
+      "_tasks",
+      "_termui_impl",
+      "_testing",
+      "_textwrap",
+      "_thread",
+      "_timer",
+      "_tokenizer",
+      "_trace",
+      "_transports",
+      "_types",
+      "_typeshed",
+      "_typing",
+      "_typing_extra",
+      "_urlparse",
+      "_urls",
+      "_util",
+      "_utils",
+      "_validators",
+      "_version",
+      "_warnings",
+      "_winconsole",
+      "_windows",
+      "_winreg",
+      "_wrap",
+      "_writers",
+      "a2wsgi",
+      "abc",
+      "abstract",
+      "adapters",
+      "aioquic",
+      "aiosqlite",
+      "alembic",
+      "algorithms",
+      "alias_generators",
+      "aliases",
+      "align",
+      "android",
+      "annotated_handlers",
+      "annotated_types",
+      "annotation",
+      "annotationlib",
+      "ansi",
+      "ansitowin32",
+      "anyio",
+      "api",
+      "api_jwk",
+      "api_jws",
+      "api_jwt",
+      "api_key",
+      "app",
+      "applications",
+      "apscheduler",
+      "argcomplete",
+      "argparse",
+      "argparsing",
+      "array",
+      "asgi",
+      "assertions",
+      "assertsql",
+      "ast",
+      "ast_transforms",
+      "async_timeout",
+      "asyncio",
+      "asyncmy",
+      "asyncpg",
+      "atexit",
+      "attr",
+      "attributes",
+      "auth",
+      "autogenerate",
+      "azure",
+      "babel",
+      "background",
+      "backports",
+      "backup",
+      "base",
+      "base64",
+      "batch",
+      "bcrypt",
+      "bdb",
+      "beaker",
+      "binascii",
+      "bisect",
+      "box",
+      "brotli",
+      "brotlicffi",
+      "bson",
+      "builtins",
+      "bz2",
+      "cPickle",
+      "cProfile",
+      "cStringIO",
+      "c_lexer",
+      "cache_key",
+      "calendar",
+      "candidates",
+      "cells",
+      "certifi",
+      "cffi",
+      "cffi_opcode",
+      "cgi",
+      "cli",
+      "click",
+      "client",
+      "clsregistry",
+      "code",
+      "codecs",
+      "coercions",
+      "collections",
+      "color",
+      "color_triplet",
+      "colorama",
+      "colorsys",
+      "columns",
+      "commontypes",
+      "compare",
+      "compat",
+      "compatibility",
+      "compileall",
+      "compiler",
+      "composer",
+      "compression",
+      "concurrency",
+      "concurrent",
+      "config",
+      "configparser",
+      "connection",
+      "connection_pool",
+      "connectionpool",
+      "connectors",
+      "console",
+      "constrain",
+      "constructor",
+      "containers",
+      "context",
+      "contextlib",
+      "contextlib2",
+      "contextvars",
+      "contrib",
+      "control",
+      "cookies",
+      "copy",
+      "copyreg",
+      "core",
+      "core_schema",
+      "coverage",
+      "create",
+      "criterion",
+      "cryptography",
+      "csv",
+      "ctypes",
+      "cursor",
+      "cx_Oracle",
+      "cyaml",
+      "cyextension",
+      "cython",
+      "dataclasses",
+      "datastructures",
+      "datetime",
+      "ddl",
+      "decimal",
+      "decl_api",
+      "decl_base",
+      "decorators",
+      "default",
+      "default_styles",
+      "deliverability",
+      "dependency",
+      "deprecated",
+      "deprecations",
+      "descriptor_props",
+      "dialects",
+      "difflib",
+      "dis",
+      "distro",
+      "distutils",
+      "dml",
+      "dns",
+      "doctest",
+      "docutils",
+      "dogpile",
+      "dotenv",
+      "dummy_thread",
+      "dummy_threading",
+      "dumper",
+      "dynamic",
+      "editor",
+      "elements",
+      "email",
+      "email_validator",
+      "embed",
+      "emitter",
+      "emoji",
+      "encodings",
+      "engine",
+      "entities",
+      "enum",
+      "enumerated",
+      "env",
+      "environment",
+      "errno",
+      "error",
+      "errors",
+      "eval_type_backport",
+      "event",
+      "eventlet",
+      "events",
+      "exc",
+      "exceptiongroup",
+      "exceptions",
+      "exceptions_types",
+      "exclusions",
+      "expression",
+      "ext",
+      "extensions",
+      "factory",
+      "fallback",
+      "fastapi",
+      "fastapi_cli",
+      "faulthandler",
+      "fcntl",
+      "fetch",
+      "fields",
+      "file_proxy",
+      "filelock",
+      "filepost",
+      "filters",
+      "findpaths",
+      "fixtures",
+      "fnmatch",
+      "formatting",
+      "found_candidates",
+      "fractions",
+      "frames",
+      "framing",
+      "from_thread",
+      "funcsigs",
+      "functional_serializers",
+      "functional_validators",
+      "functions",
+      "functools",
+      "gc",
+      "getpass",
+      "gettext",
+      "gevent",
+      "glob",
+      "globals",
+      "greenlet",
+      "grp",
+      "gunicorn",
+      "gzip",
+      "h11",
+      "h2",
+      "handshake",
+      "hashlib",
+      "headers",
+      "helpers",
+      "highlighter",
+      "hmac",
+      "hooks",
+      "hstore",
+      "html",
+      "htmlentitydefs",
+      "http",
+      "http11",
+      "http2",
+      "http_proxy",
+      "httpcore",
+      "httplib",
+      "httptools",
+      "httpx",
+      "hypothesis",
+      "identity",
+      "idna",
+      "imp",
+      "impl",
+      "importlib",
+      "importlib_metadata",
+      "importlib_resources",
+      "imports",
+      "iniconfig",
+      "initialise",
+      "inspect",
+      "inspection",
+      "instrumentation",
+      "interfaces",
+      "intranges",
+      "io",
+      "ipaddress",
+      "ipython",
+      "ipywidgets",
+      "itertools",
+      "itsdangerous",
+      "java",
+      "jinja2",
+      "jnius",
+      "js",
+      "json",
+      "json_schema",
+      "jupyter",
+      "jwk_set_cache",
+      "jwks_client",
+      "kazoo",
+      "keyring",
+      "keyword",
+      "lambdas",
+      "langhelpers",
+      "leakcheck",
+      "legacy",
+      "licenses",
+      "linecache",
+      "lingua",
+      "live",
+      "live_render",
+      "loader",
+      "loading",
+      "locale",
+      "lock",
+      "log",
+      "logging",
+      "lowlevel",
+      "lzma",
+      "main",
+      "mako",
+      "mapped_collection",
+      "mapper",
+      "markers",
+      "markup",
+      "markupsafe",
+      "marshal",
+      "math",
+      "measure",
+      "messages",
+      "messaging",
+      "migration",
+      "mimetypes",
+      "mmap",
+      "mock",
+      "models",
+      "msvcrt",
+      "multipart",
+      "multiprocessing",
+      "mypy",
+      "mysql",
+      "mysqldb",
+      "named_types",
+      "names",
+      "netrc",
+      "networks",
+      "nodes",
+      "ntpath",
+      "numbers",
+      "numpy",
+      "oauth2",
+      "objgraph",
+      "open_id_connect_url",
+      "operations",
+      "operator",
+      "operators",
+      "ops",
+      "optparse",
+      "oracledb",
+      "orjson",
+      "orm",
+      "os",
+      "outcome",
+      "package_data",
+      "packaging",
+      "padding",
+      "pager",
+      "palette",
+      "panel",
+      "param_functions",
+      "parser",
+      "path_registry",
+      "pathlib",
+      "pdb",
+      "pexpect",
+      "pg_catalog",
+      "pickle",
+      "pip",
+      "pkg_resources",
+      "pkgutil",
+      "platform",
+      "plistlib",
+      "pluggy",
+      "plugin",
+      "pool",
+      "poolmanager",
+      "posixpath",
+      "pprint",
+      "preloaded",
+      "pretty",
+      "progress_bar",
+      "properties",
+      "protocol",
+      "providers",
+      "provision",
+      "pstats",
+      "psutil",
+      "psycopg",
+      "psycopg2",
+      "pty",
+      "pwd",
+      "py",
+      "py_compile",
+      "pyannotate_runtime",
+      "pycparser",
+      "pydantic",
+      "pydantic_core",
+      "pydantic_settings",
+      "pyfiles",
+      "pygments",
+      "pymongo",
+      "pymysql",
+      "pyodbc",
+      "pyodide",
+      "pysqlcipher3",
+      "pysqlite",
+      "pytest",
+      "python_multipart",
+      "pythoncom",
+      "pytz",
+      "query",
+      "queue",
+      "random",
+      "ranges",
+      "re",
+      "reader",
+      "readline",
+      "recompiler",
+      "redis",
+      "reflection",
+      "region",
+      "registry",
+      "relationships",
+      "render",
+      "reporters",
+      "reports",
+      "repr",
+      "representer",
+      "reprlib",
+      "req_file",
+      "req_install",
+      "req_set",
+      "request",
+      "requests",
+      "requirements",
+      "reserved_words",
+      "resolution",
+      "resolver",
+      "resolvers",
+      "resources",
+      "response",
+      "responses",
+      "result",
+      "rethinkdb",
+      "retry",
+      "revision",
+      "rewriter",
+      "rfc_constants",
+      "rich",
+      "roles",
+      "root_model",
+      "routing",
+      "row",
+      "rule",
+      "run",
+      "runpy",
+      "runtime",
+      "scanner",
+      "schema",
+      "scope",
+      "scoping",
+      "screen",
+      "script",
+      "secrets",
+      "segment",
+      "select",
+      "selectable",
+      "selectors",
+      "serializer",
+      "server",
+      "service",
+      "session",
+      "sessions",
+      "sets",
+      "setuptools",
+      "shell_completion",
+      "shlex",
+      "shutil",
+      "signal",
+      "site",
+      "six",
+      "smoke",
+      "sniffio",
+      "socket",
+      "socks",
+      "socks_proxy",
+      "socksio",
+      "source",
+      "sources",
+      "specifiers",
+      "speedups",
+      "sphinx",
+      "spinner",
+      "sql",
+      "sqla_compat",
+      "sqla_plugin_base",
+      "sqlalchemy",
+      "sqlcipher3",
+      "sqlite3",
+      "sqltypes",
+      "ssl",
+      "ssl_",
+      "ssltransport",
+      "starlette",
+      "stat",
+      "state",
+      "state_changes",
+      "status",
+      "status_codes",
+      "strategies",
+      "strategy_options",
+      "streams",
+      "string",
+      "struct",
+      "structs",
+      "structures",
+      "style",
+      "styled",
+      "subprocess",
+      "sync",
+      "syntax",
+      "sys",
+      "sysconfig",
+      "table",
+      "tags",
+      "tarfile",
+      "tempfile",
+      "terminal_theme",
+      "terminalwriter",
+      "termios",
+      "termui",
+      "test_autogen_comments",
+      "test_autogen_computed",
+      "test_autogen_diffs",
+      "test_autogen_fks",
+      "test_autogen_identity",
+      "test_cte",
+      "test_ddl",
+      "test_deprecations",
+      "test_dialect",
+      "test_environment",
+      "test_insert",
+      "test_op",
+      "test_reflection",
+      "test_results",
+      "test_rowcount",
+      "test_select",
+      "test_sequence",
+      "test_types",
+      "test_unicode_ddl",
+      "test_update_delete",
+      "testing",
+      "tests",
+      "text",
+      "textwrap",
+      "theme",
+      "thread",
+      "threading",
+      "time",
+      "timeit",
+      "timeout",
+      "token",
+      "tokenize",
+      "tokens",
+      "toml",
+      "tomli",
+      "tomllib",
+      "tool_discovery",
+      "tornado",
+      "traceback",
+      "tracemalloc",
+      "traversals",
+      "trio",
+      "tty",
+      "twisted",
+      "type_adapter",
+      "type_api",
+      "types",
+      "typing",
+      "typing_extensions",
+      "tzlocal",
+      "ujson",
+      "unicodedata",
+      "unitofwork",
+      "unittest",
+      "uri",
+      "url",
+      "url_parser",
+      "urllib",
+      "urllib2",
+      "urlparse",
+      "util",
+      "utils",
+      "uts46data",
+      "uuid",
+      "uvicorn",
+      "uvloop",
+      "validate_call_decorator",
+      "validate_email",
+      "variables",
+      "verifier",
+      "version",
+      "visitors",
+      "wait",
+      "warning_types",
+      "warnings",
+      "watchfiles",
+      "watchgod",
+      "wcwidth",
+      "weakref",
+      "webbrowser",
+      "websockets",
+      "win32",
+      "winloop",
+      "winreg",
+      "winterm",
+      "wmi",
+      "writeonly",
+      "wsgi",
+      "wsproto",
+      "xml",
+      "xmlrpc",
+      "xmlrpclib",
+      "yaml",
+      "yasara_desktop",
+      "zipfile",
+      "zipimport",
+      "zlib",
+      "zoneinfo",
+      "zope",
+      "zstandard"
+    ],
+    "validated_packages": [
+      "aiosqlite",
+      "anyio",
+      "apscheduler",
+      "certifi",
+      "cryptography",
+      "dns",
+      "dotenv",
+      "fastapi",
+      "httpx",
+      "numpy",
+      "orjson",
+      "pydantic",
+      "pydantic_settings",
+      "sqlalchemy",
+      "starlette",
+      "typing_extensions",
+      "uvicorn",
+      "websockets",
+      "yaml"
+    ]
+  },
+  "source_validation": {
+    "ready": true,
+    "checks": {
+      "router_exists": true,
+      "desktop_entry_exists": true,
+      "frontend_dist_exists": true,
+      "router_registry_only": true
+    }
+  },
+  "staging": {
+    "ready": true,
+    "source_router": "D:\\yasara_clean\\backend\\app\\api\\v1\\router.py",
+    "staged_router": "D:\\yasara_clean\\.build_stage\\backend\\app\\api\\v1\\router.py",
+    "source_sha256": "8d7ac57e55b5c1cbe22259dbf3fade8e3af2601920468fa0487c63ef08dc208c",
+    "staged_sha256": "8d7ac57e55b5c1cbe22259dbf3fade8e3af2601920468fa0487c63ef08dc208c"
+  },
+  "return_code": 0,
+  "exe_exists": true,
+  "exe_path": "D:\\yasara_clean\\dist\\windows\\portable\\YaSara\\YaSara.exe",
+  "sha256": "91f39e6bd156971bbcccbbf9aa49b7ebedba9aff639c329e0d52029f643b26f8",
+  "packaged_backend_validation": {
+    "ready": true,
+    "checks": {
+      "source_exists": true,
+      "stage_exists": true,
+      "packaged_exists": true,
+      "hash_match": true,
+      "packaged_router_clean": true
+    },
+    "hashes": {
+      "source": "8d7ac57e55b5c1cbe22259dbf3fade8e3af2601920468fa0487c63ef08dc208c",
+      "stage": "8d7ac57e55b5c1cbe22259dbf3fade8e3af2601920468fa0487c63ef08dc208c",
+      "packaged": "8d7ac57e55b5c1cbe22259dbf3fade8e3af2601920468fa0487c63ef08dc208c"
+    }
+  },
+  "executable_validation": {
+    "ready": true,
+    "exe_return_code": 1,
+    "health_ok": true,
+    "health_url": "http://127.0.0.1:8000/openapi.json",
+    "health_status": 200,
+    "probe_results": {
+      "http://127.0.0.1:8000/api/v1/health": "<urlopen error timed out>",
+      "http://127.0.0.1:8000/health": "<urlopen error timed out>",
+      "http://127.0.0.1:8000/docs": "<urlopen error timed out>",
+      "http://127.0.0.1:8000/openapi.json": 200
+    },
+    "runtime_report": null,
+    "backend_stderr_tail": ""
+  }
+}
+
+267 INFO: PyInstaller: 6.21.0, contrib hooks: 2026.6
+268 INFO: Python: 3.12.10
+304 INFO: Platform: Windows-11-10.0.26200-SP0
+304 INFO: Python environment: C:\Program Files\Python312
+308 INFO: Removing temporary files and cleaning cache in C:\Users\rasou\AppData\Local\pyinstaller
+20173 WARNING: collect_data_files - skipping data collection for module 'typing_extensions' as it is not a package.
+20173 WARNING: collect_dynamic_libs - skipping library collection for module 'typing_extensions' as it is not a package.
+C:\Users\rasou\AppData\Roaming\Python\Python312\site-packages\pydantic\experimental\__init__.py:7: PydanticExperimentalWarning: This module is experimental, its contents are subject to change and deprecation.
+  warnings.warn(
+C:\Users\rasou\AppData\Roaming\Python\Python312\site-packages\pydantic\experimental\__init__.py:7: PydanticExperimentalWarning: This module is experimental, its contents are subject to change and deprecation.
+  warnings.warn(
+43041 INFO: Module search paths (PYTHONPATH):
+['D:\\yasara_clean',
+ 'C:\\Program Files\\Python312\\python312.zip',
+ 'C:\\Program Files\\Python312\\DLLs',
+ 'C:\\Program Files\\Python312\\Lib',
+ 'C:\\Program Files\\Python312',
+ 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages',
+ 'C:\\Program Files\\Python312\\Lib\\site-packages',
+ 'D:\\yasara_clean\\desktop',
+ 'D:\\yasara_clean',
+ 'D:\\yasara_clean\\.build_stage\\backend']
+43617 INFO: Appending 'datas' from .spec
+44092 INFO: checking Analysis
+44092 INFO: Building Analysis because Analysis-00.toc is non existent
+44092 INFO: Looking for Python shared library...
+44094 INFO: Using Python shared library: C:\Program Files\Python312\python312.dll
+44094 INFO: Running Analysis Analysis-00.toc
+44094 INFO: Target bytecode optimization level: 0
+44094 INFO: Initializing module dependency graph...
+44096 INFO: Initializing module graph hook caches...
+44234 INFO: Analyzing modules for base_library.zip ...
+46409 INFO: Processing standard module hook 'hook-encodings.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyInstaller\\hooks'
+47071 INFO: Processing standard module hook 'hook-math.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyInstaller\\hooks'
+49412 INFO: Processing standard module hook 'hook-pickle.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyInstaller\\hooks'
+51406 INFO: Processing standard module hook 'hook-heapq.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyInstaller\\hooks'
+52340 INFO: Caching module dependency graph...
+52428 INFO: Analyzing D:\yasara_clean\desktop\yasara_desktop.py
+52990 INFO: Processing standard module hook 'hook-webbrowser.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyInstaller\\hooks'
+53013 INFO: Processing standard module hook 'hook-uvicorn.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+54030 INFO: Processing standard module hook 'hook-multiprocessing.util.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyInstaller\\hooks'
+54222 INFO: Processing standard module hook 'hook-xml.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyInstaller\\hooks'
+54706 INFO: Processing standard module hook 'hook-_ctypes.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyInstaller\\hooks'
+55956 INFO: Processing standard module hook 'hook-platform.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyInstaller\\hooks'
+56048 INFO: Processing pre-safe-import-module hook 'hook-typing_extensions.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+56052 INFO: SetuptoolsInfo: initializing cached setuptools info...
+57376 INFO: Processing standard module hook 'hook-difflib.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyInstaller\\hooks'
+58294 INFO: Processing standard module hook 'hook-websockets.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+59323 INFO: Processing standard module hook 'hook-anyio.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+61333 INFO: Processing standard module hook 'hook-pydantic.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+C:\Users\rasou\AppData\Roaming\Python\Python312\site-packages\pydantic\experimental\__init__.py:7: PydanticExperimentalWarning: This module is experimental, its contents are subject to change and deprecation.
+  warnings.warn(
+63562 INFO: Processing standard module hook 'hook-certifi.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+64609 INFO: Processing standard module hook 'hook-dns.rdata.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+65838 INFO: Processing standard module hook 'hook-zoneinfo.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+65883 INFO: Processing standard module hook 'hook-sysconfig.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyInstaller\\hooks'
+67528 INFO: Processing standard module hook 'hook-orjson.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+67809 INFO: Processing pre-safe-import-module hook 'hook-tomli.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+67812 INFO: Setuptools: 'tomli' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.tomli'!
+67822 INFO: Processing standard module hook 'hook-setuptools.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyInstaller\\hooks'
+67842 INFO: Processing pre-safe-import-module hook 'hook-distutils.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+67892 INFO: Processing pre-safe-import-module hook 'hook-jaraco.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+67894 INFO: Setuptools: 'jaraco' appears to be a full setuptools-vendored copy - creating alias to 'setuptools._vendor.jaraco'!
+67908 INFO: Processing pre-safe-import-module hook 'hook-more_itertools.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+67910 INFO: Setuptools: 'more_itertools' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.more_itertools'!
+68312 INFO: Processing pre-safe-import-module hook 'hook-packaging.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+68733 INFO: Processing standard module hook 'hook-setuptools._vendor.jaraco.text.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyInstaller\\hooks'
+68735 INFO: Processing pre-safe-import-module hook 'hook-importlib_resources.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+68748 INFO: Processing pre-safe-import-module hook 'hook-backports.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+68750 INFO: Setuptools: 'backports' appears to be a full setuptools-vendored copy - creating alias to 'setuptools._vendor.backports'!
+69050 INFO: Processing pre-safe-import-module hook 'hook-importlib_metadata.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+69052 INFO: Setuptools: 'importlib_metadata' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.importlib_metadata'!
+69095 INFO: Processing standard module hook 'hook-setuptools._vendor.importlib_metadata.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyInstaller\\hooks'
+69150 INFO: Processing pre-safe-import-module hook 'hook-zipp.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+69153 INFO: Setuptools: 'zipp' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.zipp'!
+70242 INFO: Processing pre-safe-import-module hook 'hook-wheel.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+70244 INFO: Setuptools: 'wheel' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.wheel'!
+70436 INFO: Processing standard module hook 'hook-sqlalchemy.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyInstaller\\hooks'
+76769 INFO: Analyzing hidden import 'aiosqlite'
+76776 INFO: Processing standard module hook 'hook-sqlite3.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyInstaller\\hooks'
+77319 INFO: Analyzing hidden import 'aiosqlite.tests'
+77588 INFO: Analyzing hidden import 'aiosqlite.tests.__main__'
+77592 INFO: Analyzing hidden import 'aiosqlite.tests.perf'
+77607 INFO: Analyzing hidden import 'anyio._backends'
+77609 INFO: Analyzing hidden import 'anyio._backends._asyncio'
+77817 INFO: Analyzing hidden import 'anyio._backends._trio'
+77915 INFO: Analyzing hidden import 'anyio.functools'
+77943 INFO: Analyzing hidden import 'anyio.itertools'
+77989 INFO: Analyzing hidden import 'anyio.pytest_plugin'
+78011 INFO: Processing standard module hook 'hook-pytest.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+78375 INFO: Processing standard module hook 'hook-py.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+80269 INFO: Processing standard module hook 'hook-numpy.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyInstaller\\hooks'
+83590 INFO: Processing standard module hook 'hook-charset_normalizer.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+84633 INFO: Analyzing hidden import 'anyio.streams.buffered'
+84646 INFO: Analyzing hidden import 'anyio.streams.file'
+84654 INFO: Analyzing hidden import 'anyio.streams.text'
+84664 INFO: Analyzing hidden import 'anyio.to_interpreter'
+84683 INFO: Analyzing hidden import 'anyio.to_process'
+84705 INFO: Analyzing hidden import 'apscheduler'
+84709 INFO: Processing standard module hook 'hook-apscheduler.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+85252 INFO: Analyzing hidden import 'apscheduler.events'
+85260 INFO: Analyzing hidden import 'apscheduler.executors'
+85263 INFO: Analyzing hidden import 'apscheduler.executors.asyncio'
+85321 INFO: Processing standard module hook 'hook-pytz.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyInstaller\\hooks'
+85751 INFO: Analyzing hidden import 'apscheduler.executors.debug'
+85755 INFO: Analyzing hidden import 'apscheduler.executors.gevent'
+85760 INFO: Analyzing hidden import 'apscheduler.executors.pool'
+85769 INFO: Analyzing hidden import 'apscheduler.executors.tornado'
+85777 INFO: Analyzing hidden import 'apscheduler.executors.twisted'
+85781 INFO: Analyzing hidden import 'apscheduler.job'
+85800 INFO: Analyzing hidden import 'apscheduler.jobstores'
+85800 INFO: Analyzing hidden import 'apscheduler.jobstores.base'
+85806 INFO: Analyzing hidden import 'apscheduler.jobstores.memory'
+85814 INFO: Analyzing hidden import 'apscheduler.jobstores.mongodb'
+85826 INFO: Analyzing hidden import 'apscheduler.jobstores.redis'
+85839 INFO: Analyzing hidden import 'apscheduler.jobstores.rethinkdb'
+85853 INFO: Analyzing hidden import 'apscheduler.jobstores.sqlalchemy'
+85868 INFO: Analyzing hidden import 'apscheduler.jobstores.zookeeper'
+85884 INFO: Analyzing hidden import 'apscheduler.schedulers'
+85887 INFO: Analyzing hidden import 'apscheduler.schedulers.asyncio'
+86016 INFO: Analyzing hidden import 'apscheduler.schedulers.background'
+86026 INFO: Analyzing hidden import 'apscheduler.schedulers.gevent'
+86030 INFO: Analyzing hidden import 'apscheduler.schedulers.qt'
+86035 INFO: Analyzing hidden import 'apscheduler.schedulers.tornado'
+86041 INFO: Analyzing hidden import 'apscheduler.schedulers.twisted'
+86047 INFO: Analyzing hidden import 'apscheduler.triggers.combining'
+86056 INFO: Analyzing hidden import 'apscheduler.triggers.cron'
+86105 INFO: Analyzing hidden import 'apscheduler.triggers.date'
+86109 INFO: Analyzing hidden import 'apscheduler.triggers.interval'
+86119 INFO: Analyzing hidden import 'certifi.__main__'
+86122 INFO: Analyzing hidden import 'cryptography'
+86125 INFO: Processing standard module hook 'hook-cryptography.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+88563 INFO: hook-cryptography: cryptography does not seem to be using dynamically linked OpenSSL.
+88567 INFO: Analyzing hidden import 'cryptography.exceptions'
+88579 INFO: Analyzing hidden import 'cryptography.fernet'
+88714 INFO: Analyzing hidden import 'cryptography.hazmat._oid'
+88741 INFO: Analyzing hidden import 'cryptography.hazmat.asn1'
+88771 INFO: Analyzing hidden import 'cryptography.hazmat.backends'
+88852 INFO: Analyzing hidden import 'cryptography.hazmat.primitives.asymmetric.dh'
+88858 INFO: Analyzing hidden import 'cryptography.hazmat.primitives.asymmetric.dsa'
+88864 INFO: Analyzing hidden import 'cryptography.hazmat.primitives.asymmetric.ed25519'
+88870 INFO: Analyzing hidden import 'cryptography.hazmat.primitives.asymmetric.ed448'
+88879 INFO: Analyzing hidden import 'cryptography.hazmat.primitives.asymmetric.mldsa'
+88895 INFO: Analyzing hidden import 'cryptography.hazmat.primitives.asymmetric.mlkem'
+88907 INFO: Analyzing hidden import 'cryptography.hazmat.primitives.asymmetric.types'
+88927 INFO: Analyzing hidden import 'cryptography.hazmat.primitives.ciphers.aead'
+88929 INFO: Analyzing hidden import 'cryptography.hazmat.primitives.cmac'
+88932 INFO: Analyzing hidden import 'cryptography.hazmat.primitives.constant_time'
+88935 INFO: Analyzing hidden import 'cryptography.hazmat.primitives.hpke'
+88937 INFO: Analyzing hidden import 'cryptography.hazmat.primitives.kdf'
+88939 INFO: Analyzing hidden import 'cryptography.hazmat.primitives.kdf.argon2'
+88944 INFO: Analyzing hidden import 'cryptography.hazmat.primitives.kdf.concatkdf'
+88946 INFO: Analyzing hidden import 'cryptography.hazmat.primitives.kdf.hkdf'
+88950 INFO: Analyzing hidden import 'cryptography.hazmat.primitives.kdf.kbkdf'
+88952 INFO: Analyzing hidden import 'cryptography.hazmat.primitives.kdf.pbkdf2'
+88956 INFO: Analyzing hidden import 'cryptography.hazmat.primitives.kdf.scrypt'
+88960 INFO: Analyzing hidden import 'cryptography.hazmat.primitives.kdf.x963kdf'
+88963 INFO: Analyzing hidden import 'cryptography.hazmat.primitives.keywrap'
+88977 INFO: Analyzing hidden import 'cryptography.hazmat.primitives.poly1305'
+88978 INFO: Analyzing hidden import 'cryptography.hazmat.primitives.serialization'
+89072 INFO: Processing standard module hook 'hook-bcrypt.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+89076 INFO: Analyzing hidden import 'cryptography.hazmat.primitives.serialization.pkcs12'
+89340 INFO: Analyzing hidden import 'cryptography.hazmat.primitives.serialization.pkcs7'
+89368 INFO: Analyzing hidden import 'cryptography.hazmat.primitives.twofactor'
+89373 INFO: Analyzing hidden import 'cryptography.hazmat.primitives.twofactor.hotp'
+89383 INFO: Analyzing hidden import 'cryptography.hazmat.primitives.twofactor.totp'
+89390 INFO: Analyzing hidden import 'cryptography.x509.ocsp'
+89412 INFO: Analyzing hidden import 'dns.btree'
+89463 INFO: Analyzing hidden import 'dns.btreezone'
+89514 INFO: Analyzing hidden import 'dns.dnssec'
+89674 INFO: Analyzing hidden import 'dns.e164'
+89682 INFO: Analyzing hidden import 'dns.namedict'
+89688 INFO: Analyzing hidden import 'dns.rdtypes.ANY.AFSDB'
+89699 INFO: Analyzing hidden import 'dns.rdtypes.ANY.AMTRELAY'
+89705 INFO: Analyzing hidden import 'dns.rdtypes.ANY.AVC'
+89717 INFO: Analyzing hidden import 'dns.rdtypes.ANY.CAA'
+89721 INFO: Analyzing hidden import 'dns.rdtypes.ANY.CERT'
+89727 INFO: Analyzing hidden import 'dns.rdtypes.ANY.CNAME'
+89729 INFO: Analyzing hidden import 'dns.rdtypes.ANY.CSYNC'
+89734 INFO: Analyzing hidden import 'dns.rdtypes.ANY.DLV'
+89736 INFO: Analyzing hidden import 'dns.rdtypes.ANY.DNAME'
+89740 INFO: Analyzing hidden import 'dns.rdtypes.ANY.DSYNC'
+89746 INFO: Analyzing hidden import 'dns.rdtypes.ANY.EUI48'
+89756 INFO: Analyzing hidden import 'dns.rdtypes.ANY.EUI64'
+89761 INFO: Analyzing hidden import 'dns.rdtypes.ANY.GPOS'
+89771 INFO: Analyzing hidden import 'dns.rdtypes.ANY.HINFO'
+89778 INFO: Analyzing hidden import 'dns.rdtypes.ANY.HIP'
+89785 INFO: Analyzing hidden import 'dns.rdtypes.ANY.ISDN'
+89794 INFO: Analyzing hidden import 'dns.rdtypes.ANY.L32'
+89798 INFO: Analyzing hidden import 'dns.rdtypes.ANY.L64'
+89804 INFO: Analyzing hidden import 'dns.rdtypes.ANY.LOC'
+89823 INFO: Analyzing hidden import 'dns.rdtypes.ANY.LP'
+89827 INFO: Analyzing hidden import 'dns.rdtypes.ANY.MX'
+89831 INFO: Analyzing hidden import 'dns.rdtypes.ANY.NID'
+89836 INFO: Analyzing hidden import 'dns.rdtypes.ANY.NINFO'
+89840 INFO: Analyzing hidden import 'dns.rdtypes.ANY.NS'
+89842 INFO: Analyzing hidden import 'dns.rdtypes.ANY.NSEC3'
+89852 INFO: Analyzing hidden import 'dns.rdtypes.ANY.OPENPGPKEY'
+89856 INFO: Analyzing hidden import 'dns.rdtypes.ANY.RESINFO'
+89860 INFO: Analyzing hidden import 'dns.rdtypes.ANY.RP'
+89866 INFO: Analyzing hidden import 'dns.rdtypes.ANY.RT'
+89870 INFO: Analyzing hidden import 'dns.rdtypes.ANY.SPF'
+89871 INFO: Analyzing hidden import 'dns.rdtypes.ANY.SSHFP'
+89877 INFO: Analyzing hidden import 'dns.rdtypes.ANY.TKEY'
+89885 INFO: Analyzing hidden import 'dns.rdtypes.ANY.TLSA'
+89889 INFO: Analyzing hidden import 'dns.rdtypes.ANY.TXT'
+89892 INFO: Analyzing hidden import 'dns.rdtypes.ANY.URI'
+89898 INFO: Analyzing hidden import 'dns.rdtypes.ANY.WALLET'
+89900 INFO: Analyzing hidden import 'dns.rdtypes.ANY.X25'
+89904 INFO: Analyzing hidden import 'dns.rdtypes.CH'
+89908 INFO: Analyzing hidden import 'dns.rdtypes.CH.A'
+89912 INFO: Analyzing hidden import 'dns.rdtypes.IN'
+89916 INFO: Analyzing hidden import 'dns.rdtypes.IN.A'
+89920 INFO: Analyzing hidden import 'dns.rdtypes.IN.AAAA'
+89927 INFO: Analyzing hidden import 'dns.rdtypes.IN.APL'
+89937 INFO: Analyzing hidden import 'dns.rdtypes.IN.DHCID'
+89941 INFO: Analyzing hidden import 'dns.rdtypes.IN.HTTPS'
+89944 INFO: Analyzing hidden import 'dns.rdtypes.IN.IPSECKEY'
+89951 INFO: Analyzing hidden import 'dns.rdtypes.IN.KX'
+89955 INFO: Analyzing hidden import 'dns.rdtypes.IN.NAPTR'
+89963 INFO: Analyzing hidden import 'dns.rdtypes.IN.NSAP'
+89968 INFO: Analyzing hidden import 'dns.rdtypes.IN.NSAP_PTR'
+89972 INFO: Analyzing hidden import 'dns.rdtypes.IN.PX'
+89978 INFO: Analyzing hidden import 'dns.rdtypes.IN.SRV'
+89987 INFO: Analyzing hidden import 'dns.rdtypes.IN.SVCB'
+89989 INFO: Analyzing hidden import 'dns.rdtypes.IN.WKS'
+89997 INFO: Analyzing hidden import 'dns.tsigkeyring'
+90002 INFO: Analyzing hidden import 'dotenv.__main__'
+90020 INFO: Analyzing hidden import 'fastapi.__main__'
+90026 INFO: Analyzing hidden import 'fastapi.middleware'
+90029 INFO: Analyzing hidden import 'fastapi.middleware.cors'
+90039 INFO: Analyzing hidden import 'fastapi.middleware.gzip'
+90049 INFO: Analyzing hidden import 'fastapi.middleware.httpsredirect'
+90055 INFO: Analyzing hidden import 'fastapi.middleware.trustedhost'
+90063 INFO: Analyzing hidden import 'fastapi.middleware.wsgi'
+90076 INFO: Analyzing hidden import 'fastapi.templating'
+90123 INFO: Analyzing hidden import 'fastapi.testclient'
+90184 INFO: Analyzing hidden import 'numpy._configtool'
+90186 INFO: Analyzing hidden import 'numpy._core._exceptions'
+90194 INFO: Analyzing hidden import 'numpy._core._multiarray_tests'
+90196 INFO: Analyzing hidden import 'numpy._core._operand_flag_tests'
+90196 INFO: Analyzing hidden import 'numpy._core._rational_tests'
+90196 INFO: Analyzing hidden import 'numpy._core._simd'
+90198 INFO: Analyzing hidden import 'numpy._core._struct_ufunc_tests'
+90200 INFO: Analyzing hidden import 'numpy._core._umath_tests'
+90207 INFO: Analyzing hidden import 'numpy._core.cversions'
+90209 INFO: Analyzing hidden import 'numpy._pyinstaller'
+90211 INFO: Analyzing hidden import 'numpy._pyinstaller.hook-numpy'
+90296 INFO: Processing standard module hook 'hook-win32ctypes.core.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyInstaller\\hooks'
+91917 INFO: Processing standard module hook 'hook-pycparser.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+93477 INFO: Analyzing hidden import 'numpy._pyinstaller.tests'
+93482 INFO: Analyzing hidden import 'numpy._pyinstaller.tests.pyinstaller-smoke'
+93486 INFO: Analyzing hidden import 'numpy._pyinstaller.tests.test_pyinstaller'
+93488 INFO: Analyzing hidden import 'numpy._typing._extended_precision'
+93492 INFO: Analyzing hidden import 'numpy._utils._pep440'
+93509 INFO: Analyzing hidden import 'numpy.conftest'
+93517 INFO: Analyzing hidden import 'numpy.core._dtype'
+93519 INFO: Analyzing hidden import 'numpy.core._dtype_ctypes'
+93523 INFO: Analyzing hidden import 'numpy.core._internal'
+93525 INFO: Analyzing hidden import 'numpy.core._multiarray_umath'
+93529 INFO: Analyzing hidden import 'numpy.core.arrayprint'
+93533 INFO: Analyzing hidden import 'numpy.core.defchararray'
+93536 INFO: Analyzing hidden import 'numpy.core.einsumfunc'
+93539 INFO: Analyzing hidden import 'numpy.core.fromnumeric'
+93542 INFO: Analyzing hidden import 'numpy.core.function_base'
+93544 INFO: Analyzing hidden import 'numpy.core.getlimits'
+93548 INFO: Analyzing hidden import 'numpy.core.multiarray'
+93552 INFO: Analyzing hidden import 'numpy.core.numeric'
+93554 INFO: Analyzing hidden import 'numpy.core.numerictypes'
+93558 INFO: Analyzing hidden import 'numpy.core.overrides'
+93561 INFO: Analyzing hidden import 'numpy.core.records'
+93564 INFO: Analyzing hidden import 'numpy.core.shape_base'
+93566 INFO: Analyzing hidden import 'numpy.core.umath'
+93570 INFO: Analyzing hidden import 'numpy.f2py.__main__'
+93572 INFO: Analyzing hidden import 'numpy.f2py._src_pyf'
+93589 INFO: Analyzing hidden import 'numpy.f2py.tests'
+93591 INFO: Analyzing hidden import 'numpy.f2py.tests.test_abstract_interface'
+93618 INFO: Analyzing hidden import 'numpy.f2py.tests.test_array_from_pyobj'
+93657 INFO: Analyzing hidden import 'numpy.f2py.tests.test_assumed_shape'
+93661 INFO: Analyzing hidden import 'numpy.f2py.tests.test_block_docstring'
+93665 INFO: Analyzing hidden import 'numpy.f2py.tests.test_callback'
+93680 INFO: Analyzing hidden import 'numpy.f2py.tests.test_capi_maps'
+93682 INFO: Analyzing hidden import 'numpy.f2py.tests.test_character'
+93723 INFO: Analyzing hidden import 'numpy.f2py.tests.test_common'
+93727 INFO: Analyzing hidden import 'numpy.f2py.tests.test_crackfortran'
+93753 INFO: Analyzing hidden import 'numpy.f2py.tests.test_data'
+93763 INFO: Analyzing hidden import 'numpy.f2py.tests.test_docs'
+93770 INFO: Analyzing hidden import 'numpy.f2py.tests.test_f2cmap'
+93774 INFO: Analyzing hidden import 'numpy.f2py.tests.test_f2py2e'
+93813 INFO: Analyzing hidden import 'numpy.f2py.tests.test_isoc'
+93817 INFO: Analyzing hidden import 'numpy.f2py.tests.test_kind'
+93821 INFO: Analyzing hidden import 'numpy.f2py.tests.test_mixed'
+93824 INFO: Analyzing hidden import 'numpy.f2py.tests.test_modules'
+93830 INFO: Analyzing hidden import 'numpy.f2py.tests.test_parameter'
+93842 INFO: Analyzing hidden import 'numpy.f2py.tests.test_pyf_src'
+93846 INFO: Analyzing hidden import 'numpy.f2py.tests.test_quoted_character'
+93850 INFO: Analyzing hidden import 'numpy.f2py.tests.test_regression'
+93912 INFO: Analyzing hidden import 'numpy.f2py.tests.test_return_character'
+93920 INFO: Analyzing hidden import 'numpy.f2py.tests.test_return_complex'
+93930 INFO: Analyzing hidden import 'numpy.f2py.tests.test_return_integer'
+93936 INFO: Analyzing hidden import 'numpy.f2py.tests.test_return_logical'
+93944 INFO: Analyzing hidden import 'numpy.f2py.tests.test_return_real'
+93954 INFO: Analyzing hidden import 'numpy.f2py.tests.test_routines'
+93960 INFO: Analyzing hidden import 'numpy.f2py.tests.test_semicolon_split'
+93965 INFO: Analyzing hidden import 'numpy.f2py.tests.test_size'
+93970 INFO: Analyzing hidden import 'numpy.f2py.tests.test_string'
+93980 INFO: Analyzing hidden import 'numpy.f2py.tests.test_symbolic'
+94020 INFO: Analyzing hidden import 'numpy.f2py.tests.test_value_attrspec'
+94024 INFO: Analyzing hidden import 'numpy.fft.tests'
+94024 INFO: Analyzing hidden import 'numpy.fft.tests.test_helper'
+94038 INFO: Analyzing hidden import 'numpy.fft.tests.test_pocketfft'
+94084 INFO: Analyzing hidden import 'numpy.lib._user_array_impl'
+94105 INFO: Analyzing hidden import 'numpy.lib.tests'
+94106 INFO: Analyzing hidden import 'numpy.lib.tests.test__datasource'
+94128 INFO: Analyzing hidden import 'numpy.lib.tests.test__iotools'
+94150 INFO: Analyzing hidden import 'numpy.lib.tests.test__version'
+94156 INFO: Analyzing hidden import 'numpy.lib.tests.test_array_utils'
+94162 INFO: Analyzing hidden import 'numpy.lib.tests.test_arraypad'
+94251 INFO: Analyzing hidden import 'numpy.lib.tests.test_arraysetops'
+94334 INFO: Analyzing hidden import 'numpy.lib.tests.test_arrayterator'
+94342 INFO: Analyzing hidden import 'numpy.lib.tests.test_format'
+94379 INFO: Analyzing hidden import 'numpy.lib.tests.test_function_base'
+94768 INFO: Analyzing hidden import 'numpy.lib.tests.test_histograms'
+94839 INFO: Analyzing hidden import 'numpy.lib.tests.test_index_tricks'
+94888 INFO: Analyzing hidden import 'numpy.lib.tests.test_io'
+95115 INFO: Analyzing hidden import 'numpy.lib.tests.test_loadtxt'
+95188 INFO: Analyzing hidden import 'numpy.lib.tests.test_mixins'
+95207 INFO: Analyzing hidden import 'numpy.lib.tests.test_nanfunctions'
+95323 INFO: Analyzing hidden import 'numpy.lib.tests.test_packbits'
+95353 INFO: Analyzing hidden import 'numpy.lib.tests.test_polynomial'
+95376 INFO: Analyzing hidden import 'numpy.lib.tests.test_recfunctions'
+95456 INFO: Analyzing hidden import 'numpy.lib.tests.test_regression'
+95476 INFO: Analyzing hidden import 'numpy.lib.tests.test_shape_base'
+95539 INFO: Analyzing hidden import 'numpy.lib.tests.test_stride_tricks'
+95583 INFO: Analyzing hidden import 'numpy.lib.tests.test_twodim_base'
+95621 INFO: Analyzing hidden import 'numpy.lib.tests.test_type_check'
+95661 INFO: Analyzing hidden import 'numpy.lib.tests.test_ufunclike'
+95670 INFO: Analyzing hidden import 'numpy.lib.tests.test_utils'
+95676 INFO: Analyzing hidden import 'numpy.lib.user_array'
+95678 INFO: Analyzing hidden import 'numpy.linalg.lapack_lite'
+95685 INFO: Analyzing hidden import 'numpy.linalg.tests'
+95687 INFO: Analyzing hidden import 'numpy.linalg.tests.test_deprecations'
+95690 INFO: Analyzing hidden import 'numpy.linalg.tests.test_linalg'
+95819 INFO: Analyzing hidden import 'numpy.linalg.tests.test_regression'
+95836 INFO: Analyzing hidden import 'numpy.ma.tests'
+95836 INFO: Analyzing hidden import 'numpy.ma.tests.test_arrayobject'
+95841 INFO: Analyzing hidden import 'numpy.ma.tests.test_core'
+96311 INFO: Analyzing hidden import 'numpy.ma.tests.test_deprecations'
+96315 INFO: Analyzing hidden import 'numpy.ma.tests.test_extras'
+96470 INFO: Analyzing hidden import 'numpy.ma.tests.test_mrecords'
+96509 INFO: Analyzing hidden import 'numpy.ma.tests.test_old_ma'
+96590 INFO: Analyzing hidden import 'numpy.ma.tests.test_regression'
+96598 INFO: Analyzing hidden import 'numpy.ma.tests.test_subclassing'
+96635 INFO: Analyzing hidden import 'numpy.matrixlib.tests'
+96635 INFO: Analyzing hidden import 'numpy.matrixlib.tests.test_defmatrix'
+96676 INFO: Analyzing hidden import 'numpy.matrixlib.tests.test_interaction'
+96705 INFO: Analyzing hidden import 'numpy.matrixlib.tests.test_masked_matrix'
+96728 INFO: Analyzing hidden import 'numpy.matrixlib.tests.test_matrix_linalg'
+96736 INFO: Analyzing hidden import 'numpy.matrixlib.tests.test_multiarray'
+96742 INFO: Analyzing hidden import 'numpy.matrixlib.tests.test_numeric'
+96746 INFO: Analyzing hidden import 'numpy.matrixlib.tests.test_regression'
+96752 INFO: Analyzing hidden import 'numpy.polynomial.tests'
+96752 INFO: Analyzing hidden import 'numpy.polynomial.tests.test_chebyshev'
+96816 INFO: Analyzing hidden import 'numpy.polynomial.tests.test_classes'
+96861 INFO: Analyzing hidden import 'numpy.polynomial.tests.test_hermite'
+96907 INFO: Analyzing hidden import 'numpy.polynomial.tests.test_hermite_e'
+96965 INFO: Analyzing hidden import 'numpy.polynomial.tests.test_laguerre'
+97008 INFO: Analyzing hidden import 'numpy.polynomial.tests.test_legendre'
+97050 INFO: Analyzing hidden import 'numpy.polynomial.tests.test_polynomial'
+97106 INFO: Analyzing hidden import 'numpy.polynomial.tests.test_polyutils'
+97119 INFO: Analyzing hidden import 'numpy.polynomial.tests.test_printing'
+97159 INFO: Analyzing hidden import 'numpy.polynomial.tests.test_symbol'
+97176 INFO: Analyzing hidden import 'numpy.random.tests'
+97178 INFO: Analyzing hidden import 'numpy.random.tests.data'
+97180 INFO: Analyzing hidden import 'numpy.random.tests.test_direct'
+97226 INFO: Analyzing hidden import 'numpy.random.tests.test_extending'
+97274 INFO: Analyzing hidden import 'numpy.random.tests.test_generator_mt19937'
+97532 INFO: Analyzing hidden import 'numpy.random.tests.test_generator_mt19937_regressions'
+97546 INFO: Analyzing hidden import 'numpy.random.tests.test_random'
+97682 INFO: Analyzing hidden import 'numpy.random.tests.test_randomstate'
+97842 INFO: Analyzing hidden import 'numpy.random.tests.test_randomstate_regression'
+97860 INFO: Analyzing hidden import 'numpy.random.tests.test_regression'
+97874 INFO: Analyzing hidden import 'numpy.random.tests.test_seed_sequence'
+97881 INFO: Analyzing hidden import 'numpy.random.tests.test_smoke'
+97946 INFO: Analyzing hidden import 'numpy.testing.print_coercion_tables'
+97960 INFO: Analyzing hidden import 'numpy.testing.tests'
+97960 INFO: Analyzing hidden import 'numpy.testing.tests.test_utils'
+98089 INFO: Analyzing hidden import 'numpy.tests'
+98089 INFO: Analyzing hidden import 'numpy.tests.test__all__'
+98093 INFO: Analyzing hidden import 'numpy.tests.test_configtool'
+98101 INFO: Analyzing hidden import 'numpy.tests.test_ctypeslib'
+98129 INFO: Analyzing hidden import 'numpy.tests.test_lazyloading'
+98136 INFO: Analyzing hidden import 'numpy.tests.test_matlib'
+98144 INFO: Analyzing hidden import 'numpy.tests.test_numpy_config'
+98151 INFO: Analyzing hidden import 'numpy.tests.test_numpy_version'
+98158 INFO: Analyzing hidden import 'numpy.tests.test_public_api'
+98194 INFO: Analyzing hidden import 'numpy.tests.test_reloading'
+98202 INFO: Analyzing hidden import 'numpy.tests.test_scripts'
+98209 INFO: Analyzing hidden import 'numpy.tests.test_warnings'
+98218 INFO: Analyzing hidden import 'numpy.typing.mypy_plugin'
+98229 INFO: Analyzing hidden import 'numpy.typing.tests'
+98229 INFO: Analyzing hidden import 'numpy.typing.tests.test_isfile'
+98235 INFO: Analyzing hidden import 'numpy.typing.tests.test_runtime'
+98243 INFO: Analyzing hidden import 'numpy.typing.tests.test_typing'
+98255 INFO: Analyzing hidden import 'pydantic.alias_generators'
+98259 INFO: Analyzing hidden import 'pydantic.datetime_parse'
+98261 INFO: Analyzing hidden import 'pydantic.decorator'
+98263 INFO: Analyzing hidden import 'pydantic.deprecated.decorator'
+98281 INFO: Analyzing hidden import 'pydantic.env_settings'
+98283 INFO: Analyzing hidden import 'pydantic.experimental'
+98287 INFO: Analyzing hidden import 'pydantic.experimental.pipeline'
+98333 INFO: Analyzing hidden import 'pydantic.generics'
+98335 INFO: Analyzing hidden import 'pydantic.json'
+98337 INFO: Analyzing hidden import 'pydantic.mypy'
+98402 INFO: Analyzing hidden import 'pydantic.parse'
+98405 INFO: Analyzing hidden import 'pydantic.tools'
+98407 INFO: Analyzing hidden import 'pydantic.v1._hypothesis_plugin'
+98433 INFO: Analyzing hidden import 'pydantic.v1.generics'
+98458 INFO: Analyzing hidden import 'pydantic.v1.mypy'
+98508 INFO: Analyzing hidden import 'pydantic.validators'
+98510 INFO: Analyzing hidden import 'sqlalchemy.connectors'
+98513 INFO: Analyzing hidden import 'sqlalchemy.connectors.aioodbc'
+98543 INFO: Analyzing hidden import 'sqlalchemy.dialects._typing'
+98547 INFO: Analyzing hidden import 'sqlalchemy.dialects.mssql'
+98756 INFO: Analyzing hidden import 'sqlalchemy.dialects.mssql.provision'
+98768 INFO: Analyzing hidden import 'sqlalchemy.dialects.mysql'
+99069 INFO: Analyzing hidden import 'sqlalchemy.dialects.mysql.mariadb'
+99071 INFO: Analyzing hidden import 'sqlalchemy.dialects.mysql.provision'
+99078 INFO: Analyzing hidden import 'sqlalchemy.dialects.oracle'
+99320 INFO: Analyzing hidden import 'sqlalchemy.dialects.oracle.provision'
+99334 INFO: Analyzing hidden import 'sqlalchemy.dialects.postgresql'
+100215 INFO: Analyzing hidden import 'sqlalchemy.dialects.postgresql.provision'
+100226 INFO: Analyzing hidden import 'sqlalchemy.dialects.sqlite'
+100364 INFO: Analyzing hidden import 'sqlalchemy.dialects.sqlite.provision'
+100377 INFO: Analyzing hidden import 'sqlalchemy.engine.strategies'
+100380 INFO: Analyzing hidden import 'sqlalchemy.events'
+100381 INFO: Analyzing hidden import 'sqlalchemy.ext.associationproxy'
+100465 INFO: Analyzing hidden import 'sqlalchemy.ext.automap'
+100499 INFO: Analyzing hidden import 'sqlalchemy.ext.baked'
+100525 INFO: Analyzing hidden import 'sqlalchemy.ext.declarative'
+100543 INFO: Analyzing hidden import 'sqlalchemy.ext.horizontal_shard'
+100559 INFO: Analyzing hidden import 'sqlalchemy.ext.hybrid'
+100598 INFO: Analyzing hidden import 'sqlalchemy.ext.indexable'
+100606 INFO: Analyzing hidden import 'sqlalchemy.ext.instrumentation'
+100629 INFO: Analyzing hidden import 'sqlalchemy.ext.mutable'
+100661 INFO: Analyzing hidden import 'sqlalchemy.ext.mypy'
+100663 INFO: Analyzing hidden import 'sqlalchemy.ext.mypy.apply'
+100727 INFO: Analyzing hidden import 'sqlalchemy.ext.mypy.decl_class'
+100744 INFO: Analyzing hidden import 'sqlalchemy.ext.mypy.plugin'
+100756 INFO: Analyzing hidden import 'sqlalchemy.ext.orderinglist'
+100772 INFO: Analyzing hidden import 'sqlalchemy.ext.serializer'
+100783 INFO: Analyzing hidden import 'sqlalchemy.testing'
+101394 INFO: Analyzing hidden import 'sqlalchemy.testing.pickleable'
+101403 INFO: Analyzing hidden import 'sqlalchemy.testing.plugin.bootstrap'
+101409 INFO: Analyzing hidden import 'sqlalchemy.testing.plugin.pytestplugin'
+101462 INFO: Analyzing hidden import 'sqlalchemy.testing.suite'
+102071 INFO: Analyzing hidden import 'sqlalchemy.util.tool_support'
+102081 INFO: Analyzing hidden import 'starlette.authentication'
+102090 INFO: Analyzing hidden import 'starlette.config'
+102102 INFO: Analyzing hidden import 'starlette.endpoints'
+102112 INFO: Analyzing hidden import 'starlette.middleware.authentication'
+102118 INFO: Analyzing hidden import 'starlette.middleware.sessions'
+102126 INFO: Analyzing hidden import 'starlette.schemas'
+102140 INFO: Analyzing hidden import 'uvicorn.__main__'
+102143 INFO: Analyzing hidden import 'uvicorn.lifespan'
+102143 INFO: Analyzing hidden import 'uvicorn.lifespan.off'
+102147 INFO: Analyzing hidden import 'uvicorn.lifespan.on'
+102155 INFO: Analyzing hidden import 'uvicorn.loops'
+102157 INFO: Analyzing hidden import 'uvicorn.loops.asyncio'
+102159 INFO: Analyzing hidden import 'uvicorn.loops.auto'
+102165 INFO: Analyzing hidden import 'uvicorn.protocols.http.auto'
+102167 INFO: Analyzing hidden import 'uvicorn.protocols.websockets.auto'
+102169 INFO: Analyzing hidden import 'uvicorn.workers'
+102180 INFO: Analyzing hidden import 'websockets.__main__'
+102251 INFO: Analyzing hidden import 'websockets.auth'
+102261 INFO: Analyzing hidden import 'websockets.connection'
+102263 INFO: Analyzing hidden import 'websockets.http'
+102267 INFO: Analyzing hidden import 'websockets.legacy.client'
+102298 INFO: Analyzing hidden import 'websockets.sync.server'
+102326 INFO: Processing module hooks (post-graph stage)...
+102335 WARNING: Hidden import "pycparser.lextab" not found!
+102335 WARNING: Hidden import "pycparser.yacctab" not found!
+102497 INFO: Processing standard module hook 'hook-xml.etree.cElementTree.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyInstaller\\hooks'
+102733 INFO: Processing standard module hook 'hook-sqlalchemy.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyInstaller\\hooks'
+103464 WARNING: Hidden import "pysqlite2" not found!
+103464 WARNING: Hidden import "MySQLdb" not found!
+103607 INFO: Processing standard module hook 'hook-tzdata.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+104436 INFO: Performing binary vs. data reclassification (8533 entries)
+146189 INFO: Looking for ctypes DLLs
+146339 INFO: Analyzing run-time hooks ...
+146347 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyInstaller\\hooks\\rthooks'
+146354 INFO: Including run-time hook 'pyi_rth_pkgutil.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyInstaller\\hooks\\rthooks'
+146358 INFO: Including run-time hook 'pyi_rth_multiprocessing.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyInstaller\\hooks\\rthooks'
+146364 INFO: Including run-time hook 'pyi_rth_setuptools.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyInstaller\\hooks\\rthooks'
+146368 INFO: Including run-time hook 'pyi_rth_cryptography_openssl.py' from 'C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\_pyinstaller_hooks_contrib\\rthooks'
+146707 INFO: Creating base_library.zip...
+146736 INFO: Looking for dynamic libraries
+C:\Users\rasou\AppData\Roaming\Python\Python312\site-packages\pydantic\experimental\__init__.py:7: PydanticExperimentalWarning: This module is experimental, its contents are subject to change and deprecation.
+  warnings.warn(
+150277 INFO: Extra DLL search directories (AddDllDirectory): ['C:\\Users\\rasou\\AppData\\Roaming\\Python\\Python312\\site-packages\\numpy.libs']
+150277 INFO: Extra DLL search directories (PATH): []
+152431 INFO: Warnings written to D:\yasara_clean\build\windows\YaSara\warn-YaSara.txt
+152642 INFO: Graph cross-reference written to D:\yasara_clean\build\windows\YaSara\xref-YaSara.html
+153189 INFO: checking PYZ
+153189 INFO: Building PYZ because PYZ-00.toc is non existent
+153189 INFO: Building PYZ (ZlibArchive) D:\yasara_clean\build\windows\YaSara\PYZ-00.pyz
+154879 INFO: Building PYZ (ZlibArchive) D:\yasara_clean\build\windows\YaSara\PYZ-00.pyz completed successfully.
+154926 INFO: checking PKG
+154926 INFO: Building PKG because PKG-00.toc is non existent
+154926 INFO: Building PKG (CArchive) YaSara.pkg
+154981 INFO: Building PKG (CArchive) YaSara.pkg completed successfully.
+154984 INFO: Bootloader C:\Users\rasou\AppData\Roaming\Python\Python312\site-packages\PyInstaller\bootloader\Windows-64bit-intel\run.exe
+154984 INFO: checking EXE
+154984 INFO: Building EXE because EXE-00.toc is non existent
+154984 INFO: Building EXE from EXE-00.toc
+154984 INFO: Copying bootloader EXE to D:\yasara_clean\build\windows\YaSara\YaSara.exe
+155022 INFO: Copying icon to EXE
+155041 INFO: Copying 0 resources to EXE
+155041 INFO: Embedding manifest in EXE
+155074 INFO: Appending PKG archive to EXE
+155088 INFO: Fixing EXE headers
+155558 INFO: Building EXE from EXE-00.toc completed successfully.
+155749 INFO: checking COLLECT
+155749 INFO: Building COLLECT because COLLECT-00.toc is non existent
+155750 INFO: Building COLLECT COLLECT-00.toc
+177018 INFO: Building COLLECT COLLECT-00.toc completed successfully.
+177216 INFO: Build complete! The results are available in: D:\yasara_clean\dist\windows\portable
+INFO:     Started server process [16932]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
