@@ -2387,9 +2387,57 @@
       ],
       "status": "created",
       "created_at": "2026-07-13T23:55:24.618623+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-14T11:40:07.413139+00:00"
+    },
+    {
+      "id": "test-alert-v47",
+      "title": "Test",
+      "message": "Hello",
+      "severity": "info",
+      "source": "system",
+      "channels": [
+        "desktop"
+      ],
+      "status": "created",
+      "created_at": "2026-07-14T11:46:08.714873+00:00"
     }
   ],
   "rules": [
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
+    {
+      "id": "test-rule-v47",
+      "name": "Test Rule",
+      "enabled": true,
+      "source": "signal",
+      "condition": "confidence_gte",
+      "threshold": 70,
+      "channels": [
+        "desktop"
+      ],
+      "severity": "info"
+    },
     {
       "id": "test-rule-v47",
       "name": "Test Rule",

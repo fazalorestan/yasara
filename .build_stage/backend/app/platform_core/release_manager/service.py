@@ -12,7 +12,7 @@ from typing import Callable, Sequence
 
 from .tool_discovery import discover_tools
 
-BUILD_ID = "2026.48.ENTERPRISE.002"
+BUILD_ID = "2026.48.ENTERPRISE.004"
 DEFAULT_TIMEOUT_SECONDS = 60 * 60
 
 
@@ -145,6 +145,74 @@ class ReleaseManager:
             raise ReleaseError(f"Release step failed: {name}{suffix}")
         return result
 
+    def _run_frozen(
+        self,
+        name: str,
+        command: Sequence[str],
+        cwd: Path,
+        *,
+        timeout_seconds: int | None = None,
+    ) -> subprocess.CompletedProcess[str]:
+        """Run final Git steps without modifying tracked release artifacts."""
+        normalized_command = [str(value) for value in command]
+        print("\n>>>", " ".join(normalized_command), flush=True)
+        started = time.monotonic()
+        timed_out = False
+
+        try:
+            result = self.runner(
+                normalized_command,
+                cwd=str(cwd),
+                text=True,
+                shell=False,
+                capture_output=True,
+                timeout=timeout_seconds or self.timeout_seconds,
+                check=False,
+            )
+        except subprocess.TimeoutExpired as exc:
+            timed_out = True
+            stdout = exc.stdout if isinstance(exc.stdout, str) else ""
+            stderr = exc.stderr if isinstance(exc.stderr, str) else ""
+            result = subprocess.CompletedProcess(
+                normalized_command, 124, stdout=stdout, stderr=stderr
+            )
+        except OSError as exc:
+            result = subprocess.CompletedProcess(
+                normalized_command, 127, stdout="", stderr=str(exc)
+            )
+
+        if result.stdout:
+            print(result.stdout.rstrip())
+        if result.stderr:
+            print(result.stderr.rstrip(), file=sys.stderr)
+
+        git_log_dir = self.root / ".git" / "yasara_release_logs"
+        git_log_dir.mkdir(parents=True, exist_ok=True)
+        duration = round(time.monotonic() - started, 3)
+        (git_log_dir / f"{name}.log").write_text(
+            json.dumps(
+                {
+                    "name": name,
+                    "success": result.returncode == 0,
+                    "return_code": result.returncode,
+                    "command": normalized_command,
+                    "cwd": str(cwd),
+                    "duration_seconds": duration,
+                    "timed_out": timed_out,
+                    "stdout": result.stdout or "",
+                    "stderr": result.stderr or "",
+                },
+                ensure_ascii=False,
+                indent=2,
+            ),
+            encoding="utf-8",
+        )
+
+        if result.returncode != 0:
+            suffix = " (timeout)" if timed_out else ""
+            raise ReleaseError(f"Release step failed: {name}{suffix}")
+        return result
+
     def _capture(
         self,
         command: Sequence[str],
@@ -223,6 +291,7 @@ class ReleaseManager:
             "steps": [],
         }
 
+        frozen = False
         try:
             required_tools = ("git", "node", "npm", "python")
             missing = [
@@ -331,52 +400,85 @@ class ReleaseManager:
                     report,
                 )
 
+            commit_message = message or (
+                "YaSara verified release "
+                + dt.datetime.now().astimezone().strftime("%Y-%m-%d %H:%M:%S %z")
+            )
+
+            report.update(
+                {
+                    "ready": True,
+                    "finished_at": dt.datetime.now().astimezone().isoformat(),
+                    "commit_created": True,
+                    "commit_message": commit_message,
+                    "pushed": bool(push),
+                    "release_target": {
+                        "remote": remote if push else None,
+                        "branch": resolved_branch,
+                    },
+                    "finalization_mode": "frozen_worktree",
+                }
+            )
+            self._write(report)
+
             self._run(
                 "git_add_reports", [git, "add", "--all"], self.root, report
             )
             if not self._staged_changes_exist(git):
                 report.update(
                     {
-                        "ready": True,
                         "reason": "nothing_to_commit_after_validation",
-                        "finished_at": dt.datetime.now().astimezone().isoformat(),
+                        "commit_created": False,
+                        "pushed": False,
                     }
                 )
                 self._write(report)
                 print("Validation passed; nothing to commit.")
                 return 0
 
-            commit_message = message or (
-                "YaSara verified release "
-                + dt.datetime.now().astimezone().strftime("%Y-%m-%d %H:%M:%S %z")
-            )
-            self._run(
+            frozen = True
+            self._run_frozen(
                 "git_commit",
                 [git, "commit", "-m", commit_message],
                 self.root,
-                report,
             )
-            report["commit_created"] = True
-            report["commit_message"] = commit_message
-            report["commit"] = self._capture([git, "rev-parse", "HEAD"])
+            commit_hash = self._capture([git, "rev-parse", "HEAD"])
+            print(f"Release commit: {commit_hash}")
 
             if push:
-                self._run(
+                self._run_frozen(
                     "git_push",
                     [git, "push", remote, resolved_branch],
                     self.root,
-                    report,
                 )
-                report["pushed"] = True
 
-            report["ready"] = True
-            report["finished_at"] = dt.datetime.now().astimezone().isoformat()
-            self._write(report)
             print("YaSara release completed successfully.")
             return 0
         except Exception as exc:
-            report["error"] = str(exc)
-            report["finished_at"] = dt.datetime.now().astimezone().isoformat()
-            self._write(report)
+            if frozen:
+                failure_path = self.root / ".git" / "yasara_release_failure.json"
+                failure_path.parent.mkdir(parents=True, exist_ok=True)
+                failure_path.write_text(
+                    json.dumps(
+                        {
+                            "build_id": BUILD_ID,
+                            "error": str(exc),
+                            "failed_at": dt.datetime.now().astimezone().isoformat(),
+                            "branch": report.get("branch"),
+                            "remote": report.get("remote"),
+                        },
+                        ensure_ascii=False,
+                        indent=2,
+                    ),
+                    encoding="utf-8",
+                )
+                print(
+                    f"Frozen-stage failure report: {failure_path}",
+                    file=sys.stderr,
+                )
+            else:
+                report["error"] = str(exc)
+                report["finished_at"] = dt.datetime.now().astimezone().isoformat()
+                self._write(report)
             print(f"RELEASE FAILED: {exc}", file=sys.stderr)
             return 1

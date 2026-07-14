@@ -9036,6 +9036,6 @@ tests\test_v5_2_alpha_q_repair_script.py .                               [ 99%]
 tests\test_v5_2_alpha_q_router_only.py .                                 [ 99%]
 tests\test_v5_2_alpha_q_summary.py .                                     [100%]
 
-====================== 9066 passed in 222.45s (0:03:42) =======================
+====================== 9066 passed in 175.41s (0:02:55) =======================
 
 [YaSara] D:\yasara_clean\backend> C:\Program Files\Python312\python.exe -m pytest tests

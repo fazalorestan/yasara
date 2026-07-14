@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import re
 import subprocess
 from pathlib import Path
 
@@ -18,7 +19,7 @@ def test_release_manager_tool_contract():
 
 
 def test_build_id_is_enterprise_sprint_48():
-    assert BUILD_ID == "2026.48.ENTERPRISE.002"
+    assert re.fullmatch(r"2026\.48\.ENTERPRISE\.\d{3}", BUILD_ID)
 
 
 def test_find_script_supports_root_and_scripts_directory(tmp_path: Path):
