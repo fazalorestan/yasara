@@ -1,0 +1,25 @@
+{
+  "source": {
+    "exists": true,
+    "sha256": "8d7ac57e55b5c1cbe22259dbf3fade8e3af2601920468fa0487c63ef08dc208c",
+    "auto_registry": true,
+    "direct_route_import": false,
+    "legacy_launcher": false
+  },
+  "stage": {
+    "exists": true,
+    "sha256": "8d7ac57e55b5c1cbe22259dbf3fade8e3af2601920468fa0487c63ef08dc208c",
+    "auto_registry": true,
+    "direct_route_import": false,
+    "legacy_launcher": false
+  },
+  "packaged": {
+    "exists": true,
+    "sha256": "8d7ac57e55b5c1cbe22259dbf3fade8e3af2601920468fa0487c63ef08dc208c",
+    "auto_registry": true,
+    "direct_route_import": false,
+    "legacy_launcher": false
+  },
+  "hash_match": true,
+  "ready": true
+}

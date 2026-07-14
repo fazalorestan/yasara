@@ -1,6 +1,0 @@
-warning: in the working copy of 'backend/app/platform_core/release_manager/service.py', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'frontend/dist/assets/index-Cb6N2too.css', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'frontend/dist/assets/index-n10a8rDT.js', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'frontend/dist/index.html', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'technical_debt_log.md', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'backend/app/platform_core/release_manager/service.py.v2_1.bak', LF will be replaced by CRLF the next time Git touches it

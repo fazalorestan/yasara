@@ -12,7 +12,7 @@ from typing import Callable, Sequence
 
 from .tool_discovery import discover_tools
 
-BUILD_ID = "2026.48.ENTERPRISE.005"
+BUILD_ID = "2026.48.ENTERPRISE.006"
 DEFAULT_TIMEOUT_SECONDS = 60 * 60
 
 
@@ -322,16 +322,14 @@ class ReleaseManager:
                 if remote not in remotes:
                     raise ReleaseError(f"Git remote '{remote}' is not configured.")
 
-            self._run("git_add", [git, "add", "--all"], self.root, report)
+            # Initial staging must not write tracked logs/reports afterwards.
+            # Otherwise a no-op release dirties the work tree by itself.
+            self._run_frozen(
+                "git_add",
+                [git, "add", "--all"],
+                self.root,
+            )
             if not self._staged_changes_exist(git):
-                report.update(
-                    {
-                        "ready": True,
-                        "reason": "nothing_to_commit",
-                        "finished_at": dt.datetime.now().astimezone().isoformat(),
-                    }
-                )
-                self._write(report)
                 print("Nothing to commit.")
                 return 0
 
@@ -421,8 +419,6 @@ class ReleaseManager:
             )
             self._write(report)
 
-            # Freeze the work tree before the final commit. This staging step
-            # must not write tracked logs or reports after `git add --all`.
             self._run_frozen(
                 "git_add_reports",
                 [git, "add", "--all"],

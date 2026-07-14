@@ -1,0 +1,32 @@
+{
+  "app": "YaSara",
+  "launcher": "native_windows_launcher",
+  "backend_runner": "in_process_thread",
+  "build_id": "2026.52.N.001",
+  "started": true,
+  "backend_status": "thread_started",
+  "backend_thread_alive": true,
+  "backend_health_ok": true,
+  "backend_health_url": "http://127.0.0.1:8000/health",
+  "backend_health_status": 200,
+  "health_candidates": [
+    "http://127.0.0.1:8000/api/v1/health",
+    "http://127.0.0.1:8000/health",
+    "http://127.0.0.1:8000/docs",
+    "http://127.0.0.1:8000/openapi.json"
+  ],
+  "probe_results": {
+    "http://127.0.0.1:8000/api/v1/health": "<urlopen error timed out>",
+    "http://127.0.0.1:8000/health": 200,
+    "http://127.0.0.1:8000/docs": "<urlopen error timed out>",
+    "http://127.0.0.1:8000/openapi.json": "<urlopen error timed out>"
+  },
+  "backend_stdout_log": "D:\\yasara_clean\\dist\\windows\\portable\\YaSara\\runtime_reports\\backend_stdout.log",
+  "backend_stderr_log": "D:\\yasara_clean\\dist\\windows\\portable\\YaSara\\runtime_reports\\backend_stderr.log",
+  "diagnostics_enabled": true,
+  "signal_only_default": true,
+  "auto_trading_enabled": false,
+  "cwd": "D:\\yasara_clean\\dist\\windows\\portable\\YaSara\\_internal\\backend",
+  "root": "D:\\yasara_clean\\dist\\windows\\portable\\YaSara",
+  "timestamp": 1784038763.4496393
+}

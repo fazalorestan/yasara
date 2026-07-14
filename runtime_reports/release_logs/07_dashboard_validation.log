@@ -1,0 +1,17 @@
+{
+  "ready": true,
+  "build_id": "2026.48.ENTERPRISE.003",
+  "checks": {
+    "app_exists": true,
+    "approved_text_markers": true,
+    "approved_component_markers": true,
+    "approved_layout_markers": true,
+    "legacy_root_not_active": true,
+    "provider_hub_api_exists": true
+  },
+  "paths": {
+    "app": "D:\\yasara_clean\\frontend\\src\\App.tsx",
+    "provider_hub": "D:\\yasara_clean\\frontend\\src\\api\\dashboardProviderHub.ts",
+    "report": "D:\\yasara_clean\\runtime_reports\\sprint47_dashboard_validation.json"
+  }
+}
