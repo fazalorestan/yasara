@@ -853,7 +853,7 @@
   "return_code": 0,
   "exe_exists": true,
   "exe_path": "D:\\yasara_clean\\dist\\windows\\portable\\YaSara\\YaSara.exe",
-  "sha256": "ab612fd52bbf596bf7928279363da2576b5ec7b42c8d2f013a397b355fd2b34e",
+  "sha256": "b700ed0ff78021aecfc8946a776ccc656c1237599fdd403d9a4ad26d225c5ba1",
   "packaged_backend_validation": {
     "ready": true,
     "checks": {
@@ -881,38 +881,7 @@
       "http://127.0.0.1:8000/docs": "<urlopen error timed out>",
       "http://127.0.0.1:8000/openapi.json": 200
     },
-    "runtime_report": {
-      "app": "YaSara",
-      "launcher": "native_windows_launcher",
-      "backend_runner": "in_process_thread",
-      "build_id": "2026.52.N.001",
-      "started": true,
-      "backend_status": "thread_started",
-      "backend_thread_alive": true,
-      "backend_health_ok": true,
-      "backend_health_url": "http://127.0.0.1:8000/openapi.json",
-      "backend_health_status": 200,
-      "health_candidates": [
-        "http://127.0.0.1:8000/api/v1/health",
-        "http://127.0.0.1:8000/health",
-        "http://127.0.0.1:8000/docs",
-        "http://127.0.0.1:8000/openapi.json"
-      ],
-      "probe_results": {
-        "http://127.0.0.1:8000/api/v1/health": "<urlopen error timed out>",
-        "http://127.0.0.1:8000/health": "<urlopen error timed out>",
-        "http://127.0.0.1:8000/docs": "<urlopen error timed out>",
-        "http://127.0.0.1:8000/openapi.json": 200
-      },
-      "backend_stdout_log": "D:\\yasara_clean\\dist\\windows\\portable\\YaSara\\runtime_reports\\backend_stdout.log",
-      "backend_stderr_log": "D:\\yasara_clean\\dist\\windows\\portable\\YaSara\\runtime_reports\\backend_stderr.log",
-      "diagnostics_enabled": true,
-      "signal_only_default": true,
-      "auto_trading_enabled": false,
-      "cwd": "D:\\yasara_clean\\dist\\windows\\portable\\YaSara\\_internal\\backend",
-      "root": "D:\\yasara_clean\\dist\\windows\\portable\\YaSara",
-      "timestamp": 1784029899.7025652
-    },
+    "runtime_report": null,
     "backend_stderr_tail": ""
   }
 }

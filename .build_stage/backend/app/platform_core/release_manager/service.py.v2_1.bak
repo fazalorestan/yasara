@@ -12,7 +12,7 @@ from typing import Callable, Sequence
 
 from .tool_discovery import discover_tools
 
-BUILD_ID = "2026.48.ENTERPRISE.005"
+BUILD_ID = "2026.48.ENTERPRISE.004"
 DEFAULT_TIMEOUT_SECONDS = 60 * 60
 
 
@@ -421,12 +421,8 @@ class ReleaseManager:
             )
             self._write(report)
 
-            # Freeze the work tree before the final commit. This staging step
-            # must not write tracked logs or reports after `git add --all`.
-            self._run_frozen(
-                "git_add_reports",
-                [git, "add", "--all"],
-                self.root,
+            self._run(
+                "git_add_reports", [git, "add", "--all"], self.root, report
             )
             if not self._staged_changes_exist(git):
                 report.update(

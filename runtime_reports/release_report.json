@@ -1,14 +1,14 @@
 {
-  "build_id": "2026.48.ENTERPRISE.004",
-  "started_at": "2026-07-14T15:13:11.451149+03:30",
-  "finished_at": "2026-07-14T15:21:40.557870+03:30",
+  "build_id": "2026.48.ENTERPRISE.005",
+  "started_at": "2026-07-14T16:22:13.920698+03:30",
+  "finished_at": "2026-07-14T16:32:03.146476+03:30",
   "ready": true,
   "commit_created": true,
   "pushed": true,
   "branch": "main",
   "remote": "origin",
   "commit": null,
-  "commit_message": "YaSara verified release 2026-07-14 15:21:40 +0330",
+  "commit_message": "YaSara verified release 2026-07-14 16:32:03 +0330",
   "tools": {
     "git": {
       "available": true,
@@ -42,7 +42,7 @@
         "--all"
       ],
       "cwd": "D:\\yasara_clean",
-      "duration_seconds": 16.532,
+      "duration_seconds": 24.844,
       "log_file": "runtime_reports\\release_logs\\01_git_add.log",
       "timed_out": false
     },
@@ -57,7 +57,7 @@
         "--check"
       ],
       "cwd": "D:\\yasara_clean",
-      "duration_seconds": 0.094,
+      "duration_seconds": 0.14,
       "log_file": "runtime_reports\\release_logs\\02_git_diff_check.log",
       "timed_out": false
     },
@@ -71,7 +71,7 @@
         "test"
       ],
       "cwd": "D:\\yasara_clean",
-      "duration_seconds": 179.297,
+      "duration_seconds": 243.329,
       "log_file": "runtime_reports\\release_logs\\03_tests.log",
       "timed_out": false
     },
@@ -85,7 +85,7 @@
         "build"
       ],
       "cwd": "D:\\yasara_clean\\frontend",
-      "duration_seconds": 17.938,
+      "duration_seconds": 22.171,
       "log_file": "runtime_reports\\release_logs\\04_frontend_build.log",
       "timed_out": false
     },
@@ -99,7 +99,7 @@
         "--execute"
       ],
       "cwd": "D:\\yasara_clean",
-      "duration_seconds": 293.953,
+      "duration_seconds": 296.812,
       "log_file": "runtime_reports\\release_logs\\05_windows_build.log",
       "timed_out": false
     },
@@ -125,7 +125,7 @@
         "D:\\yasara_clean\\scripts\\check_yasara_executable_validation.py"
       ],
       "cwd": "D:\\yasara_clean",
-      "duration_seconds": 0.141,
+      "duration_seconds": 0.078,
       "log_file": "runtime_reports\\release_logs\\07_executable_validation.log",
       "timed_out": false
     },
@@ -138,7 +138,7 @@
         "D:\\yasara_clean\\scripts\\validate_approved_dashboard_sprint47.py"
       ],
       "cwd": "D:\\yasara_clean",
-      "duration_seconds": 0.235,
+      "duration_seconds": 0.172,
       "log_file": "runtime_reports\\release_logs\\08_dashboard_validation.log",
       "timed_out": false
     }
